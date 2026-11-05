@@ -1,12 +1,14 @@
 import type { Locale } from '../site/routes';
 import type { GalleryImage, GallerySeries } from './loadHorizonte';
+import { GalleryViewer } from './GalleryViewer';
+import { ImageTrigger } from './GalleryViewer.styles';
 import {
   Cover, DetailGrid, GalleryImageFrame, Index, IndexInner, Intro, IntroInner, Work, WorkInfo, WorkInner,
 } from './Gallery.styles';
 
 const labels = {
-  de: { series: 'Malerei / Werkreihe', index: 'Werke im Überblick', image: ['Abbildung', 'Abbildungen'], work: ['Werk', 'Werke'] },
-  en: { series: 'Painting / Series', index: 'Explore the works', image: ['Image', 'Images'], work: ['Work', 'Works'] },
+  de: { zoom: 'Vollbild öffnen', series: 'Malerei / Werkreihe', index: 'Werke im Überblick', image: ['Abbildung', 'Abbildungen'], work: ['Werk', 'Werke'] },
+  en: { zoom: 'Open full screen', series: 'Painting / Series', index: 'Explore the works', image: ['Image', 'Images'], work: ['Work', 'Works'] },
 };
 
 interface GalleryProps {
@@ -29,7 +31,7 @@ export function Gallery({ locale, series, images }: GalleryProps) {
   const cover = images.find((image) => image.id === series.coverImageId);
 
   return (
-    <>
+    <GalleryViewer images={images} locale={locale}>
       <Intro aria-labelledby="series-title">
         <IntroInner data-has-cover={Boolean(cover)}>
           <div>
@@ -40,13 +42,15 @@ export function Gallery({ locale, series, images }: GalleryProps) {
 
           {cover && (
             <Cover>
-              <img
-                src={cover.src}
-                alt={cover.alt}
-                width={cover.width}
-                height={cover.height}
-                fetchPriority="high"
-              />
+              <ImageTrigger type="button" data-image-id={cover.id} aria-haspopup="dialog" aria-label={`${text.zoom}: ${cover.alt}`}>
+                <img
+                  src={cover.src}
+                  alt={cover.alt}
+                  width={cover.width}
+                  height={cover.height}
+                  fetchPriority="high"
+                />
+              </ImageTrigger>
               <figcaption>{cover.caption}</figcaption>
             </Cover>
           )}
@@ -76,37 +80,40 @@ export function Gallery({ locale, series, images }: GalleryProps) {
               <p>{first.workFacts}</p>
             </WorkInfo>
 
-            <ArtworkImage image={first} isPrimary eager={index === 0} />
+            <ArtworkImage image={first} zoomLabel={text.zoom} isPrimary eager={index === 0} />
 
             {rest.length > 0 && (
               <DetailGrid>
-                {rest.map((image) => <ArtworkImage key={image.id} image={image} />)}
+                {rest.map((image) => <ArtworkImage key={image.id} image={image} zoomLabel={text.zoom} />)}
               </DetailGrid>
             )}
           </WorkInner>
         </Work>
       ))}
-    </>
+    </GalleryViewer>
   );
 }
 
 interface ArtworkImageProps {
   image: GalleryImage;
+  zoomLabel: string;
   isPrimary?: boolean;
   eager?: boolean;
 }
 
-function ArtworkImage({ image, isPrimary = false, eager = false }: ArtworkImageProps) {
+function ArtworkImage({ image, zoomLabel, isPrimary = false, eager = false }: ArtworkImageProps) {
   return (
     <GalleryImageFrame id={isPrimary ? undefined : image.id}>
-      <img
-        src={image.src}
-        alt={image.alt}
-        width={image.width}
-        height={image.height}
-        loading={eager ? 'eager' : 'lazy'}
-        decoding="async"
-      />
+      <ImageTrigger type="button" data-image-id={image.id} aria-haspopup="dialog" aria-label={`${zoomLabel}: ${image.alt}`}>
+        <img
+          src={image.src}
+          alt={image.alt}
+          width={image.width}
+          height={image.height}
+          loading={eager ? 'eager' : 'lazy'}
+          decoding="async"
+        />
+      </ImageTrigger>
       {image.isDetail && <figcaption>{image.caption}</figcaption>}
     </GalleryImageFrame>
   );
