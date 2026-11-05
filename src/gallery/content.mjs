@@ -4,6 +4,14 @@ const id = z.string().regex(/^[a-z0-9-]+$/);
 const positiveInteger = z.number().int().positive();
 
 const schema = z.object({
+  series: z.object({
+    title: z.string().trim().min(1),
+    introduction: z.object({
+      de: z.string().trim().min(1),
+      en: z.string().trim().min(1),
+    }).optional(),
+    coverImageId: id.optional(),
+  }),
   works: z.array(z.object({
     id,
     title: z.string().trim().min(1),
@@ -27,7 +35,7 @@ export const dimensionsSchema = z.record(id, z.object({
 
 /** @param {unknown} input */
 export function parseHorizonte(input) {
-  const { works, entries } = schema.parse(input);
+  const { series, works, entries } = schema.parse(input);
   const worksById = new Map(works.map((work) => [work.id, work]));
   const imageIds = new Set(entries.map((entry) => entry.id));
 
@@ -40,5 +48,9 @@ export function parseHorizonte(input) {
     }
   }
 
-  return { worksById, entries };
+  if (series.coverImageId && !imageIds.has(series.coverImageId)) {
+    throw new Error(`Unknown cover image: ${series.coverImageId}.`);
+  }
+
+  return { series, worksById, entries };
 }

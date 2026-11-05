@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 import { Gallery } from '../../../gallery/Gallery';
-import { loadHorizonte } from '../../../gallery/loadHorizonte';
+import { horizonteSeries, loadHorizonte } from '../../../gallery/loadHorizonte';
 import { SiteLayout } from '../../../site/SiteLayout';
 import { horizontePath } from '../../../site/routes';
 import { getLocale } from '../locale';
@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const locale = await getLocale(params);
 
   return {
-    title: 'Horizonte | Ursula Jüngst',
+    title: `${horizonteSeries.title} | Ursula Jüngst`,
     description: descriptions[locale],
     robots: { index: false, follow: false },
     alternates: { languages: { de: horizontePath('de'), en: horizontePath('en') } },
@@ -31,8 +31,8 @@ export default async function HorizontePage({ params }: PageProps) {
   const images = await loadHorizonte(locale);
 
   return (
-    <SiteLayout locale={locale} title="Horizonte">
-      <Gallery images={images} />
+    <SiteLayout locale={locale} page="horizonte" headerTone="contrast">
+      <Gallery locale={locale} series={horizonteSeries} images={images} />
     </SiteLayout>
   );
 }

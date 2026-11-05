@@ -1,9 +1,13 @@
 import type { ReactNode } from 'react';
 
+import { SiteProviders } from '../../site/SiteProviders';
+
 export default function StartLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="de">
-      <body>{children}</body>
+      <body>
+        <SiteProviders>{children}</SiteProviders>
+      </body>
     </html>
   );
 }

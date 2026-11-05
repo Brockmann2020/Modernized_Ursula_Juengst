@@ -1,6 +1,6 @@
 # Ursula Jüngst – Refactoring
 
-Horizonte ist der erste Galeriepilot im eigenständigen Refactoring-Repository. Er zeigt vier Werke mit sieben Abbildungen in zwei Sprachen. Die Startseite und beide Galerien werden beim Build als statische HTML-Seiten ausgegeben. Menüpunkte für spätere Migrationen führen zur Bestandswebsite.
+Horizonte ist der erste Galeriepilot im eigenständigen Refactoring-Repository. Er zeigt vier Werke mit sieben Abbildungen in zwei Sprachen. Die deutsch- und englischsprachige Startseite und beide Galerien werden beim Build als statische HTML-Seiten ausgegeben. Die Startseite zeigt einen Ausschnitt aus Golem und verlinkt ausgewählte Werke direkt in der Galerie. Menüpunkte für spätere Migrationen führen zur Bestandswebsite.
 
 ## Lokal starten
 
@@ -29,10 +29,15 @@ python -m http.server 0 --bind 127.0.0.1 --directory out
 | --- | --- |
 | `src/app/` | Einstieg, Sprachrouten, Metadaten und statische Ausgabe |
 | `src/site/` | Seitenrahmen, Navigation, Sprachpfade und MUI-Theme |
+| `src/home/` | Startseite, redaktionelle Texte und Auswahl der gezeigten Werke |
 | `src/gallery/` | Werkdaten, Validierung, Bildbeschriftungen und Galerie |
 | `scripts/prepare-media.mjs` | Originale prüfen und WebP-Dateien sowie Pixelmaße erzeugen |
 
 Komponentenspezifische MUI-Styles liegen in `*.styles.ts` neben den zugehörigen Komponenten. Der Seitenrahmen enthält die Seitenstruktur. `SiteNavigation.tsx` enthält die Tastaturinteraktion und liest die Menüpunkte aus `navigation.json`.
+
+## Gemeinsame Galerievorlage
+
+Die Malerei-Seiten verwenden dieselbe Vorlage. In `src/gallery/horizonte.json` enthält `series` den Titel, optional die Einführung in beiden Sprachen und die ID eines vorhandenen Bildes als Titelmotiv. Der Werkindex entsteht aus den Werkzuordnungen der Abbildungen. Die erste Nennung eines Werks bestimmt seine Position. Weitere Bilder desselben Werks erscheinen im selben Abschnitt. Gestaltung und kontrastreiche Header-Variante werden zentral gepflegt. Für einen späteren Editor bleiben die Inhaltsfelder und die Bildreihenfolge getrennt von der Darstellung.
 
 ## Beispiel: Einen Ausschnitt ergänzen
 

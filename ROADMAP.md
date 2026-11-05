@@ -26,7 +26,7 @@ Stand: 5. November 2026. Grundlage ist der Obsidian-Implementierungsplan, Abschn
 | Presse und Filme | Geplant | Gemeinsamer Presse-Bilddialog. Lokale Videos und YouTube-Einbettungen erhalten. |
 | Kunst am Bau und Statement | Geplant | Projektbeschreibungen, Texte, Abbildungen und Links übernehmen. |
 | Biografie, Ausstellungen, Kontakt und Impressum | Geplant | Zeitachsen, Ausstellungsliste, Kontaktinformationen und rechtliche Inhalte übernehmen. |
-| Startseite mit Karussell | Geplant | Die Pilot-Einstiegsseite bietet bereits die Sprachwahl. Karussell und Bedienung stehen aus. |
+| Startseite | In Arbeit | Zweisprachiger Einstieg mit Golem-Ausschnitt und direkter Werkauswahl umgesetzt und geprüft. Ob ein Karussell ergänzt wird, ist offen. |
 | ArtKa 2017 und separater Exportbaum | Entscheidung offen | Historische Inhalte, abweichende Seiten und eingehende Links prüfen. Archiv und Weiterleitungen festlegen. |
 
 ## Pflege und Umstieg

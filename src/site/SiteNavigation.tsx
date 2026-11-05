@@ -1,10 +1,10 @@
 'use client';
 
-import type { KeyboardEvent } from 'react';
+import { useRef, type KeyboardEvent } from 'react';
 
 import navigation from './navigation.json';
-import { horizontePath, legacySite, type Locale } from './routes';
-import { Navigation } from './SiteNavigation.styles';
+import { horizontePath, legacySite, type Locale, type SitePage } from './routes';
+import { Menu, MenuPanel, Navigation, QuickLinks } from './SiteNavigation.styles';
 
 type NavigationDestination =
   | { page: string; legacyFile?: never }
@@ -12,24 +12,29 @@ type NavigationDestination =
 
 type NavigationLink = Record<Locale, string> & NavigationDestination;
 
-function closeOnEscape(event: KeyboardEvent<HTMLElement>) {
-  if (event.key !== 'Escape' || !(event.target instanceof HTMLElement)) return;
+const labels = {
+  de: { menu: 'Menü', painting: 'Malerei', biography: 'Biografie', contact: 'Kontakt', more: 'Weitere Seiten' },
+  en: { menu: 'Menu', painting: 'Painting', biography: 'Biography', contact: 'Contact', more: 'More pages' },
+};
 
-  const disclosure = event.target.closest<HTMLDetailsElement>('details[open]');
-  if (!disclosure) return;
+export function SiteNavigation({ locale, page }: { locale: Locale; page: SitePage }) {
+  const menu = useRef<HTMLDetailsElement>(null);
+  const text = labels[locale];
 
-  disclosure.open = false;
-  disclosure.querySelector('summary')?.focus();
-}
+  function closeOnEscape(event: KeyboardEvent<HTMLElement>) {
+    if (event.key !== 'Escape' || !menu.current?.open) return;
 
-export function SiteNavigation({ locale }: { locale: Locale }) {
+    menu.current.open = false;
+    menu.current.querySelector('summary')?.focus();
+  }
+
   function renderLink(link: NavigationLink) {
-    const isCurrent = link.page === 'horizonte';
-    const href = isCurrent ? horizontePath(locale) : `${legacySite}/${link.legacyFile}`;
+    const isHorizonte = link.page === 'horizonte';
+    const href = isHorizonte ? horizontePath(locale) : `${legacySite}/${link.legacyFile}`;
 
     return (
       <li key={href}>
-        <a href={href} aria-current={isCurrent ? 'page' : undefined}>
+        <a href={href} aria-current={isHorizonte && page === 'horizonte' ? 'page' : undefined}>
           {link[locale]}
         </a>
       </li>
@@ -38,23 +43,36 @@ export function SiteNavigation({ locale }: { locale: Locale }) {
 
   return (
     <Navigation aria-label={navigation.text[locale].navigation} onKeyDown={closeOnEscape}>
-      <ul>
-        {navigation.groups.map((group) => {
-          const isCurrent = group.items.some((link) => link.page === 'horizonte');
+      <QuickLinks>
+        <a href={horizontePath(locale)} aria-current={page === 'horizonte' ? 'page' : undefined}>
+          {text.painting}
+        </a>
+        <a href={`${legacySite}/Biografie.html`}>{text.biography}</a>
+        <a href={`${legacySite}/Kontakt.html`}>{text.contact}</a>
+      </QuickLinks>
 
-          return (
-            <li key={group.de}>
-              <details name="navigation-group">
-                <summary data-active={isCurrent || undefined}>{group[locale]}</summary>
+      <Menu ref={menu} onBlur={(event) => {
+        if (!event.currentTarget.contains(event.relatedTarget)) event.currentTarget.open = false;
+      }}>
+        <summary>
+          <span>{text.menu}</span>
+          <span className="menu-icon" aria-hidden="true" />
+        </summary>
 
-                <ul>{group.items.map(renderLink)}</ul>
-              </details>
-            </li>
-          );
-        })}
+        <MenuPanel>
+          {navigation.groups.map((group) => (
+            <div key={group.de}>
+              <p>{group[locale]}</p>
+              <ul>{group.items.map(renderLink)}</ul>
+            </div>
+          ))}
 
-        {navigation.links.map(renderLink)}
-      </ul>
+          <div>
+            <p>{text.more}</p>
+            <ul>{navigation.links.map(renderLink)}</ul>
+          </div>
+        </MenuPanel>
+      </Menu>
     </Navigation>
   );
 }

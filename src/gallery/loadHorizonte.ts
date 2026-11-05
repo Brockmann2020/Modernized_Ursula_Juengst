@@ -9,7 +9,14 @@ const text = {
   en: { material: 'Oil on canvas', detail: 'Detail from' },
 };
 
+const { series, entries, worksById } = parseHorizonte(content);
+export const horizonteSeries = series;
+export type GallerySeries = typeof series;
+
 export interface GalleryImage {
+  workId: string;
+  workTitle: string;
+  workFacts: string;
   id: string;
   src: string;
   alt: string;
@@ -20,7 +27,6 @@ export interface GalleryImage {
 }
 
 export async function loadHorizonte(locale: Locale): Promise<GalleryImage[]> {
-  const { entries, worksById } = parseHorizonte(content);
   const manifest = await readFile('.generated/horizonte.json', 'utf8');
   const sizes = dimensionsSchema.parse(JSON.parse(manifest));
   const labels = text[locale];
@@ -34,12 +40,14 @@ export async function loadHorizonte(locale: Locale): Promise<GalleryImage[]> {
     const isDetail = entry.view === 'detail';
     const alt = isDetail ? `${labels.detail} ${work.title}` : work.title;
     const measurements = `${work.heightCm} × ${work.widthCm} cm`;
-    const caption = isDetail
-      ? alt
-      : `${work.title}, ${work.year}, ${labels.material}, ${measurements}`;
+    const workFacts = `${work.year}, ${labels.material}, ${measurements}`;
+    const caption = isDetail ? alt : `${work.title}, ${workFacts}`;
 
     return {
       id: entry.id,
+      workId: work.id,
+      workTitle: work.title,
+      workFacts,
       src: `/horizonte/${entry.id}.webp`,
       alt,
       caption,

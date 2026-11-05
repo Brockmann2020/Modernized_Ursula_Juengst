@@ -1,36 +1,42 @@
 import type { ReactNode } from 'react';
 
 import { SiteNavigation } from './SiteNavigation';
-import { Footer, Header, Title } from './SiteLayout.styles';
+import { Footer, Header, HeaderBar, LanguageLink, Wordmark } from './SiteLayout.styles';
 import navigation from './navigation.json';
-import { horizontePath, legacySite, type Locale } from './routes';
+import { homePath, legacySite, pagePath, type Locale, type SitePage } from './routes';
 
 interface SiteLayoutProps {
   children: ReactNode;
   locale: Locale;
-  title: string;
+  page: SitePage;
+  headerTone?: 'light' | 'contrast';
 }
 
-export function SiteLayout({ children, locale, title }: SiteLayoutProps) {
+export function SiteLayout({ children, locale, page, headerTone = 'light' }: SiteLayoutProps) {
   const otherLocale = locale === 'de' ? 'en' : 'de';
 
   return (
     <>
-      <Header>
-        <a href="/">Ursula Jüngst</a>
+      <Header data-tone={headerTone}>
+        <HeaderBar>
+          <Wordmark href={homePath(locale)} aria-current={page === 'home' ? 'page' : undefined}>
+            Ursula Jüngst
+          </Wordmark>
 
-        <SiteNavigation locale={locale} />
+          <SiteNavigation locale={locale} page={page} />
 
-        <a href={horizontePath(otherLocale)} hrefLang={otherLocale} lang={otherLocale}>
-          {otherLocale === 'de' ? 'Deutsch' : 'English'}
-        </a>
+          <LanguageLink
+            href={pagePath(otherLocale, page)}
+            hrefLang={otherLocale}
+            lang={otherLocale}
+            aria-label={otherLocale === 'de' ? 'Deutsch' : 'English'}
+          >
+            {otherLocale.toUpperCase()}
+          </LanguageLink>
+        </HeaderBar>
       </Header>
 
-      <main>
-        <Title>{title}</Title>
-
-        {children}
-      </main>
+      <main>{children}</main>
 
       <Footer>
         <a href={`${legacySite}/Impressum.html`}>{navigation.text[locale].footer}</a>

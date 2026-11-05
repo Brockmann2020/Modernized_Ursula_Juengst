@@ -1,8 +1,7 @@
 import type { ReactNode } from 'react';
-import { AppRouterCacheProvider } from '@mui/material-nextjs/v16-appRouter';
 
 import { locales } from '../../site/routes';
-import SiteTheme from '../../site/SiteTheme';
+import { SiteProviders } from '../../site/SiteProviders';
 import { getLocale } from './locale';
 
 export const dynamicParams = false;
@@ -22,9 +21,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
   return (
     <html lang={locale}>
       <body>
-        <AppRouterCacheProvider>
-          <SiteTheme>{children}</SiteTheme>
-        </AppRouterCacheProvider>
+        <SiteProviders>{children}</SiteProviders>
       </body>
     </html>
   );
