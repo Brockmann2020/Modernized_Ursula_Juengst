@@ -1,0 +1,109 @@
+{
+  "series": {
+    "title": "Das Schweigen brechen",
+    "coverImageId": "image1"
+  },
+  "blocks": [
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image0",
+          "source": "image0.JPG",
+          "caption": {
+            "de": [
+              "Das Schweigen brechen, 2022",
+              "Öl / Lw, je 360 x 160 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image1",
+          "source": "image1.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"Das Schweigen brechen\", 2022"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image2",
+          "source": "image2.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"Das Schweigen brechen\", 2022"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image4",
+          "source": "image4.JPG",
+          "caption": {
+            "de": [
+              "Ariadnefäden des Lichts, 2022",
+              "Öl / Lw, je 270 x 150 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image5",
+          "source": "image5.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"Ariadnefäden des Lichts\", 2022"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image6",
+          "source": "image6.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"Ariadnefäden des Lichts\", 2022"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image3",
+          "source": "image3.JPG",
+          "caption": {
+            "de": [
+              "Immer wieder Gelb, 2022",
+              "Öl / Lw, 145 x 120 cm"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -19,8 +19,11 @@ Stand: 5. November 2026. Grundlage ist der Obsidian-Implementierungsplan, Abschn
 
 | Feature | Status | Abnahme / Bemerkung |
 | --- | --- | --- |
-| Begegnungsspuren und Elementare Akkorde | Geplant | Textblöcke, Werkteile und Detailansichten erproben. Danach das gemeinsame Galeriemodell festigen. |
-| Weitere Werkreihen und Arbeitssituationen | Geplant | Bildreihen, Werkzuordnungen und Beschriftungen übernehmen. |
+| Begegnungsspuren und Elementare Akkorde | Implementiert | Textblock, Werkteile und Detailbeschriftungen in der Reihenfolge des Altbestands übernommen. |
+| Primavera | Implementiert | Vier Werke und acht Abbildungen mit dem Node-Importer übernommen. Beide Sprachen nutzen die gemeinsame Galerievorlage. |
+| Hochzeit des Lichts | Implementiert | Zweier- und Dreierreihen, Atelierfoto und Dezimalmaß übernommen. |
+| Weitere Malerei-Seiten | Implementiert | Alle 17 Galerien lokal erreichbar. Bildreihen, Kontextfotos, Werkteile und Originalbeschriftungen bleiben erhalten. |
+| Arbeitssituationen | Geplant | Bildreihen und Beschriftungen übernehmen. |
 | Aktuell | Geplant | Nachrichten, Ausstellungen, Karussells und Downloads übernehmen. Englische Texte fachlich zuordnen und doppelte Snippet-IDs auflösen. |
 | Literatur und Flyer | Geplant | Publikationen, aufklappbare Auszüge und PDF-Downloads übernehmen. |
 | Presse und Filme | Geplant | Gemeinsamer Presse-Bilddialog. Lokale Videos und YouTube-Einbettungen erhalten. |
@@ -33,6 +36,6 @@ Stand: 5. November 2026. Grundlage ist der Obsidian-Implementierungsplan, Abschn
 
 | Feature | Status | Abnahme / Bemerkung |
 | --- | --- | --- |
-| Pflege- und Importwerkzeuge | Geplant | Nach den weiteren Galerien einen Ablauf für Werke, Medien, Texte und Übersetzungen entwickeln. |
+| Pflege- und Importwerkzeuge | In Arbeit | Node-Import für Werkdaten und für geordnete Bild-, Text- und Überschriftenblöcke vorhanden. Pflegeoberfläche steht aus. |
 | Statisches Release-Paket | Geplant | Geprüfte Exportdateien, Medien und nötige Weiterleitungen für FTP zusammenstellen. |
 | Gesamtabnahme und Umstieg | Geplant | Seiten, Sprachen, Medien und Altlinks prüfen, auch auf echten Mobilgeräten. Öffentlichen Wechsel separat freigeben. |

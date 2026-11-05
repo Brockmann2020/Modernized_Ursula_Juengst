@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-import { loadHorizonte } from '../gallery/loadHorizonte';
+import { loadGallery } from '../gallery/loadGallery';
 import { SiteLayout } from '../site/SiteLayout';
 import { homePath, horizontePath, legacySite, type Locale } from '../site/routes';
 import {
@@ -48,7 +48,7 @@ export function homeMetadata(locale: Locale): Metadata {
 export async function HomePage({ locale }: { locale: Locale }) {
   const text = copy[locale];
   const gallery = horizontePath(locale);
-  const images = await loadHorizonte(locale);
+  const { images } = await loadGallery('horizonte', locale);
   const byId = new Map(images.map((image) => [image.id, image]));
 
   const hero = byId.get('golem-detail');

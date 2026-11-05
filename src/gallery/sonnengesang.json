@@ -1,0 +1,103 @@
+{
+  "series": {
+    "title": "Sonnengesang",
+    "coverImageId": "image6"
+  },
+  "blocks": [
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image6",
+          "source": "image6.JPG",
+          "caption": {
+            "de": [
+              "Sonnengesang, 2018",
+              "Öl / Lw, 165 x 145 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image0",
+          "source": "image0.JPG",
+          "caption": {
+            "de": [
+              "Nocturn, 2018",
+              "Öl / Lw, 165 x 145 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image1",
+          "source": "image1.JPG",
+          "caption": {
+            "de": [
+              "Sonnenlob I, 2018",
+              "Öl / Lw, 60 x 50 cm"
+            ]
+          }
+        },
+        {
+          "id": "image2",
+          "source": "image2.JPG",
+          "caption": {
+            "de": [
+              "Sonnenlob IV, 2018",
+              "Öl / Lw, 60 x 50 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image3",
+          "source": "image3.JPG",
+          "caption": {
+            "de": [
+              "kleines Sonnenlob I, 2018",
+              "Öl / Lw, 30 x 50 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image4",
+          "source": "image4.JPG",
+          "caption": {
+            "de": [
+              "Fulminosa, 2017/19",
+              "Öl / Lw, 160 x 120 cm"
+            ]
+          }
+        },
+        {
+          "id": "image5",
+          "source": "image5.JPG",
+          "caption": {
+            "de": [
+              "Lichtkitzel, 2018",
+              "Öl / Lw, 160 x 120 cm"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

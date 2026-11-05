@@ -1,0 +1,113 @@
+{
+  "series": {
+    "title": "Sternengeburt",
+    "coverImageId": "image0"
+  },
+  "blocks": [
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image0",
+          "source": "image0.JPG",
+          "caption": {
+            "de": [
+              "Sternengeburt, 2007",
+              "Öl / Lw, 165 x 435 cm, (3-teilig)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image5",
+          "source": "image5.JPG",
+          "caption": {
+            "de": [
+              "Sternengeburt",
+              "Offene Kirche St. Klara, Nürnberg 2009"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image10",
+          "source": "image10.JPG",
+          "caption": {
+            "de": [
+              "Agamemnon, 2008",
+              "Öl / Lw, 165 x 435 cm, (3-teilig)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image11",
+          "source": "image11.JPG",
+          "caption": {
+            "de": [
+              "Dornbusch (I), 2007",
+              "Öl / Lw, 70 x 160 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image8",
+          "source": "image8.JPG",
+          "caption": {
+            "de": [
+              "gestreicheltes Meer (III), 2007",
+              "Öl / Lw, 70 x 160 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image12",
+          "source": "image12.JPG",
+          "caption": {
+            "de": [
+              "Lichtung, 2008",
+              "Öl / Lw, 100 x 140 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image6",
+          "source": "image6.JPG",
+          "caption": {
+            "de": [
+              "kleiner Abend, 2008",
+              "Öl / Lw, 24 x 36 cm"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

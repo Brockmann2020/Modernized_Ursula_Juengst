@@ -1,0 +1,133 @@
+{
+  "series": {
+    "title": "Azulen",
+    "coverImageId": "image5"
+  },
+  "blocks": [
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image5",
+          "source": "image5.JPG",
+          "caption": {
+            "de": [
+              "Installation der Azulen",
+              "in der Marktkirche, Essen 2003"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image6",
+          "source": "image6.JPG",
+          "caption": {
+            "de": [
+              "Meme, 1999",
+              "Öl / Lw, 270 x 210 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image7",
+          "source": "image7.JPG",
+          "caption": {
+            "de": [
+              "Aluza und Meme",
+              "Offene Kirche St. Klara, Nürnberg 2004"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image3",
+          "source": "image3.JPG",
+          "caption": {
+            "de": [
+              "Pues I und II, 2005",
+              "Öl / Lw, 200 x 80 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image10",
+          "source": "image10.JPG",
+          "caption": {
+            "de": [
+              "Beni, 2002",
+              "Öl / Lw, 40 x 40 cm"
+            ]
+          }
+        },
+        {
+          "id": "image8",
+          "source": "image8.JPG",
+          "caption": {
+            "de": [
+              "Yus, 2002",
+              "Öl / Lw, 40 x 40 cm"
+            ]
+          }
+        },
+        {
+          "id": "image9",
+          "source": "image9.JPG",
+          "caption": {
+            "de": [
+              "Zou, 2002",
+              "Öl / Lw, 40 x 40 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image11",
+          "source": "image11.JPG",
+          "caption": {
+            "de": [
+              "Ebro, 2001",
+              "Öl / Lw, 185 x 305 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image2",
+          "source": "image2.JPG",
+          "caption": {
+            "de": [
+              "Zalim, 2005",
+              "Öl / Lw, 150 x 150 cm"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

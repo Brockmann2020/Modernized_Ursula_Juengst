@@ -1,0 +1,256 @@
+{
+  "series": {
+    "title": "Begegnungsspuren",
+    "coverImageId": "image6"
+  },
+  "blocks": [
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image6",
+          "source": "image6.JPG",
+          "caption": {
+            "de": [
+              "Moria II, 2021",
+              "Öl / Lw, 75 x 100 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "de": [
+          "Malerei ist für mich eine Möglichkeit, über die Welt nachzudenken. Neues zu entdecken und zu erfahren, zu erinnern und zu klären. Zu versuchen, dem Sein auf den Grund zu gehen. Dabei entwickelt sich das Bild im Gespräch zwischen den Farben, dem Farbträger und mir. Durch die Erfahrungen des Corona - Lockdowns und die damit verbundenen Konsequenzen, dass es beispielsweise auch verboten war, schwerkranke Angehörige zu besuchen, ist mein demokratisches Grundgefühl durcheinandergeraten. Mein Pinselstrich, meine künstlerische Weltformel, kam ins Rutschen. Der Baustein meiner Kompositionen wackelte. Stellenweise beginnen nun meine Pinselsetzungen zu fließen. Feine, vorsichtige, zitternde Fließspuren bringen nerviges und zerbrechliches ins Bildgefüge und lassen die eindeutigen Pinselsetzungen vibrieren. Begegnungsspuren. Zielgerichtete, selbstbewusste Rinnsale werden zu Klangseiten, zu Angelschnüren des Lichts und zu Lassos für meine Pinselakkorde. Versuche für neue Formen von Begegnungen."
+        ],
+        "en": [
+          "Painting is for me a way of reflecting on the world. To discover and experience new things, to remember and clarify. To try to get to the bottom of being. The picture develops in the dialogue between the colors, the support and myself.",
+          "Because of the experience of the corona lockdown and the consequences associated with it - for example, that it was forbidden even to visit seriously ill relatives - my democratic basic feeling was shaken. My brushstroke, my artistic formula for the world, began to slip. The basic module of my compositions started to wobble.",
+          "In places, my brush marks now begin to flow. Fine, careful, trembling traces of flow bring something nervous and fragile into the pictorial structure and make the distinct brushstrokes vibrate. Traces of encounter. Purposeful, self-confident rivulets become strings of sound, fishing lines of light, and lassos for my brush chords. Attempts at new forms of encounter."
+        ]
+      }
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image10",
+          "source": "image10.JPG",
+          "caption": {
+            "de": [
+              "For heaven´s sake, 2021",
+              "Öl / Lw, 160 x 120 (3-teilig)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image14",
+          "source": "image14.JPG",
+          "caption": {
+            "de": [
+              "Kronus frisst, 2021",
+              "Öl / Lw, 160 x 120 cm"
+            ]
+          }
+        },
+        {
+          "id": "image13",
+          "source": "image13.JPG",
+          "caption": {
+            "de": [
+              "Häuplinge stürzen, 2021",
+              "Öl / Lw, 160 x 120 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image22",
+          "source": "image22.JPG",
+          "caption": {
+            "de": [
+              "Mangobraut, 2021",
+              "Öl / Lw, 120 x 90 cm"
+            ]
+          }
+        },
+        {
+          "id": "image21",
+          "source": "image21.JPG",
+          "caption": {
+            "de": [
+              "Dornröschen, 2021",
+              "Öl / Lw, 120 x 90 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image19",
+          "source": "image19.JPG",
+          "caption": {
+            "de": [
+              "Zum Abschied schenk ich Dir das Meer I, 2021",
+              "Öl / Lw, 160 x 120 cm"
+            ]
+          }
+        },
+        {
+          "id": "image18",
+          "source": "image18.JPG",
+          "caption": {
+            "de": [
+              "Zum Abschied schenk ich Dir das Meer II, 2021",
+              "Öl / Lw, 160 x 120 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image20",
+          "source": "image20.JPG",
+          "caption": {
+            "de": [
+              "Enigma V, 2021",
+              "Öl / Lw, 20 x 50 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image12",
+          "source": "image12.JPG",
+          "caption": {
+            "de": [
+              "Und hätte der Liebe nicht III, 2021",
+              "Öl / Lw, 160 x 120 cm"
+            ]
+          }
+        },
+        {
+          "id": "image11",
+          "source": "image11.JPG",
+          "caption": {
+            "de": [
+              "Indignados, 2021",
+              "Öl / Lw, 160 x 120 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image5",
+          "source": "image5.JPG",
+          "caption": {
+            "de": [
+              "Zum Abschied schenk ich dir das Meer III, 2021",
+              "Öl / Lw, 160 x 120 cm"
+            ]
+          }
+        },
+        {
+          "id": "image4",
+          "source": "image4.JPG",
+          "caption": {
+            "de": [
+              "Und hätte der Liebe nicht I, 2021",
+              "Öl / Lw, 160 x 120 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image9",
+          "source": "image9.JPG",
+          "caption": {
+            "de": [
+              "Enigma III, 2021",
+              "Öl / Lw, 28 x 30 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image16",
+          "source": "image16.JPG",
+          "caption": {
+            "de": [
+              "Blüte verschwelgend, 2021",
+              "Öl / Lw, 160 x 120 cm"
+            ]
+          }
+        },
+        {
+          "id": "image15",
+          "source": "image15.JPG",
+          "caption": {
+            "de": [
+              "Am Faden tanzen, 2021",
+              "Öl / Lw, 160 x 120 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image8",
+          "source": "image8.JPG",
+          "caption": {
+            "de": [
+              "Begegnungsspuren I, 2021",
+              "Öl / Lw, 100 x 75 cm"
+            ]
+          }
+        },
+        {
+          "id": "image7",
+          "source": "image7.JPG",
+          "caption": {
+            "de": [
+              "Begegnungsspuren II, 2021",
+              "Öl / Lw, 100 x 75 cm"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

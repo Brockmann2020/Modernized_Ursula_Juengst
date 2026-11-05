@@ -1,0 +1,115 @@
+{
+  "series": {
+    "title": "Corona",
+    "coverImageId": "image3"
+  },
+  "blocks": [
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image4",
+          "source": "image4.JPG",
+          "caption": {
+            "de": [
+              "Schreck – Covid 19, 2020",
+              "Öl / Lw, 230 x 700 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "de": [
+          "Schreck - Covid 19. Alles anders. Innerhalb Europas schließen sich die Grenzen. Schengen zählt nicht mehr. Shutdown. Wegsperren. Allein. Täglich Bilder von Tod in den Medien. Abwenden statt Zuwenden. Bergamo. Madrid. Hotspot auf Hotspot. Isolation wird normal. Abstand ist Nächstenliebe. Distanzgesellschaft.",
+          "Meine Pinsel sind auf 2 Meter verlängert. Eine rote Linie im Abstand von 2 Metern zur Malfläche. 10 Panele. 10 wie zusammen zwei Familien. 10 wie eine Meetinggruppe. Jedes Panel ist in der Proportion ähnlich einem Menschen. Einem Sarg. Die einzelnen Panele sind getrennt und gehören doch zusammen. Der Schreck ist tief und kämpft mit dem Licht. Die Ruhe bedrohlich. Mit dem Abstandspinsel male ich. Schwierig mit der Distanz umzugehen. Der Farbauftrag wird schruppiger. Vertieft ins Malen trete ich manchmal über die Distanzhalten-Linie. So kann ich sensibel den einzelnen Farbschmelz zaubern. Abstand zu halten ist schwer."
+        ],
+        "en": [
+          "Schreck - Covid 19. Everything changed. Within Europe the borders closed. Schengen no longer counted. Shutdown. Locking away. Alone. Daily images of death in the media. Turning away instead of turning toward one another. Bergamo. Madrid. Hotspot after hotspot. Isolation became normal. Distance became charity. A society of distance.",
+          "My brushes are extended to two meters. A red line marks the distance of two meters from the painting surface. 10 panels. 10 like two families together. 10 like a meeting group. Each panel is proportionally similar to a human being. To a coffin. The individual panels are separated and yet belong together. The shock is deep and struggles with the light. The stillness is threatening. I paint with the distance brush. It is difficult to cope with distance. The application of paint becomes rougher. Immersed in painting, I sometimes step across the distancing line. That allows me to conjure the delicate fusion of colors. Keeping one's distance is hard."
+        ]
+      },
+      "placement": "intro",
+      "title": {
+        "de": "Zu Schreck – Covid 19",
+        "en": "On Schreck – Covid 19"
+      }
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image3",
+          "source": "image3.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus Schreck – Covid 19, 2020"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image9",
+          "source": "image9.JPG",
+          "caption": {
+            "de": [
+              "Corona I, 2020",
+              "Öl / Lw, 165 x 145 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image10",
+          "source": "image10.JPG",
+          "caption": {
+            "de": [
+              "Corona II, 2020",
+              "Öl / Lw, 165 x 145 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image11",
+          "source": "image11.JPG",
+          "caption": {
+            "de": [
+              "Corona III, 2020",
+              "Öl / Lw, 165 x 145 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image5",
+          "source": "image5.JPG",
+          "caption": {
+            "de": [
+              "Corona I bis IV, 2020",
+              "Öl / Lw, 165 x 145 cm"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 import type { Locale } from '../site/routes';
-import type { GalleryImage, GallerySeries } from './loadHorizonte';
+import type { GalleryImage, GallerySeries } from './loadGallery';
+import { GalleryCover } from './GalleryCover';
 import { GalleryViewer } from './GalleryViewer';
 import { ImageTrigger } from './GalleryViewer.styles';
 import {
-  Cover, DetailGrid, GalleryImageFrame, Index, IndexInner, Intro, IntroInner, Work, WorkInfo, WorkInner,
+  DetailGrid, GalleryImageFrame, Index, IndexInner, Intro, IntroInner, Work, WorkInfo, WorkInner,
 } from './Gallery.styles';
 
 const labels = {
-  de: { zoom: 'Vollbild öffnen', series: 'Malerei / Werkreihe', index: 'Werke im Überblick', image: ['Abbildung', 'Abbildungen'], work: ['Werk', 'Werke'] },
-  en: { zoom: 'Open full screen', series: 'Painting / Series', index: 'Explore the works', image: ['Image', 'Images'], work: ['Work', 'Works'] },
+  de: { zoom: 'Vollbild öffnen', index: 'Werke im Überblick', image: ['Abbildung', 'Abbildungen'], work: ['Werk', 'Werke'] },
+  en: { zoom: 'Open full screen', index: 'Explore the works', image: ['Image', 'Images'], work: ['Work', 'Works'] },
 };
 
 interface GalleryProps {
@@ -35,25 +36,12 @@ export function Gallery({ locale, series, images }: GalleryProps) {
       <Intro aria-labelledby="series-title">
         <IntroInner data-has-cover={Boolean(cover)}>
           <div>
-            <span>{text.series}</span>
+            <span>Ursula Jüngst</span>
             <h1 id="series-title">{series.title}</h1>
             {series.introduction && <p>{series.introduction[locale]}</p>}
           </div>
 
-          {cover && (
-            <Cover>
-              <ImageTrigger type="button" data-image-id={cover.id} aria-haspopup="dialog" aria-label={`${text.zoom}: ${cover.alt}`}>
-                <img
-                  src={cover.src}
-                  alt={cover.alt}
-                  width={cover.width}
-                  height={cover.height}
-                  fetchPriority="high"
-                />
-              </ImageTrigger>
-              <figcaption>{cover.caption}</figcaption>
-            </Cover>
-          )}
+          {cover && <GalleryCover image={cover} zoomLabel={text.zoom} />}
         </IntroInner>
       </Intro>
 
@@ -110,6 +98,7 @@ function ArtworkImage({ image, zoomLabel, isPrimary = false, eager = false }: Ar
           alt={image.alt}
           width={image.width}
           height={image.height}
+          style={{ width: `min(${image.width}px, calc(85svh * ${image.width / image.height}))` }}
           loading={eager ? 'eager' : 'lazy'}
           decoding="async"
         />

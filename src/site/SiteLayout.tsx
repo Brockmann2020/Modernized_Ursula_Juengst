@@ -3,12 +3,12 @@ import type { ReactNode } from 'react';
 import { SiteNavigation } from './SiteNavigation';
 import { Footer, Header, HeaderBar, LanguageLink, Wordmark } from './SiteLayout.styles';
 import navigation from './navigation.json';
-import { homePath, legacySite, pagePath, type Locale, type SitePage } from './routes';
+import { homePath, legacySite, pagePath, type Locale } from './routes';
 
 interface SiteLayoutProps {
   children: ReactNode;
   locale: Locale;
-  page: SitePage;
+  page: string;
   headerTone?: 'light' | 'contrast';
 }
 

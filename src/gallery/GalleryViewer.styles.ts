@@ -43,9 +43,26 @@ export const ViewerFigure = styled('figure')(({ theme }) => ({
   gridTemplateRows: 'minmax(0, 1fr) auto',
   gap: theme.spacing(1),
   padding: theme.spacing(0, 2, 2),
-  '& img': { display: 'block', width: '100%', height: '100%', objectFit: 'contain' },
-  '& figcaption': { color: galleryColors.muted, textAlign: 'center', fontSize: '0.875rem' },
+  '& figcaption': { color: galleryColors.muted, textAlign: 'center', fontSize: '0.875rem', whiteSpace: 'pre-line' },
 }));
+
+export const ViewerStage = styled('div')({
+  minHeight: 0,
+  display: 'flex',
+  overflow: 'auto',
+  overscrollBehavior: 'contain',
+  overflowAnchor: 'none',
+  containerType: 'size',
+  cursor: 'pointer',
+  '& img': {
+    display: 'block',
+    flexShrink: 0,
+    alignSelf: 'start',
+    margin: 'auto',
+    height: 'auto',
+    cursor: 'default',
+  },
+});
 
 export const ImageTrigger = styled('button')({
   display: 'block',
@@ -54,7 +71,7 @@ export const ImageTrigger = styled('button')({
   padding: 0,
   border: 0,
   background: 'none',
-  cursor: 'zoom-in',
+  cursor: 'pointer',
   '&:focus-visible': { outline: '2px solid currentColor', outlineOffset: 4 },
   '[data-has-cover] &': { width: '100%', color: galleryColors.ink },
 });

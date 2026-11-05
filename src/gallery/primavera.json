@@ -1,0 +1,90 @@
+{
+  "series": {
+    "title": "Primavera",
+    "coverImageId": "detail-image3"
+  },
+  "works": [
+    {
+      "id": "krokusbraut-i",
+      "title": "Krokusbraut I",
+      "year": 2017,
+      "material": "oil-on-canvas",
+      "heightCm": 145,
+      "widthCm": 165
+    },
+    {
+      "id": "krokusbraut-ii",
+      "title": "Krokusbraut II",
+      "year": 2017,
+      "material": "oil-on-canvas",
+      "heightCm": 145,
+      "widthCm": 165
+    },
+    {
+      "id": "krokusbraut-iii",
+      "title": "Krokusbraut III",
+      "year": 2017,
+      "material": "oil-on-canvas",
+      "heightCm": 145,
+      "widthCm": 165
+    },
+    {
+      "id": "schneesommer",
+      "title": "Schneesommer",
+      "year": 2017,
+      "material": "oil-on-canvas",
+      "heightCm": 145,
+      "widthCm": 165
+    }
+  ],
+  "entries": [
+    {
+      "id": "krokusbraut-i",
+      "work": "krokusbraut-i",
+      "source": "image0.JPG",
+      "view": "full"
+    },
+    {
+      "id": "detail-image3",
+      "work": "krokusbraut-i",
+      "source": "image3.JPG",
+      "view": "detail"
+    },
+    {
+      "id": "detail-image4",
+      "work": "krokusbraut-i",
+      "source": "image4.JPG",
+      "view": "detail"
+    },
+    {
+      "id": "krokusbraut-ii",
+      "work": "krokusbraut-ii",
+      "source": "image1.JPG",
+      "view": "full"
+    },
+    {
+      "id": "detail-image5",
+      "work": "krokusbraut-ii",
+      "source": "image5.JPG",
+      "view": "detail"
+    },
+    {
+      "id": "detail-image6",
+      "work": "krokusbraut-ii",
+      "source": "image6.JPG",
+      "view": "detail"
+    },
+    {
+      "id": "krokusbraut-iii",
+      "work": "krokusbraut-iii",
+      "source": "image2.JPG",
+      "view": "full"
+    },
+    {
+      "id": "schneesommer",
+      "work": "schneesommer",
+      "source": "image7.JPG",
+      "view": "full"
+    }
+  ]
+}

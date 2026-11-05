@@ -6,7 +6,8 @@
     "dev": "next dev",
     "prebuild": "node scripts/prepare-media.mjs",
     "build": "next build",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "import:gallery": "node scripts/import-gallery.mjs"
   },
   "dependencies": {
     "@emotion/cache": "^11.14.0",
@@ -24,6 +25,7 @@
     "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "parse5": "^8.1.0",
     "typescript": "~5.9.3"
   }
 }

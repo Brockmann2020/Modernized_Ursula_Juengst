@@ -1,0 +1,199 @@
+{
+  "series": {
+    "title": "Malen gegen die Dunkelheit",
+    "coverImageId": "image16"
+  },
+  "blocks": [
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image15",
+          "source": "image15.JPG",
+          "caption": {
+            "de": [
+              "Erwachen, 2024. Öl / Lw, 160 cm x 240 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image16",
+          "source": "image16.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"Erwachen\", 2024"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image3",
+          "source": "image3.JPG",
+          "caption": {
+            "de": [
+              "Zyklus: Malen gegen die Dunkelheit I–VI, 2024",
+              "Öl / Lw, je 120 x 90 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image12",
+          "source": "image12.JPG",
+          "caption": {
+            "de": [
+              "Stille Hoffnung – Xenien I–III, 2024",
+              "Öl / Lw, je 120 x 90 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image13",
+          "source": "image13.JPG",
+          "caption": {
+            "de": [
+              "Malgré tout, 2024",
+              "Öl / Lw, 120 x 90 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image9",
+          "source": "image9.JPG",
+          "caption": {
+            "de": [
+              "Malgré tout, 2024",
+              "Öl / Lw, 120 x 90 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image11",
+          "source": "image11.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"Malgré tout\",2024"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image5",
+          "source": "image5.JPG",
+          "caption": {
+            "de": [
+              "Lonesome, 2024",
+              "Öl / Lw, 120 x 90 cm"
+            ]
+          }
+        },
+        {
+          "id": "image4",
+          "source": "image4.JPG",
+          "caption": {
+            "de": [
+              "Narbe, 2024",
+              "Öl / Lw, 120 x 90 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image10",
+          "source": "image10.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"Lonesome\",2024"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image14",
+          "source": "image14.JPG",
+          "caption": {
+            "de": [
+              "links: Vertrauung, 2024, Öl / Lw,120 x 90 cm",
+              "rechts: Reliquienbüsten des Kaiserpaares Heinrich II. und Kunigunde, Diezesanmuseum Paderborn, März 2024"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image6",
+          "source": "image6.JPG",
+          "caption": {
+            "de": [
+              "Rosen bergen IV, 2024",
+              "Öl / Lw, 70 x 60 cm"
+            ]
+          }
+        },
+        {
+          "id": "image7",
+          "source": "image7.JPG",
+          "caption": {
+            "de": [
+              "Rosen bergen II, 2024",
+              "Öl / Lw, 70 x 60 cm"
+            ]
+          }
+        },
+        {
+          "id": "image8",
+          "source": "image8.JPG",
+          "caption": {
+            "de": [
+              "Rosen bergen I, 2024",
+              "Öl / Lw, 70 x 60 cm"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

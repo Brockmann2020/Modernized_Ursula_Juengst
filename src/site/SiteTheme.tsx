@@ -13,6 +13,7 @@ export const galleryColors = {
   muted: '#dfcfc2',
   accent: '#f6ad85',
   rule: '#64524a',
+  band: '#f1ebe2',
 };
 export const displayFont = 'Georgia, Times New Roman, serif';
 

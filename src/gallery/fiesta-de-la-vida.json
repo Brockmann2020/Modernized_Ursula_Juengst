@@ -1,0 +1,204 @@
+{
+  "series": {
+    "title": "Fiesta de la vida",
+    "coverImageId": "image0"
+  },
+  "blocks": [
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image0",
+          "source": "image0.JPG",
+          "caption": {
+            "de": [
+              "La fiesta de la vida, 2018",
+              "Öl / Lw, 400 cm x 600 cm (24-teilig)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image3",
+          "source": "image3.JPG",
+          "caption": {
+            "de": [
+              "Tauffest, 2017",
+              "Öl / Lw, 160 x 280 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image4",
+          "source": "image4.JPG",
+          "caption": {
+            "de": [
+              "Lichtregen I und II, 2017",
+              "Öl / Lw, 100 x 45 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": {
+        "de": [
+          "Wider der Tränen der Mütter"
+        ]
+      }
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image5",
+          "source": "image5.JPG",
+          "caption": {
+            "de": [
+              "Wider die Tränen der Mütter, 2019",
+              "Öl / Lw, 400 cm x 600 cm (24-teilig)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image6",
+          "source": "image6.JPG",
+          "caption": {
+            "de": [
+              "Segment aus \"Wider die Tränen der Mütter\", 2019",
+              "Öl / Lw, 100 x 100 cm"
+            ]
+          }
+        },
+        {
+          "id": "image7",
+          "source": "image7.JPG",
+          "caption": {
+            "de": [
+              "Segment aus \"Wider die Tränen der Mütter\", 2019",
+              "Öl / Lw, 100 x 100 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image8",
+          "source": "image8.JPG",
+          "caption": {
+            "de": [
+              "Wider die Tränen der Mütter, 2019",
+              "Öl / Lw, 400 cm x 600 cm (24-teilig)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": {
+        "de": [
+          "Schlaf mein Kind auch wenn der Teufel lacht"
+        ]
+      }
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image9",
+          "source": "image9.JPG",
+          "caption": {
+            "de": [
+              "Schlaf mein Kind auch wenn der Teufel lacht, 2020",
+              "Öl / Lw, 400 cm x 600 cm (24-teilig)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image10",
+          "source": "image10.JPG",
+          "caption": {
+            "de": [
+              "Segment aus \"Schlaf mein Kind auch wenn der Teufel lacht\", 2020"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": {
+        "de": [
+          "Die Dunkelheit ist nicht das Letzte"
+        ]
+      }
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image11",
+          "source": "image11.JPG",
+          "caption": {
+            "de": [
+              "Die Dunkelheit ist nicht das Letzte, 2020",
+              "Öl / Lw, 400 cm x 600 cm (24-teilig)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image12",
+          "source": "image12.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"Die Dunkelheit ist nicht das Letzte\", 2020"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image13",
+          "source": "image13.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"Die Dunkelheit ist nicht das Letzte\", 2020"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

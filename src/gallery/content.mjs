@@ -34,13 +34,13 @@ export const dimensionsSchema = z.record(id, z.object({
 }));
 
 /** @param {unknown} input */
-export function parseHorizonte(input) {
+export function parseGallery(input) {
   const { series, works, entries } = schema.parse(input);
   const worksById = new Map(works.map((work) => [work.id, work]));
   const imageIds = new Set(entries.map((entry) => entry.id));
 
-  if (worksById.size !== works.length) throw new Error('Duplicate Horizonte work ID.');
-  if (imageIds.size !== entries.length) throw new Error('Duplicate Horizonte image ID.');
+  if (worksById.size !== works.length) throw new Error('Duplicate gallery work ID.');
+  if (imageIds.size !== entries.length) throw new Error('Duplicate gallery image ID.');
 
   for (const entry of entries) {
     if (!worksById.has(entry.work)) {

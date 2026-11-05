@@ -3,7 +3,7 @@
 import { useRef, type KeyboardEvent } from 'react';
 
 import navigation from './navigation.json';
-import { horizontePath, legacySite, type Locale, type SitePage } from './routes';
+import { horizontePath, galleryPath, legacySite, type Locale } from './routes';
 import { Menu, MenuPanel, Navigation, QuickLinks } from './SiteNavigation.styles';
 
 type NavigationDestination =
@@ -17,7 +17,7 @@ const labels = {
   en: { menu: 'Menu', painting: 'Painting', biography: 'Biography', contact: 'Contact', more: 'More pages' },
 };
 
-export function SiteNavigation({ locale, page }: { locale: Locale; page: SitePage }) {
+export function SiteNavigation({ locale, page }: { locale: Locale; page: string }) {
   const menu = useRef<HTMLDetailsElement>(null);
   const text = labels[locale];
 
@@ -29,12 +29,12 @@ export function SiteNavigation({ locale, page }: { locale: Locale; page: SitePag
   }
 
   function renderLink(link: NavigationLink) {
-    const isHorizonte = link.page === 'horizonte';
-    const href = isHorizonte ? horizontePath(locale) : `${legacySite}/${link.legacyFile}`;
+    const isCurrent = link.page === page;
+    const href = link.page ? galleryPath(locale, link.page) : `${legacySite}/${link.legacyFile}`;
 
     return (
       <li key={href}>
-        <a href={href} aria-current={isHorizonte && page === 'horizonte' ? 'page' : undefined}>
+        <a href={href} aria-current={isCurrent ? 'page' : undefined}>
           {link[locale]}
         </a>
       </li>

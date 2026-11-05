@@ -1,0 +1,144 @@
+{
+  "series": {
+    "title": "Zeichnungen",
+    "titleEn": "Drawings",
+    "coverImageId": "image15"
+  },
+  "blocks": [
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image15",
+          "source": "image15.JPG",
+          "caption": {
+            "de": [
+              "der weite Weg, 2012",
+              "Tusche auf Papier,18 x 23,5 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image14",
+          "source": "image14.JPG",
+          "caption": {
+            "de": [
+              "Infada, 2012",
+              "Tusche auf Papier,18 x 23,5 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image18",
+          "source": "image18.JPG",
+          "caption": {
+            "de": [
+              "Petition, 2014",
+              "Bleistift auf Papier, 42 x 59 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image17",
+          "source": "image17.JPG",
+          "caption": {
+            "de": [
+              "Die Klitzekleins und die Marieposas Nr.: 8, 2005",
+              "Bleistift auf Papier, 42 x 59 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image8",
+          "source": "image8.JPG",
+          "caption": {
+            "de": [
+              "Die Klitzekleins und die Marieposas Nr.: 14, 2005",
+              "Bleistift auf Papier, 42 x 59 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image10",
+          "source": "image10.JPG",
+          "caption": {
+            "de": [
+              "La Bin, 2004",
+              "Tusche auf Papier,18 x 23,5 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image16",
+          "source": "image16.JPG",
+          "caption": {
+            "de": [
+              "Golem, 2011",
+              "Tusche auf Papier, 23,5 x 18 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image11",
+          "source": "image11.JPG",
+          "caption": {
+            "de": [
+              "Mitra, 2002",
+              "Tusche auf Papier, 23,5 x 18 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image13",
+          "source": "image13.JPG",
+          "caption": {
+            "de": [
+              "Pere Perm, 1998,",
+              "Tusche auf Papier, 17 x 17cm"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

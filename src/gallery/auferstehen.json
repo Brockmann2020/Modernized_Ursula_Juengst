@@ -1,0 +1,134 @@
+{
+  "series": {
+    "title": "Auf(er)stehen",
+    "coverImageId": "image16"
+  },
+  "blocks": [
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image15",
+          "source": "image15.JPG",
+          "caption": {
+            "de": [
+              "Zuversicht beißt Illusion, 2025. Öl / Lw, 160 cm x 240 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image16",
+          "source": "image16.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"Zuversicht beißt Illusion\", 2025"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image17",
+          "source": "image17.JPG",
+          "caption": {
+            "de": [
+              "Atelier Spanien, November 2024"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image13",
+          "source": "image13.JPG",
+          "caption": {
+            "de": [
+              "In mir das Meer II, 2024, Öl / Lw, 120 x 160 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image9",
+          "source": "image9.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"In mir das Meer II\", 2024"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image11",
+          "source": "image11.JPG",
+          "caption": {
+            "de": [
+              "Auf der Suche nach dem Horizont VI, 2024, Öl / Lw, je 120 x 160 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image18",
+          "source": "image18.JPG",
+          "caption": {
+            "de": [
+              "Auf der Suche nach dem Horizont I,IV und Vi, 2024, Öl / Lw, je 120 x 160 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image3",
+          "source": "image3.JPG",
+          "caption": {
+            "de": [
+              "Auf der Suche nach dem Horizont IV, 2024, Öl / Lw, je 120 x 160 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image12",
+          "source": "image12.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"Auf der Suche nach dem Horizont IV\", 2024"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

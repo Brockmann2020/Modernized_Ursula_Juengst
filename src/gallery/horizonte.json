@@ -1,10 +1,6 @@
 {
   "series": {
     "title": "Horizonte",
-    "introduction": {
-      "de": "Gemälde von Ursula Jüngst in Gesamtansichten und Ausschnitten.",
-      "en": "Paintings by Ursula Jüngst in full views and details."
-    },
     "coverImageId": "slide-detail"
   },
   "works": [

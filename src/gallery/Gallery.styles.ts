@@ -26,10 +26,11 @@ export const IntroInner = styled('div')(({ theme }) => ({
     margin: theme.spacing(1.5, 0, 2),
     fontFamily: displayFont,
     fontWeight: 400,
-    fontSize: 'clamp(3.4rem, 8vw, 8rem)',
+    fontSize: 'clamp(2.75rem, 7vw, 7.5rem)',
     letterSpacing: '-0.065em',
     lineHeight: 0.95,
     overflowWrap: 'anywhere',
+    textWrap: 'balance',
   },
   '& p': {
     maxWidth: '37ch',
@@ -53,6 +54,9 @@ export const Cover = styled('figure')(({ theme }) => ({
     height: 'auto',
     aspectRatio: '1.85',
     objectFit: 'cover',
+  },
+  '&[data-contain="true"] img': {
+    objectFit: 'contain',
   },
   '& figcaption': {
     marginTop: theme.spacing(1),
@@ -79,6 +83,8 @@ export const IndexInner = styled('div')(({ theme }) => ({
   '& > div > span': { color: theme.palette.text.secondary, fontSize: '0.8rem' },
   '& ul': {
     display: 'flex',
+    flex: '1 1 28rem',
+    minWidth: 0,
     flexWrap: 'wrap',
     alignItems: 'center',
     gap: theme.spacing(0.75),
@@ -86,8 +92,10 @@ export const IndexInner = styled('div')(({ theme }) => ({
     padding: 0,
     margin: 0,
   },
+  '& li': { maxWidth: '100%' },
   '& a': {
     display: 'inline-block',
+    overflowWrap: 'anywhere',
     padding: theme.spacing(0.9, 1.5),
     color: theme.palette.text.primary,
     border: `1px solid ${theme.palette.divider}`,
@@ -100,6 +108,7 @@ export const IndexInner = styled('div')(({ theme }) => ({
 }));
 
 export const Work = styled('section')(({ theme }) => ({
+  backgroundColor: galleryColors.band,
   borderBottom: `1px solid ${theme.palette.divider}`,
   '&:nth-of-type(odd)': { backgroundColor: theme.palette.background.paper },
 }));
@@ -126,6 +135,7 @@ export const WorkInfo = styled('div')(({ theme }) => ({
     lineHeight: 1.04,
     letterSpacing: '-0.045em',
     overflowWrap: 'anywhere',
+    textWrap: 'balance',
   },
   '& p': { margin: theme.spacing(1.5, 0, 0), color: theme.palette.text.secondary },
 }));

@@ -1,0 +1,203 @@
+{
+  "series": {
+    "title": "Hochzeit des Lichts",
+    "coverImageId": "image133"
+  },
+  "blocks": [
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image123",
+          "source": "image123.JPG",
+          "caption": {
+            "de": [
+              "Ateliersituation:",
+              "Garten der Lüste"
+            ]
+          }
+        },
+        {
+          "id": "image124",
+          "source": "image124.JPG",
+          "caption": {
+            "de": [
+              "Garten der Lüste, 2016",
+              "Öl / Lw, 160 x 190 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image125",
+          "source": "image125.JPG",
+          "caption": {
+            "de": [
+              "Mangowalzer, 2016",
+              "Öl / Lw, 100 x 100 cm"
+            ]
+          }
+        },
+        {
+          "id": "image126",
+          "source": "image126.JPG",
+          "caption": {
+            "de": [
+              "Puls, 2016",
+              "Öl / Lw, 100 x 100 cm"
+            ]
+          }
+        },
+        {
+          "id": "image127",
+          "source": "image127.JPG",
+          "caption": {
+            "de": [
+              "Nachtmorgen, 2016",
+              "Öl / Lw, 100 x 100 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image129",
+          "source": "image129.JPG",
+          "caption": {
+            "de": [
+              "Frohlocken, 2016",
+              "Öl / Lw, 55,5 x 120 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image119",
+          "source": "image119.JPG",
+          "caption": {
+            "de": [
+              "Bienenwalzer, 2015",
+              "Öl / Lw, 120 x 90 cm"
+            ]
+          }
+        },
+        {
+          "id": "image118",
+          "source": "image118.JPG",
+          "caption": {
+            "de": [
+              "Himbeerfee, 2015",
+              "Öl / Lw, 120 x 90 cm"
+            ]
+          }
+        },
+        {
+          "id": "image117",
+          "source": "image117.JPG",
+          "caption": {
+            "de": [
+              "Stelldichein, 2015",
+              "Öl / Lw, 120 x 90 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image128",
+          "source": "image128.JPG",
+          "caption": {
+            "de": [
+              "Waldfeenfest, 2016",
+              "Öl / Lw, 100 x 100 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image134",
+          "source": "image134.JPG",
+          "caption": {
+            "de": [
+              "Sonnenkuss, 2017",
+              "Öl / Lw, 30 x 40 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image133",
+          "source": "image133.JPG",
+          "caption": {
+            "de": [
+              "Hochzeit des Lichts III, 2016",
+              "Öl / Lw, 90 x 120 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image130",
+          "source": "image130.JPG",
+          "caption": {
+            "de": [
+              "Herzkirschentango, 2016",
+              "Öl / Lw, 70 x 90 cm"
+            ]
+          }
+        },
+        {
+          "id": "image131",
+          "source": "image131.JPG",
+          "caption": {
+            "de": [
+              "Lichterfangen, 2016",
+              "Öl / Lw, 70 x 90 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image132",
+          "source": "image132.JPG",
+          "caption": {
+            "de": [
+              "Spiel, 2016",
+              "Öl / Lw, 160 x 190 cm"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

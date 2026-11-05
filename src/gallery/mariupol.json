@@ -1,0 +1,206 @@
+{
+  "series": {
+    "title": "Mariupol",
+    "coverImageId": "image6"
+  },
+  "blocks": [
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image6",
+          "source": "image6.JPG",
+          "caption": {
+            "de": [
+              "Triptychon Mariupol, Spanien 2022"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image20",
+          "source": "image20.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"Mariupol I\", 2022"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image10",
+          "source": "image10.JPG",
+          "caption": {
+            "de": [
+              "Mariupol II, I, III, 2022, Öl / Lw, 160 x 120 cm (von links)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image9",
+          "source": "image9.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"Mariupol II\", 2022"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image23",
+          "source": "image23.JPG",
+          "caption": {
+            "de": [
+              "Babuchka, 2022",
+              "Öl / Lw, 160 x 120 cm"
+            ]
+          }
+        },
+        {
+          "id": "image25",
+          "source": "image25.JPG",
+          "caption": {
+            "de": [
+              "Malgré tout, 2022",
+              "Öl / Lw, 160 x 120 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image26",
+          "source": "image26.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"Malgré tout\", 2022"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image27",
+          "source": "image27.JPG",
+          "caption": {
+            "de": [
+              "Zyklus Mariupol, Atelier Nürnberg, Mai 2022"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image28",
+          "source": "image28.JPG",
+          "caption": {
+            "de": [
+              "Sirene, 2022",
+              "Öl / Lw, 160 x 120 cm"
+            ]
+          }
+        },
+        {
+          "id": "image30",
+          "source": "image30.JPG",
+          "caption": {
+            "de": [
+              "Den Teufel in Marmelade versenken, 2022",
+              "Öl / Lw, 160 x 120 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image31",
+          "source": "image31.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"Den Teufel in Marmelade versenken\", 2022"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image32",
+          "source": "image32.JPG",
+          "caption": {
+            "de": [
+              "Immer wieder Gelb I, 2022",
+              "Öl / Lw, 90 x 70 cm"
+            ]
+          }
+        },
+        {
+          "id": "image33",
+          "source": "image33.JPG",
+          "caption": {
+            "de": [
+              "Immer wieder Gelb IV, 2022",
+              "Öl / Lw, 90 x 70 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image35",
+          "source": "image35.JPG",
+          "caption": {
+            "de": [
+              "Immer wieder Gelb II, 2022",
+              "Öl / Lw, 90 x 70 cm"
+            ]
+          }
+        },
+        {
+          "id": "image34",
+          "source": "image34.JPG",
+          "caption": {
+            "de": [
+              "Immer wieder Gelb III, 2022",
+              "Öl / Lw, 90 x 70 cm"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

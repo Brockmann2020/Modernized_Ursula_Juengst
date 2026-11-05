@@ -1,0 +1,260 @@
+{
+  "series": {
+    "title": "Elementare Akkorde",
+    "coverImageId": "image13"
+  },
+  "blocks": [
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image12",
+          "source": "image12.JPG",
+          "caption": {
+            "de": [
+              "Goya tanzt Lava, 2014",
+              "Öl / Lw, 165 x 720 cm, (5-teilig)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image13",
+          "source": "image13.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"Goya tanzt Lava\", 2014"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image14",
+          "source": "image14.JPG",
+          "caption": {
+            "de": [
+              "das Himmelsriff, 2014",
+              "Öl / Lw, 165 x 725 cm (5-teilig)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image10",
+          "source": "image10.JPG",
+          "caption": {
+            "de": [
+              "das Himmelsriff, 2014",
+              "Öl / Lw, 165 x 725 cm (5-teilig)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image23",
+          "source": "image23.JPG",
+          "caption": {
+            "de": [
+              "das Himmelsriff, 2014",
+              "Öl / Lw, 165 x 725 cm (Teil 3)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image15",
+          "source": "image15.JPG",
+          "caption": {
+            "de": [
+              "Sonnensommer, 2015",
+              "Öl / Lw, 165 x 725 cm (5-teilig)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image16",
+          "source": "image16.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"Sonnensommer\", 2015"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image17",
+          "source": "image17.JPG",
+          "caption": {
+            "de": [
+              "Sonnensommer, 2015",
+              "Öl / Lw, 165 x 725 cm (Teil 1)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image18",
+          "source": "image18.JPG",
+          "caption": {
+            "de": [
+              "Sonnensommer, 2015",
+              "Öl / Lw, 165 x 725 cm (Teil 2)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image19",
+          "source": "image19.JPG",
+          "caption": {
+            "de": [
+              "Sonnensommer, 2015",
+              "Öl / Lw, 165 x 725 cm (Teil 3)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image20",
+          "source": "image20.JPG",
+          "caption": {
+            "de": [
+              "Sonnensommer, 2015",
+              "Öl / Lw, 165 x 725 cm (Teil 4)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image21",
+          "source": "image21.JPG",
+          "caption": {
+            "de": [
+              "Sonnensommer, 2015",
+              "Öl / Lw, 165 x 725 cm (Teil 5)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image22",
+          "source": "image22.JPG",
+          "caption": {
+            "de": [
+              "Ausschnitt aus \"Sonnensommer\", 2015"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image24",
+          "source": "image24.JPG",
+          "caption": {
+            "de": [
+              "Eurydike u. Orpheus, 2013",
+              "Öl / Lw, 165 x 580 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image5",
+          "source": "image5.JPG",
+          "caption": {
+            "de": [
+              "Aleppo – Heilige Nacht, 2014",
+              "Öl / Lw, 165 x 145 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image2",
+          "source": "image2.JPG",
+          "caption": {
+            "de": [
+              "Schöntat, 2012",
+              "Öl / Lw, 165 x 145 cm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "images": [
+        {
+          "id": "image7",
+          "source": "image7.JPG",
+          "caption": {
+            "de": [
+              "Goya tanzt Lava, 2014",
+              "Öl / Lw, 165 x 720 cm, (5-teilig)"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
