@@ -1,0 +1,174 @@
+{
+  "groups": [
+    {
+      "de": "Malerei",
+      "en": "Painting",
+      "items": [
+        {
+          "page": "horizonte",
+          "de": "Horizonte",
+          "en": "Horizonte"
+        },
+        {
+          "legacyFile": "Auferstehen.html",
+          "de": "Auf(er)stehen",
+          "en": "Auf(er)stehen"
+        },
+        {
+          "legacyFile": "Malen_gegen_die_Dunkelheit.html",
+          "de": "Malen gegen die Dunkelheit",
+          "en": "Malen gegen die Dunkelheit"
+        },
+        {
+          "legacyFile": "Noli_me_tangere.html",
+          "de": "Noli me tangere",
+          "en": "Noli me tangere"
+        },
+        {
+          "legacyFile": "Das_Schweigen_brechen.html",
+          "de": "Das Schweigen brechen",
+          "en": "Das Schweigen brechen"
+        },
+        {
+          "legacyFile": "Mariupol.html",
+          "de": "Mariupol",
+          "en": "Mariupol"
+        },
+        {
+          "legacyFile": "Begegnungsspuren.html",
+          "de": "Begegnungspuren",
+          "en": "Begegnungsspuren"
+        },
+        {
+          "legacyFile": "Corona.html",
+          "de": "Corona",
+          "en": "Corona"
+        },
+        {
+          "legacyFile": "Fiesta_de_la_vida.html",
+          "de": "Fiesta de la vida",
+          "en": "Fiesta de la vida"
+        },
+        {
+          "legacyFile": "Sonnengesang.html",
+          "de": "Sonnengesang",
+          "en": "Sonnengesang"
+        },
+        {
+          "legacyFile": "Primavera.html",
+          "de": "Primavera",
+          "en": "Primavera"
+        },
+        {
+          "legacyFile": "Hochzeit_des_Lichts.html",
+          "de": "Hochzeit des Lichts",
+          "en": "Hochzeit des Lichts"
+        },
+        {
+          "legacyFile": "Elementare_Akkorde.html",
+          "de": "Elementare Akkorde",
+          "en": "Elementare Akkorde"
+        },
+        {
+          "legacyFile": "Sternengeburt.html",
+          "de": "Sternengeburt",
+          "en": "Sternengeburt"
+        },
+        {
+          "legacyFile": "Archaeologie.html",
+          "de": "Archäologie",
+          "en": "Archäologie"
+        },
+        {
+          "legacyFile": "Azulen.html",
+          "de": "Azulen",
+          "en": "Azulen"
+        },
+        {
+          "legacyFile": "Zeichnungen.html",
+          "de": "Zeichnungen",
+          "en": "Drawings"
+        }
+      ]
+    },
+    {
+      "de": "Vita",
+      "en": "Biography",
+      "items": [
+        {
+          "legacyFile": "Biografie.html",
+          "de": "Biografie",
+          "en": "Biography"
+        },
+        {
+          "legacyFile": "Ausstellungen.html",
+          "de": "Ausstellungen",
+          "en": "Exhibitions"
+        },
+        {
+          "legacyFile": "Arbeitssituationen.html",
+          "de": "Arbeitssituationen",
+          "en": "Work Situations"
+        }
+      ]
+    },
+    {
+      "de": "Publikationen",
+      "en": "Publications",
+      "items": [
+        {
+          "legacyFile": "Literatur.html",
+          "de": "Bücher/Kataloge",
+          "en": "Books/Catalogues"
+        },
+        {
+          "legacyFile": "Flyer.html",
+          "de": "Flyer",
+          "en": "Flyers"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "legacyFile": "Kunst_am_Bau.html",
+      "de": "Kunst am Bau",
+      "en": "Art in Architecture"
+    },
+    {
+      "legacyFile": "Presse.html",
+      "de": "Presse",
+      "en": "Press"
+    },
+    {
+      "legacyFile": "Filme.html",
+      "de": "Filme",
+      "en": "Films"
+    },
+    {
+      "legacyFile": "Kontakt.html",
+      "de": "Kontakt",
+      "en": "Contact"
+    },
+    {
+      "legacyFile": "Aktuell.html",
+      "de": "Aktuell",
+      "en": "News"
+    },
+    {
+      "legacyFile": "Statement.html",
+      "de": "Statement",
+      "en": "Statement"
+    }
+  ],
+  "text": {
+    "de": {
+      "navigation": "Hauptnavigation",
+      "footer": "© by Ursula Jüngst | Impressum & Datenschutz"
+    },
+    "en": {
+      "navigation": "Main navigation",
+      "footer": "© by Ursula Jüngst | Legal Notice & Data Protection"
+    }
+  }
+}

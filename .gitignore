@@ -1,0 +1,10 @@
+/node_modules/
+/.next/
+/out/
+/.generated/
+/media/
+/public/horizonte/
+/next-env.d.ts
+*.tsbuildinfo
+.env*
+.idea/

@@ -1,0 +1,44 @@
+import { z } from 'zod';
+
+const id = z.string().regex(/^[a-z0-9-]+$/);
+const positiveInteger = z.number().int().positive();
+
+const schema = z.object({
+  works: z.array(z.object({
+    id,
+    title: z.string().trim().min(1),
+    year: positiveInteger,
+    material: z.literal('oil-on-canvas'),
+    heightCm: positiveInteger,
+    widthCm: positiveInteger,
+  })).min(1),
+  entries: z.array(z.object({
+    id,
+    work: id,
+    source: z.string().regex(/^[^/\\\\]+\.jpe?g$/i),
+    view: z.enum(['full', 'detail']),
+  })).min(1),
+});
+
+export const dimensionsSchema = z.record(id, z.object({
+  width: positiveInteger,
+  height: positiveInteger,
+}));
+
+/** @param {unknown} input */
+export function parseHorizonte(input) {
+  const { works, entries } = schema.parse(input);
+  const worksById = new Map(works.map((work) => [work.id, work]));
+  const imageIds = new Set(entries.map((entry) => entry.id));
+
+  if (worksById.size !== works.length) throw new Error('Duplicate Horizonte work ID.');
+  if (imageIds.size !== entries.length) throw new Error('Duplicate Horizonte image ID.');
+
+  for (const entry of entries) {
+    if (!worksById.has(entry.work)) {
+      throw new Error(`Image "${entry.id}" refers to unknown work "${entry.work}".`);
+    }
+  }
+
+  return { worksById, entries };
+}

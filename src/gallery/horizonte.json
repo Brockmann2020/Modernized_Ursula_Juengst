@@ -1,0 +1,80 @@
+{
+  "works": [
+    {
+      "id": "slide",
+      "title": "Slide",
+      "year": 2026,
+      "material": "oil-on-canvas",
+      "heightCm": 180,
+      "widthCm": 140
+    },
+    {
+      "id": "golem",
+      "title": "Golem",
+      "year": 2026,
+      "material": "oil-on-canvas",
+      "heightCm": 180,
+      "widthCm": 140
+    },
+    {
+      "id": "freiheit",
+      "title": "Freiheit des Anfangs",
+      "year": 2025,
+      "material": "oil-on-canvas",
+      "heightCm": 180,
+      "widthCm": 140
+    },
+    {
+      "id": "hoffnung",
+      "title": "Entfesselte Hoffnung",
+      "year": 2026,
+      "material": "oil-on-canvas",
+      "heightCm": 180,
+      "widthCm": 140
+    }
+  ],
+  "entries": [
+    {
+      "id": "slide",
+      "work": "slide",
+      "source": "Slide_2026.jpg",
+      "view": "full"
+    },
+    {
+      "id": "slide-detail",
+      "work": "slide",
+      "source": "Slide_2026_Ausschnitt.jpg",
+      "view": "detail"
+    },
+    {
+      "id": "golem",
+      "work": "golem",
+      "source": "Golem.jpg",
+      "view": "full"
+    },
+    {
+      "id": "golem-detail",
+      "work": "golem",
+      "source": "Nah eins Golem.jpg",
+      "view": "detail"
+    },
+    {
+      "id": "freiheit",
+      "work": "freiheit",
+      "source": "Freiheit des Anfangs.JPG",
+      "view": "full"
+    },
+    {
+      "id": "hoffnung",
+      "work": "hoffnung",
+      "source": "Entfesselte Hoffnung.jpg",
+      "view": "full"
+    },
+    {
+      "id": "hoffnung-detail",
+      "work": "hoffnung",
+      "source": "Nah Entfesselte Hoffnung.jpg",
+      "view": "detail"
+    }
+  ]
+}
