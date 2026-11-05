@@ -13,33 +13,41 @@ export const GalleryBand = styled('div')(({ theme }) => ({
 }));
 
 export const Chapter = styled('section')(({ theme }) => ({
-  color: galleryColors.ink,
-  backgroundColor: galleryColors.canvas,
-  borderTop: `4px solid ${galleryColors.accent}`,
+  maxWidth: siteWidth,
+  marginInline: 'auto',
+  padding: theme.spacing(4, 3),
   scrollMarginTop: theme.spacing(2),
   '& > div': {
-    maxWidth: siteWidth,
+    maxWidth: singleImageWidth,
     marginInline: 'auto',
-    padding: theme.spacing(5, 3),
+    paddingTop: theme.spacing(2),
+    borderTop: `1px solid ${theme.palette.divider}`,
+    display: 'grid',
+    gap: theme.spacing(1),
   },
   '& span': {
-    color: galleryColors.accent,
+    color: theme.palette.primary.main,
     fontSize: '0.75rem',
-    letterSpacing: '0.16em',
+    letterSpacing: '0.13em',
     textTransform: 'uppercase',
     fontWeight: 700,
   },
   '& h2': {
-    maxWidth: '24ch',
-    margin: theme.spacing(1.5, 0, 0),
+    maxWidth: '30ch',
+    margin: 0,
     fontFamily: displayFont,
     fontWeight: 400,
-    fontSize: 'clamp(2.3rem, 5vw, 5rem)',
-    lineHeight: 1.05,
+    fontSize: 'clamp(1.8rem, 3.6vw, 3.3rem)',
+    lineHeight: 1.1,
     textWrap: 'balance',
   },
   [theme.breakpoints.up('md')]: {
-    '& > div': { padding: theme.spacing(6, 6) },
+    padding: theme.spacing(5, 6, 4),
+    '& > div': {
+      gridTemplateColumns: '8rem minmax(0, 1fr)',
+      alignItems: 'baseline',
+      gap: theme.spacing(2),
+    },
   },
 }));
 
