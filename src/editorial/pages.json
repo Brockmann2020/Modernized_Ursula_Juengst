@@ -1,0 +1,2560 @@
+[
+  {
+    "slug": "arbeitssituationen",
+    "title": {
+      "de": "Arbeitssituationen",
+      "en": "Work Situations"
+    },
+    "layout": "photo-essay",
+    "sections": [
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Arbeitssituationen/image13.JPG",
+            "caption": {
+              "de": "Ausstellungsaufbau Bauchheim Museum \"AUF(ER)STEHEN\", 2025"
+            }
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Arbeitssituationen/image10.JPG",
+            "caption": {
+              "de": "Arbeit an \"Das Schweigen brechen\", Spanien 2022"
+            }
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Arbeitssituationen/image9.JPG",
+            "caption": {
+              "de": "Arbeit an \"Schreck – Covid 19\", 2020, Öl / Lw, 230 x 700 cm"
+            }
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Arbeitssituationen/image8.JPG",
+            "caption": {
+              "de": "Arbeit an \"Wider der Tränen der Mütter\", Spanien 2019"
+            }
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Arbeitssituationen/image0.JPG",
+            "caption": {
+              "de": "Arbeit an \"Sonnensommer\", Spanien 2015"
+            }
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Arbeitssituationen/image4.JPG",
+            "caption": {
+              "de": "Arbeitssituation, Spanien 2015"
+            }
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Arbeitssituationen/image7.JPG",
+            "caption": {
+              "de": "Im Atelier, 2016"
+            }
+          },
+          {
+            "type": "image",
+            "source": "Arbeitssituationen/image6.JPG",
+            "caption": {
+              "de": "Im Atelier, 2016"
+            }
+          },
+          {
+            "type": "image",
+            "source": "Arbeitssituationen/image5.JPG",
+            "caption": {
+              "de": "Im Atelier, 2016"
+            }
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Arbeitssituationen/image11.JPG",
+            "caption": {
+              "de": "Ateliersituation, \"Eurydike und Orpheus\", Nürnberg 2013"
+            }
+          },
+          {
+            "type": "image",
+            "source": "Arbeitssituationen/image12.JPG",
+            "caption": {
+              "de": "Ateliersituation, \"Garten der Lüste\", Nürnberg 2016"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ausstellungen",
+    "title": {
+      "de": "Ausstellungen",
+      "en": "Exhibitions"
+    },
+    "layout": "timeline",
+    "sections": [
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Ausstellungen/image0.JPG"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2026",
+          "en": "2026"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "„Auf der Suche nach dem Horizont“, Museen Miltenberg (E)\n„Dornenkrone“, St. Andreas, Regensburg (E)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2025",
+          "en": "2025"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Trapasso - Hinübergehen, Diözesanmuseum Paderborn (G)\nHerbstsalon, Kunstverein Erlangen, Kunstpalais Erlangen (G)\n\"AUF(ER)STEHEN – Gemälde – Ursula Jüngst\", Buchheim Museum, Bernried (E)\n\"Die Kraft der Zärtlichkeit\", Pfarrkirche Herz Jesu, Erlangen (E)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2024",
+          "en": "2024"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Dansa de colors\", Museo Casa O´Connor, Tarragona, Spanien (E)\n\"Wunschwelten\", Künstlerbund Schwabach, Stadtmuseum Schwabach (G)\n\"Mariupol – Malen gegen den Krieg\", St. Johannis, Schweinfurt (E)\n\"Aufgefächert!\", 6. Triennale für zeitgenössische Kunst in Franken,\nKunsthalle Schweinfurt (G)\n\"Malen gegen die Dunkelheit\", Diözesanmuseum Paderborn (E)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2023",
+          "en": "2023"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Um Himmels Willen\", Offene Kirche St. Klara, Nürnberg (E)\n\"Herbstsalon 2023\", Kunstverein Erlangen, Kunstmuseum Erlangen (G)\n\"All - In\", BBK Nürnberg Mittelfranken, Nürnberg (G)\n\"KUNSTRAUM\", KunstRaumHeilsbronn e.V., Heilsbronn (G)\n\"Die nächsten 75 Jahre\", Künstlerbund Schwabach, Stadtmuseum Schwabach (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2022",
+          "en": "2022"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Galerie Schrade, art KARLSRUHE, Karlsruhe (G)\n\"Herbstsalon 2022\", Kunstverein Erlangen, Kunstpalais Erlangen (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2021",
+          "en": "2021"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"und hätte der Liebe nicht\", KunstRaumHeilsbronn e.V., Münster Heilsbronn (E)\n\"Egoisten\", Künstlerbund Schwabach, Stadtmuseum Schwabach (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2020",
+          "en": "2020"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Galerie Schrade, art KARLSRUHE, Karlsruhe (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2019",
+          "en": "2019"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Homenage a la Virgen de Remei\", Museo Casa O´Connor, Tarragona, Spanien (E)\n\"Hochzeit des Lichts\", Museum Kloster Wechterswinkel, Bastheim (mit Th. Röthel) (E)\n\"Licht ist dein Kleid\", Philippuskirche, Rummelsberg (E)\n\"Fiesta de la vida\", Galerie Schrade, Schloß Mochental (E)\nGalerie Schrade, art KARLSRUHE, Karlsruhe (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2018",
+          "en": "2018"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Galerie Schrade, art KARLSRUHE, Karlsruhe (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2017",
+          "en": "2017"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Hochzeit des Lichts\", Stadttheater Fürth (E)\n\"TRIO 6, BBK Franken\", Museum Kloster Wechterswinkel, Bastheim (G)\none artist show, Galerie Meier, art KARLSRUHE, Karlsruhe (E)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2016",
+          "en": "2016"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Elementare Akkorde\", Galerie Meier, Freiburg (E)\nGalerie Schrade, Art Fair Köln, Köln (G)\n\"Elementare Akkorde\", Galerie Schrade, Karlsruhe (E)\nGalerie Schrade, art KARLSRUHE, Karlsruhe (G)\n\"Elementare Akkorde\", Buchpräsentation, Nürnberg (E)\n\"40 Jahre Galerie mit der blauen Tür\", Kunstmuseum Erlangen (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2015",
+          "en": "2015"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Schnee von Gestern und Heute\", Galerie Meier, Freiburg (G)\n\"Zeit - Räume\", EFH, Nürnberg (G)\none artist show, Galerie Meier, art KARLSRUHE, Karlsruhe (E)\n\"Die Farbe Blau\", Galerie Liebau, Fulda (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2014",
+          "en": "2014"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Leben das sich farbig spiegelt. Verwandlungen\", Herz Jesu Kirche, Erlangen (E)\n\"Farbe meine Gesang\", Museum.Burg.Miltenberg, Miltenberg (E)\n\"Farbencredo\", Galerie Meier, Freiburg (E)\n\"Künstler der Galerie\", Galerie Liebau, Burghaun (G)\n\"Künstler der Galerie\", Galerie Lutz - mit der blauen Tür, Nürnberg (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2013",
+          "en": "2013"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Farbentanz\", Kunst & Kultur am Dachsberg, Rückersdorf (E)\n\"Gemäldesommer\", Galerie Meier, Freiburg (G)\n\"Heimspiel\", Galerie Bürgerhaus, Schwabach (G)\n\"Kunst is Verbeelding\", Galerie interart.nl, Heeswijk-Dinther, Niederlande (G)\n\"Künstler der Galerie\", Galerie Liebau, Burghaun (G)\nKunsthaus Reitbahn 3, Ausstellung Künstlerbund Schwabach, Ansbach (G)\none artist show, Galerie Meier, art KARLSRUHE, Karlsruhe"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2012",
+          "en": "2012"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "„Der Pinselstrich als Weltformel\", Kulturscheune, Nürnberg (E)\n\"Ursula Jüngst - Malerei\", Galerie H. Probst, Nonnenhorn (E)\n\"NN-Kunstpreis\", Museum für angewandte Kunst, Gera (G)\n\"Künstler der Galerie\", Galerie Meier, Freiburg (G)\n\"Experimentelle 17\", Schloß Randegg, Gottmadingen (G)\n\"Farbexplosionen\", Atelier Steinstraße, Nürnberg (E)\n\"NN-Kunstpreis\", Kunsthaus, Nürnberg (G)\n\"Der Pinselstrich als Weltformel\", Galerie Meier, Freiburg (E)\n\"Künstler des Kunstvereins Schwabach\", Museum Stolpe, Polen (G)\n\"Starke Frauen\", Galerie Bürgerhaus, Schwabach (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2011",
+          "en": "2011"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Winterausstellung\", Kunstverein, Erlangen (G)\n\"Schnee von Gestern und Heute\", Galerie Meier, Freiburg (G)\n„Farbe meine Sprache\", Kunstverein Offenburg Mittelbaden, Offenburg (E)\n\"Heilige\",Institut für theologische Bildung, Freising (E)\n\"NN-Kunstpreis\", Caixa Forum, Cordoba (G)\n\"Gestreichelte Meere\", Galerie Liebau, Burghaun (mit C. Heinl) (E)\n\"NN-Kunstpreis\", Kunsthaus, Nürnberg (G)\n\"Künstler der Galerie\", Galerie Meier, Freiburg (G)\n\"Ursula Jüngst - Malerei\", Galerie Lutz - mit der blauen Tür, Nürnberg (E)\n\"Die Kraft der Farbe\", Galerie Oben, Chemnitz (E)\none artist show, Galerie Meier, art KARLSRUHE, Karlsruhe (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2010",
+          "en": "2010"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "„Magie der Farbe\", Ursula Jüngst, Galerie Nolte, Münster (E)\nWinterausstellung 2010, Kunstverein, Palais Sutterheim, Erlangen (G)\n\"Künstler der Galerie\", Galerie Bürgerhaus, Schwabach (G)\nGalerie Nolte, Contemporary art Ruhr, Essen (G)\n\"NN-Kunstpreis\", Musée des Beaux Arts, Nizza (G)\n\"Künstler der Galerie\", Galerie Meier, Freiburg (G)\n\"Nächte der Galerien\", Galerie Nolte, Münster (G)\n\"NN-Kunstpreis\", Kunsthaus, Nürnberg (G)\n\"Die Kraft der Farbe\", Galerie Kreuzer, Amorbach (E)\none artist show, Galerie Meier, art KARLSRUHE, Karlsruhe"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2009",
+          "en": "2009"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Heute und Gestern\", Galerie Meier, Berlin (G)\n\"Winterausstellung\", Kunstverein, Erlangen (G)\n\"Und das soll Kunst sein\", Kunstverein, Freiburg (G)\n\"Farbe ist meine Sprache\", Galerie Meier, Freiburg (E)\n\"NN-Kunstpreis\", Kunsthaus, Nürnberg (G)\n\"Künstler der Galerie\", Galerie Bürgerhaus, Schwabach (G)\n\"Sternengeburt\", Offene Kirche St. Klara, Nürnberg (E)\n\"Malerei Ursula Jüngst\", Literaturhaus, Berlin (E)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2008",
+          "en": "2008"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Bilder aus Spanien\", Galerie Meier, Berlin (E)\n\"Gestreichelte Meere\", Kunstverein Erlangen e.V. (E)\n\"Vulkangeflüster\", Galerie Meier, Freiburg (E)\n\"Erinnerungen\", Galerie Kochsmühle, Obernburg (G)\nRathaus Mudau, Mudau (G)\nLandratsamt Erbach, Erbach (G)\n\"NN-Kunstpreis\", Kunsthaus, Nürnberg (G)\n\"Künstler der Galerie\",Galerie Bürgerhaus, Schwabach (G)\n\"Vulkangeflüster\", Malerei von Ursula Jüngst, Kunstverein Neckar-Odenwald,\nBuchen (E)\none artist show, Galerie Meier, art KARLSRUHE, Karlsruhe"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2007",
+          "en": "2007"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"NEUE GRUPPE Haus der Kunst München GO OBERPFALZ\", Weiden (G)\n\"Sternengeburt\", Galerie Meier, Berlin (mit C. Heinl) (E)\n\"NN-Kunstpreis\", Kunsthaus, Nürnberg (G)\n\"Verborgene Schönheit\", Germanisches Museum, Nürnberg (G)\n\"kleines ABC\", Galerie Pfaff, Schwarzenbruck (E)\n\"Farbgluten\", Galerie-Meier Freiburg (E)\"\"\n\"Begegnung\", Kunstmuseum Erlangen e.V. (E)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2006",
+          "en": "2006"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Künstler der Galerie\", Galerie Bürgerhaus, Schwabach (G)\n\"Durch-Bruch\", Klara Kirche, Nürnberg (E)\n\"33+1 Egoisten\", Kunsthalle Nürnberg (G)\n\"Malerei und Zeichnungen\", Hauck & Aufhäuser, München (E)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2005",
+          "en": "2005"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Vulkangeflüster\", Stadtmuseum Gunzenhausen (E)\n\"Ateliergeheimnisse\", Stadtverführungen, Nürnberg (G)\n\"Meine Maria\", Blaue Nacht, Offene Kirche St. Klara, Nürnberg (E)\n\"Farbraunen\", Medizin plus, Nürnberg (E)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2004",
+          "en": "2004"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Ateliertage, Fürth (G)\n\"NN-Kunstpreis\", Institut für Moderne Kunst, Shenzhen, China (G)\n\"Madre Maria y las Santas\", Museo Casa O`Connor, Tarragona, Spanien (E)\n\"NN-Kunstpreis\", Kunsthaus, Nürnberg (G)\n\"bilck-hindurch-bilck\", Offene Kirche St. Klara, Nürnberg (E)\n\"Vulkangeflüster\", Dresdner Bank, Nürnberg (E)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2003",
+          "en": "2003"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"KVE\", Palais Stutterheim, Erlangen (G)\n\"NN-Kunstpreis\", Kunsthaus, Nürnberg (G)\n\"Azulen\", Marktkirche, Essen (E)\n\"mirA\", Galerie im Schloß Borbeck, Essen (E)\n\"Nuni Nuni\", Fundació Caixa Vinaròs, Valencia, Spanien (E)\n\"Farbwelten\", Kunst am Dachsberg, Rückersdorf (E)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2002",
+          "en": "2002"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Künstler der Galerie\", Galerie Bürgerhaus, Schwabach (G)\n\"Paisajes de anima\", Museo Casa O`Connor, Tarragona, Spanien (E)\n\"Patkee, Patkee\", Grand Hotel, Le Meridien, Nürnberg (E)\n\"El color mi lenguaje\", Fundación Niebla, Casavells, Spanien (E)\n\"33 Egoisten\", Kunsthaus, Nürnberg (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2001",
+          "en": "2001"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Pintura\", Galerie Morandi, Girona, Spanien (G)\n\"Paisajes en el alma\", Sala Sebastia Juan Arbo, Amposta, Spanien (E)\n\"Knilche\", Maxtor, Nürnberg (E)\n\"Die Kraft der Farbe\", Klinikum, Nürnberg (E)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "2000",
+          "en": "2000"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Ton-Farbe, Farbe-Ton\", Atelier Nürnberg (m. J. Jäckle, Gitarre) (E)\n\"Arqueologia de subconsciente\", Galerie Machalco, Mexico-City, Mexiko (E)\n\"P.+T.\", Albrecht Dürer Gesellschaft, Nürnberg (G)\n\"Alpha und Omega\", Galerie Kreuzer, Amorbach (E)\nGalerie am Schloss, Weimar (G)\nGalerie Artistikum, Nürnberg (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "1999",
+          "en": "1999"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Malerei - Ursula Jüngst\", Galerie Wertheim-Bestenheid, Wertheim (E)\n\"Künstler der Galerie\", Galerie Bürgerhaus, Schwabach (G)\n\"Malerei - Ursula Jüngst\", Galerie Rolinck, Steinfurt (E)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "1998",
+          "en": "1998"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Farbwelten\", Allianz, Frankfurt (E)\n\"Ursula Jüngst\", Museum für Gegenwartskunst, Perm, Rußland (E)\n\"Kraft und Glanz\", Kunsthaus, Nürnberg (G)\n\"Ergon\", Integrata Galerie, Tübingen (E)\n\"1x2=4\", Kunsthaus, Nürnberg (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "1997",
+          "en": "1997"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Malerei und Zeichnungen\", Galerie Bürgerhaus, Schwabach (E)\n\"Im Kosmos der Farben\", Galerie Kohlenhof, Nürnberg (E)\n\"Erinnerungen\", Amtshausgalerie, Freudenberg (G)\n\"Palenque\", Galerie im Rathaus, Eichenbühl (E)\n\"Con color\", Galerie Punto, Barcelona (E)\n\"Haverie\", Landratsamt, Miltenberg (E)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "1996",
+          "en": "1996"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Archäologie des Unbewussten\", Dresdner Bank, Nürnberg (E)\n\"Ursula Jüngst\", Deutsche Botschaft, Moskau (E)\n\"Busco\", Integrata Galerie, Nürnberg (E)\n\"Ursula Jüngst\", Kloster Neu-Jerusalem, Istra, Rußland (E)\n\"Blau\", Travemünde und Kiel (G)\n\"Malerei und Knilche\", BASt, Bergisch Gladbach (E)\nGalerie Kochsmühle, Obernburg (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "1995",
+          "en": "1995"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Tombak, Nürnberg (G)\n\"Alpha und Omega\", Galerie Bürgerhaus, Schwabach (E)\n\"Archäologie des Unbewussten\", Galerie Kreuzer, Amorbach (E)\nGalerie Kin, Mexico-City, Mexiko (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "1994",
+          "en": "1994"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Galerie In Collaboration, Los Angeles, USA (G)\nGalerie Eklypse, San Diego, USA (G)\n\"Entdeckungsreise\", Kunsthaus, Nürnberg (E)\n\"Malerei – Ursula Jüngst\", Werkstatt, Plettenberg (E)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "1993",
+          "en": "1993"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Farben, Alül und Kretz\", Kofferfabrik, Fürth (E)\n\"Stipendiaten des Cusanuswerks\", Galerie der Stadt Kornwestheim (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "1990",
+          "en": "1990"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "\"Die Klasse Reuter\", Sandoz, Nürnberg (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "1989",
+          "en": "1989"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "St. Sebald, Nürnberg (G)"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "1988",
+          "en": "1988"
+        },
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Galerie \"+ -\", Walldürn (G)\nGruppenausstellung (G) / Einzelausstellung (E)"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "literatur",
+    "title": {
+      "de": "Bücher und Kataloge",
+      "en": "Books and Catalogues"
+    },
+    "layout": "cards",
+    "sections": [
+      {
+        "title": {
+          "de": "ESPERANZA"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image28.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Kloster Heidenheim in Altmühlfranken\nHeidenheim, 2025"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Auf(er)stehen"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image25.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Mit Texten von Prof. Dr. Erich Schneider, Erzbischof Dr. Markus Bentz und Ursula Jüngst.\n84 Seiten, 49 Abbildungen, 21,5 x 28 cm, Deutsch, Hardcover, Fadenheftung.\n\nBuchheim Verlag, Bernried\nISBN 978-3-7659-1116-3\n\nApril 2025"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Die Kraft der Zärtlichkeit"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image26.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Pfarramt Herz Jesu, Erlangen\nErlangen, 2025"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Mariupol – Malen gegen den Krieg"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image27.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Evang.-Luth. Dekanat Schweinfurt\nSchweinfurt, 2024"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Ariadnefäden des Lichts"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image23.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Mit Texten von Prof. Dr. Erich Schneider, Dr. Joachim Kuhn und Ursula Jüngst.\n200 Seiten, 136 Abbildungen, 24 x 30 cm, Deutsch / Englisch, Hardcover, Fadenheftung.\n\nmodo Verlag GmbH Freiburg i.Br.\nISBN 978-3-86833-331-2\n\nMai 2023"
+            }
+          },
+          {
+            "type": "download",
+            "source": "Literatur/UJ_Ariadnefaeden_2023.pdf",
+            "label": "Blick ins Buch"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "und hätte der Liebe nicht"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image22.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "KunstRaumHeilsbronn e. V.\nHeilsbronn, 2021"
+            }
+          },
+          {
+            "type": "download",
+            "source": "Flyer/UJ_Heilsbronn_2021.pdf",
+            "label": "PDF zur Ansicht und\nzum Herunterladen"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Der Pinselstrich als Weltformel\nMalerei von Ursula Jüngst"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image21.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Mit Texten von Dr. Christoph Schneider, Dr. Annette Hoffmann, Prof. Dr. Erich Schneider und Dr. Bert Schlichtenmaier. 136 Seiten, 80 Abbildungen, 28 x 30 cm, Deutsch / Englisch, Hardcover, Fadenheftung.\n\nmodo Verlag GmbH Freiburg i.Br.\nISBN 978-3-86833-271-1\n\nNovember 2019"
+            }
+          },
+          {
+            "type": "excerpt",
+            "label": {
+              "de": "...aus der Monografie"
+            },
+            "parts": [
+              {
+                "type": "text",
+                "value": {
+                  "de": "Großes Orchester\n\nFür einen Maler, der während der Zeit der Renaissance und im Barock gelebt hat, gehörte die Inszenierung großer Themen auf großen Flächen zu den Herausforderungen, denen er sich regelmäßig stellen musste oder vielleicht sogar durfte. Man denke nur an Michelangelos Werke in der Sixtinischen Kapelle in Rom oder, um den Bogen an das Ende dieser Epoche zu schlagen, an Tiepolos Fresko im Treppenhaus der Residenz in Würzburg. Überzeitlichen Ruhm errang ein Künstler vor allem dann, wenn er auch auf diesem Feld Herausragendes geleistet hatte. Mit dem Untergang des Barock ging das große Deckenfresko ebenfalls unter; andere Aufgaben rückten für die Kunst in den Vordergrund. Nachdem man sich von den Dekorationen im Klassizismus und Historismus wieder gelöst hatte – von dem was der Nazi-Monumentalismus hervorgebracht hat, wollen wir hier gar nicht reden – suchte eine freie Kunst in der zweiten Hälfte des 20. Jahrhunderts erneut nach der großen Fläche: Den Anfang machte Georg Meistermann (1911-1990) zwischen 1953 und 1956 mit seinem gewaltigen Glasfenster „Pfingsten\" in St. Kilian in Schweinfurt. Hans Hartung (1904 -1989) schuf ab den 1970 er Jahren in Antibes seine riesigen abstrakt-expressiven Werke und Fred Thieler (1916 -1999) malte zwischen 1989 und 1991 den „Nachthimmel\" in der Münchner Residenz.\n\nUnd da gibt es eine Künstlerin wie Ursula Jüngst, die seit ihrem Studium an der Nürnberger Akademie bei Hans Peter Reuter aus eigenem Antrieb, und weil sie es einfach so will, immer wieder große Formate in den Mittelpunkt ihrer Arbeit stellt. Einen frühen Beleg für ihr selbstständiges, freikünstlerisches Schaffen stellt das sich zu einem Panoramagemälde von 15 Metern Länge und 2 Metern Höhe entwickelnde Werk „Vulkangeflüster\" (vgl. S. 18 f.) aus dem Jahr 2003 dar. Diese Arbeit erscheint bereits ungewöhnlich reif und weist zugleich in vielem auf das voraus, was bis heute in konsequenter Weiterentwicklung das Schaffen von Ursula Jüngst prägt.\n\nIhre Gemälde entstehen über einen langen Zeitraum. Sie spannt selbst die Leinwände und trägt verschiedene Schichten an Grundierungen auf, um von Anfang an dem Malgrund ihre Atmung einzugeben. Dann, im eigentlichen malerischen Prozess, agiert sie in einem Wechselspiel zwischen zulassendem Experiment und bewusst kontrollierten Pinselsetzungen. Wenn ihr Auge bei diesem Dialog an einem Pinselstrich hängen bleibt, dann ist das Bild noch nicht fertig. Gelungen ist es ihrer Meinung nach erst, wenn der Blick mit Leichtigkeit im Bild herumwandern kann.",
+                  "en": "Großes Orchester\n\nFor a painter living in the Renaissance or the Baroque period, staging great themes on great surfaces belonged to the challenges he regularly had to face - or perhaps was even allowed to face. One need only think of Michelangelo's works in the Sistine Chapel in Rome or, to bridge to the end of that epoch, Tiepolo's fresco in the staircase of the Würzburg Residence. Timeless fame was achieved above all by an artist who excelled in this field as well.\nWith the end of the Baroque period, the great ceiling fresco also disappeared; other tasks moved to the foreground for art. After art had once again detached itself from decoration in Classicism and Historicism - and leaving aside entirely what Nazi monumentalism produced - free art in the second half of the twentieth century again sought the large format: Georg Meistermann led the way between 1953 and 1956 with his immense stained-glass window \"Pfingsten\" in St. Kilian in Schweinfurt. From the 1970s onward Hans Hartung created his huge abstract-expressionist works in Antibes, and between 1989 and 1991 Fred Thieler painted \"Nachthimmel\" in the Munich Residence.\nAnd then there is an artist like Ursula Jüngst, who since studying with Hans Peter Reuter at the Nuremberg Academy has, out of inner conviction and simply because she wants to, repeatedly placed large formats at the center of her work. An early example of her independent artistic practice is the work \"Vulkangeflüster\" from 2003, which developed into a panoramic painting fifteen meters long and two meters high. This work already appears unusually mature and anticipates much of what continues to characterize Ursula Jüngst's oeuvre in a consistent further development to this day.\nHer paintings come into being over a long period of time. She stretches the canvases herself and applies several layers of primer in order to give the support its own breath from the very beginning. Then, in the actual painterly process, she acts in an interplay between open experiment and consciously controlled brush marks. If, in this dialogue, her eye remains stuck on a single brushstroke, then the picture is not yet finished. In her view, it is only successful once the gaze can move through the picture with ease."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "FIESTA DE LA VIDA"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image20.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Galerie Schrade Schloß Mochental, 2019\nISBN 978-3-00-062654-8"
+            }
+          },
+          {
+            "type": "excerpt",
+            "label": {
+              "de": "...aus dem Katalog"
+            },
+            "parts": [
+              {
+                "type": "text",
+                "value": {
+                  "de": "FIESTA DE LA VIDA\n\nIm Zentrum der Präsentation der Malerei von Ursula Jüngst steht das in der Nikolauskapelle gezeigte Gemälde „Fiesta de la Vida\", das 2018 fertiggestellt wurde und erstmals der Öffentlichkeit vorgestellt wird.",
+                  "en": "FIESTA DE LA VIDA\n\nAt the center of Ursula Jüngst's presentation of painting stands the work \"Fiesta de la Vida\", shown in the Nikolaus Chapel, which was completed in 2018 and is being presented to the public for the first time."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Licht ist dein Kleid"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image19.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Rummelsberg, 2019\nISBN 978-3-00-062355-4"
+            }
+          },
+          {
+            "type": "excerpt",
+            "label": {
+              "de": "...aus dem Katalog"
+            },
+            "parts": [
+              {
+                "type": "text",
+                "value": {
+                  "de": "Licht ist dein Kleid\n\nLicht ist dein Kleid, das du anhast. Du breitest den Himmel aus wie ein Zelt; du baust deine Gemächer über den Wassern. Du fährst auf den Wolken wie auf einem Wagen und kommst daher auf den Fittichen des Windes, der du machst Winde zu deinen Boten und Feuerflammen zu deinen Dienern; der du das Erdreich gegründet hast auf festen Boden, dass es nicht wankt immer und ewiglich.",
+                  "en": "Licht ist dein Kleid\n\nLight is the garment you wear. You spread out the heavens like a tent; you build your chambers above the waters. You ride on the clouds as on a chariot and come forth on the wings of the wind, you make winds your messengers and flames of fire your servants; you founded the earth upon its firm ground so that it shall not totter forever and ever."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Elementare Akkorde\nMalerei von Ursula Jüngst"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image4.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Mit Texten von Dieter Hoffmann, Ursula Jüngst, Annette Schavan,\nBert Schlichtenmaier. 112 Seiten, 57 Abbildungen, 24 x 28 cm,\nDeutsch, Ganzleinen mit Schutzumschlag, Fadenheftung.\n\nmodo Verlag GmbH Freiburg i.Br.\nISBN 978-3-86833-182-0\n\nOktober 2015"
+            }
+          },
+          {
+            "type": "excerpt",
+            "label": {
+              "de": "...aus der Monografie"
+            },
+            "parts": [
+              {
+                "type": "text",
+                "value": {
+                  "de": "Ursula Jüngst, die in Nürnberg und Barcelona tätig ist, hat einen innovativen Beitrag zur Gestaltkraft der Farben geleistet. Seit über dreißig Jahren erkundet die 1965 in Miltenberg geborene Künstlerin malerische Positionen. Ihre Gemälde sind Ausdruck des modernen Lebensgefühls der Gegenwart. Sie thematisieren Grundsätzliches und können als „Elementare Akkorde\" verstanden werden.\n\nIhre Bilder erkennt man an ihrem Pinselstrich. Dieser ist in den vergangenen zehn Jahren zu einem Markenzeichen geworden. In einer Art Farbtanzbewegung lässt sich die experimentierfreudige Malerin auf den Prozess der Begegnung mit Farben ein, die ihr Träger von Empfindungen sind. Sie kommen flirrend, provokant oder zärtlich zum Einsatz. Sie mischen und ordnen sich zu einem fließenden Miteinander und verströmen eine belebende Wirkung.\n\n2013 hat Ursula Jüngst die Auseinandersetzung mit dem großen Format wiederaufgegriffen. Charakteristisches Merkmal ist das „Mitten im Bild-Sein\", das Mitgerissenwerden und das intensive Erleben des Farborchesters, das sinnlich greifbar und plastisch reliefhaft in den Raum hineinwirkt.\n\nDie Publikation stellt nicht nur neue Arbeiten der Künstlerin vor, sie zeigt auch, wo sie entstanden sind und im Detail, wie die verschiedenen Farben aufeinander reagieren. Zwischen den Werken, den Aufsätzen und Interviews, mittels derer man sich dem OEuvre der Künstlerin nähern kann, finden sich Kommentare der Malerin zu ihren Bildern: „Die Zikade singt ihr Mittagslied. Schrill. Kobaltblau beißt Rot. Die Sonne ist grell und heiß. Die Zeit scheint stehengeblieben, der Moment unendlich.\"",
+                  "en": "Ursula Jüngst, who works in Nuremberg and Barcelona, has made an innovative contribution to the formative power of color. For more than thirty years, the artist, born in Miltenberg in 1965, has explored painterly positions. Her paintings are expressions of the modern attitude to life in the present. They address fundamental questions and can be understood as \"Elementare Akkorde\".\nHer pictures are recognizable by their brushstroke. Over the past ten years it has become a trademark. In a kind of dance of color, the experimental painter enters into the process of encountering colors, which for her are carriers of sensation. They appear shimmering, provocative or tender. They mix and organize themselves into a flowing together and radiate an enlivening effect.\nIn 2013 Ursula Jüngst resumed her engagement with large format. A characteristic feature is being \"in the middle of the picture\", being swept along and experiencing the orchestra of colors intensely, sensually tangible and plastically relief-like in the room.\nThe publication not only presents new works by the artist, it also shows where they were created and, in detail, how the different colors react to one another. Between the works, essays and interviews through which one can approach the artist's oeuvre, there are also the painter's own comments on her pictures: \"The cicada sings its midday song. Shrill. Cobalt blue bites red. The sun is glaring and hot. Time seems to have stopped, the moment endless.\""
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Farbe mein Gesang"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image5.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Museum.Burg.Miltenberg, 2014\nISBN 978-3-9816592-0-7"
+            }
+          },
+          {
+            "type": "excerpt",
+            "label": {
+              "de": "...aus dem Katalog"
+            },
+            "parts": [
+              {
+                "type": "text",
+                "value": {
+                  "de": "Atelierbesuch bei Ursula Jüngst\n\n»Das Licht ist da, und die Farben umgeben uns; allein trügen wir kein Licht und keine Farben im eigenen Auge, so würden wir auch außer uns dergleichen nicht wahrnehmen.«\n(Goethe im Gespräch mit Eckermann, 26. 2. 1824)\n\nIm Nürnberger Stadtteil St. Johannis, im ruhigen Hinterhof einer Nebenstraße, liegt etwas versteckt das Atelier von Ursula Jüngst. Es befindet sich in der ehemaligen Bayerischen Metallwarenfabrik. Die großen, hohen, hellen Räume erhalten ihr Licht von Westen durch eine breite, die gesamte Längsseite einnehmende Fensterfront. Wenn die Sonne nachmittags tief steht, wird die Arbeit an den großen Gemälden schwieriger. Das orange Licht der Sonne macht die Wirkung der Farben extrem, das Gelb schreiend, das Rot feurig, so dass die Farben blass und mächtig zugleich wirken. Für Ursula Jüngst ist Farbe von elementarer Bedeutung. Um die spezifische Farbwirkung nicht zu gefährden, muss die künstlerische Arbeit unterbrochen werden. Kennt man ihren Arbeitsprozess, kann man dies nachvollziehen. Die bei erster und oberflächlicher Betrachtung willkürlich erscheinenden Pinselstriche sind tatsächlich kontrolliert und subtil auf den Bildträger aufgetragen. Die Bilder sind bis ins Letzte durchkomponiert. Oft trägt die Künstlerin die Farben mit starkem Pinselstrich mehrfach auf. Dadurch entsteht bisweilen der Eindruck, als seien ihre Werke gespachtelt. Die Oberfläche erhält Struktur und wirkt reliefartig. Bei Streiflicht heben sich einzelne Pinselstriche besonders hervor und steigern die Plastizität. Jedes Mal entsteht so ein neues, reizvoll optisches Spiel. Für ihre Arbeiten lässt sich die Malerin von verschiedenen Einflüssen inspirieren. Am Herzen liegen ihr dabei die Eindrücke, die sie in Auseinandersetzung mit den Kräften der Natur gewinnt. Am wichtigsten ist ihr die Farbe. »Farbe als Gegenstand der Malerei ist das konstituierende Thema im Werk von Ursula Jüngst.« Deshalb haben wir für die Ausstellung im Museum.Burg.Miltenberg den Titel »Farbe mein Gesang« gewählt.\n\nHermann Neubert\n\n\n\nFarbe mein Gesang\n\nAuszüge aus Gesprächen zwischen Ursula Jüngst und Bert Schlichtenmaier\n\nBS Kennzeichnend für die Malerei von Ursula Jüngst ist der Wille zum Bild. Eine mehrdimensionale Strahlkraft überrascht den Blick des Betrachters, lässt Ort und Zeit vergessen. Jede Farbe und jeder Pinselstrich wird einer eingehenden Prüfung unterzogen. Seit der Vorstellung der letzten Publikation »Farbe meine Sprache« hat sich ihre Malerei gesteigert. Gebündelte Energie entlädt sich in vitalen Pinselsetzungen und offenbart eine geladene Empfindungsfülle, die weltnahe Assoziationen zulässt. Farben kommen pastos und dynamisch, vibrierend oder zärtlich ruhend zum Einsatz. Sie mischen und durchdringen sich, ohne ihre Klarheit und Transparenz preiszugeben. Kühne Farbformen, unerklärliche Tiefenräume und pulsierende Setzungen verfeinern die atmende Farbkomposition. Einerseits schöpft sich die Malerei aus dem Kraftfeld der Kulturen, vermeidet allerdings jede Überlagerung von Symbolschichten, andererseits formt der Pinsel – wie ein Zauberstab – Farbklänge, Strukturen und Bewegungsspuren, die den Betrachter an dem Erlebten teilnehmen lassen und Bisheriges in Frage stellen.\nUJ Wichtig für mich ist, nicht nur meine eigenen Empfindungen in einer Art von abstrakten Expressionismus zu fassen, sondern jeden Strich kontrolliert zu setzen oder zu überarbeiten, wenn er zu dünn oder unklar formuliert ist und sich der gesamten Wirkung nicht einfügt. An keiner Stelle gibt es einen identischen Farbauftrag. Meine Bildfläche wandelt sich zum Farbraum.\nBS Den Beginn der künstlerischen Tätigkeit bestimmen gewebeartig verschlungene, mit wildem Pinselgestus vorgetragene Farbformgebilde, bei denen sich organisch Figuratives und Abstraktes noch verbindet. Heftige Gegensätze bestimmen das Bildgeviert. Mit großer Eindrücklichkeit begegnen wir Ordnung und Chaos, Hell und Dunkel, Licht und nächtlichem Schwarz, sowie Gewalt und Zuversicht. Obgleich die Arbeit nicht unmittelbar Gesetzen folgt, werden einzelne Bildelemente dennoch zu einer harmonischen Komposition zusammengefügt, deren spannungsvolles Gleichgewicht bei aller dynamisch fließenden Bewegung erhalten bleibt und eine belebende Wirkung verströmt. Die Malerei soll nur sinnlich mit den Augen wahrgenommen werden. Kann sie auch rational gefasst werden?\nUJ Natürlich, sie kann durch die Schärfung des Bewusstseins auch geklärt werden. Dessen ungeachtet ist für mich Malerei ein dynamischer Prozess. Mich interessiert die Veränderung. Innen und Außen gehören zusammen. Mein Farbduktus ist auch mein Lebensrhythmus, meine Farben mein innerer sichtbar gewordener Gesang. Andererseits will ich meine eigenen Klaviaturen begreifen, dirigieren und sehen, wie ich jonglieren kann. Es ist wie Musik in mir, schöne, die ich allerdings nur in Farbe formen kann. Mein Wille ist, dass die Farben regelrecht zum Singen kommen."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Farbe meine Sprache"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image6.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Kunstverein Offenburg e.V.\nOffenburg, 2011"
+            }
+          },
+          {
+            "type": "excerpt",
+            "label": {
+              "de": "...aus dem Katalog"
+            },
+            "parts": [
+              {
+                "type": "text",
+                "value": {
+                  "de": "Farbe meine Sprache - Unendliche Impressionen\n\n\"Farbe als Gegenstand der Malerei ist das konstituierende Thema im Werk von Ursula Jüngst. In diesem Kontext entstanden ihre neuen Bilder durch kontrolliertes Neben- und Übereinandersetzen einer Vielzahl kräftiger, immer etwa gleich langer, gerader Pinselstriche - eine akribische Technik, die sie in den beiden letzten Jahren weiter ausgearbeitet hat. Mit intensiven kontrastreichen Farben modelliert sie so komplexe Farbfelder und Strukturen, die sich in der aktuellen Werkphase noch freier und konkreter als früher entwickeln. Dabei vermischen sich die Farben subtil, denn Spuren der bereits vermalten Farben blitzen aus den unteren Malschichten immer wieder hervor. Es entstehen riesige kontrastreiche abstrakte Farblandschaften aus einem umfassenden System einzelner Pinselstriche, die sich in Bewegungsspuren ausrichten und den Malprozess sichtbar machen. Die maximale Größe dieser Formate orientiert sich dabei am Aktionsradius der gestischen Bewegung beim Malen. Nachdem die Grundkomposition zunächst in farbigen Flächen angelegt ist, wird sie nach und nach durch die Kumulation einzelner Pinselstriche strukturiert. Mit impressionistischem Gestus setzt Ursula Jüngst additiv Strich neben Strich, Farbe neben Farbe und moduliert mit pastosem Farbauftrag in hundert- und tausendfacher Wiederholung changierende Farbfelder. Diese entwickelt sie harmonisch innerhalb einer Farbpalette von gelb nach rot, von grün nach blau, oder kontrastiert autonome Strukturen mit komplementärer Wirkung, hell-dunkel oder kalt-warm-Gegensätzen und unabhängigen Farbwerten...\"\n\n\n\"Colour as the object of painting is the constituent subject in the works of Ursula Jüngst. Her latest works orinated in this context, a multitude of strong, nearly equally long, straight brushstrokes placed next or above each other in a controlled way - a meticulous technique that she elaborated during the last two years. With intensive colours, rich in contrast, she models complex colourfields and structures that look more free and concrete in her actual phase of work. The colours blend in a subtle way, because traces of the already painted colours flash up again and again from underneath the lower layers. With a comprehensive system of singular brushstrokes huge, abstract colourlandscapes rich in contrast come into being. They adjust to tracks of movement and make the process of painting visible. The maximal size of these pictures is guided by the circle of action of the gestical movement while painting. Coloured areas form the basic composition which is then structured by the cumulation of individual brushstrokes. With impressionistic gesture Ursula Jüngst adds stroke to stroke, colour to colour and models iridescent colourfields with thick application of paint that is being repeated a hundred of a thousand times. She develops these fields harmonically within a colour range from yellow to red, from green to blue or she contrasts autonomous structures with complementary effects, light-dark or cold-warm contrasts and independent colour values...\"\n\n\n\"El color como objeto de la pintura es el tema constituyente de la obra de Ursula Jüngst. En este contexto han surgido sus nuevos cuadros a partir de la yuxtaposición y superposición de un sinfín de vigorosas pinceladas rectilíneas de aproximadamente la misma longitud: una técnica minuciosa que ha venido desarrollando en los dos últimos años. Con colores intensos y ricos en contrastes crea complejos campos cromáticos y estructuras que en esta nueva etapa modela todavía con más libertad y firmeza que antes. Los colores se mezclan sutilmente, de forma que siempre sale a la luz el rastro de aquellos que han quedado ocultos en las capas inferiores de pintura. Así surgen impresionantes paisajes cromáticos abstractos llenos de contraste a partir de un elaborado sistema de pinceladas individuales alineadas en estelas de movimiento que hacen visible el proceso pictórico. El tamaño máximo de estos formatos viene determinado por el radio de acción abarcado al ejecutar la pincelada. Una vez establecida la composición básica en superficies cromáticas, ésta va adquiriendo poco a poco estructura por medio de la acumulación de pinceladas individuales. Con un toque impresionista yuxtapone Ursula Jüngst pinceladas y colores, y con una aplicación pastosa de la pintura crea campos cromáticos cambiantes que se repiten cientos y hasta miles de veces. Estos campos los desarrolla armónicamente dentro de una gama de colores que va del amarillo al rojo y del verde al azul o bien contrasta estructuras independientes con un efecto complementario, antítesis claro-oscuro o frío-cálido y valores cromáticos independientes...\"\n\n\n\nChristoph Schneider, Freiburg im August 2011",
+                  "en": "Farbe meine Sprache - Unendliche Impressionen\n\n\"Colour as the object of painting is the constituent subject in the works of Ursula Jüngst. Her latest works originated in this context: a multitude of strong, nearly equally long, straight brushstrokes placed next to or above each other in a controlled way - a meticulous technique that she elaborated during the last two years. With intensive colours, rich in contrast, she models complex colour fields and structures that look freer and more concrete in her current phase of work. The colours blend in a subtle way, because traces of the already painted colours flash up again and again from underneath the lower layers. With a comprehensive system of singular brushstrokes, huge abstract colour landscapes rich in contrast come into being. They align with traces of movement and make the process of painting visible. The maximal size of these pictures is guided by the radius of gestural movement while painting. Coloured areas form the basic composition, which is then structured by the accumulation of individual brushstrokes. With impressionistic gesture Ursula Jüngst adds stroke to stroke, colour to colour, and models iridescent colour fields with thick applications of paint repeated hundreds and thousands of times. She develops these fields harmoniously within a range from yellow to red, from green to blue, or contrasts autonomous structures with complementary effects, light-dark or cold-warm contrasts and independent colour values...\"\n\nChristoph Schneider, Freiburg, August 2011"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Ursula Jüngst, Malerei"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image7.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Galerie Meier Freiburg\nFreiburg, 2010"
+            }
+          },
+          {
+            "type": "excerpt",
+            "label": {
+              "de": "...aus dem Katalog"
+            },
+            "parts": [
+              {
+                "type": "text",
+                "value": {
+                  "de": "Zur Malerei von Ursula Jüngst\n\nUrsula Jüngst scheint im letzten Jahr in ihrem Werk so etwas wie eine Schwelle in malerischer Hinsicht überschritten zu haben. Vielleicht war das Sonnenlicht ihrer Wahlheimat Barcelona daran nicht ganz unbeteiligt, entstanden doch die meisten ihrer neuen Bilder unter mediterranem Himmel. Ihre Gemälde sind abstrakt, nur hier und da ist durch Titel, Farbwahl und Bildstruktur Gegenständliches wahrnehmbar. Intuitiv bringt sie ihre inneren Bilder und Stimmungen auf die Leinwand. Ein Arbeitsprozess, bei dem das Bild für sie fast zu einem gleichwertigen Gegenüber wird, mit dem sie sich geistig, emotional und zugleich körperlich auseinandersetzt. Die Künstlerin vergleicht ihr bildnerisches Vorgehen sehr plastisch mit der Vorstellung eines „Tanzes\"1, den sie auf der Bildfläche vollführt. Die so entstehenden „All-over\" tragen dann sowohl die Spuren ihrer Bewegung, zeigen aber zugleich auch Erinnerungsbilder, die durchaus auch ein Reflex auf ihre Umgebung - die Landschaft und das Meer um Barcelona - sind. Dies ist wohl auch ein Grund dafür, dass den strukturellen Anlagen ihrer Bilder noch etwas vom Malen „nach der Natur\" anhaftet und sie zwischen gegenständlicher und gegenstandloser Abstraktion oszillieren. Sie bestechen vor allem durch immense Farbkontraste.\n\nIhre neuen Bilder erscheinen klarer als frühere, in denen sie in fast altmeisterlicher Manier in der aufgetragenen Farbe mit dünnerem Pinsel wirkte. Fast impressionistisch setzt sie jetzt Farbe neben Farbe, was die Arbeiten in materieller wie visueller Hinsicht strukturiert. Auch das Eigenlicht der Farben tritt so deutlicher zutage, wenngleich die früheren Gemälde wie „Dornbusch\" oder „Sternengeburt\" bereits eine fast übersteigerte Leuchtkraft entwickelten. Zeugten die alten Arbeiten von stärkerer malerischer Beherrschung im doppelten Wortsinn, setzt sich Ursula Jüngst jetzt freier und konkreter mit dem Gegenstand der Farbe auseinander. Energetisch und flink setzt sie mit breitem Pinsel unabhängige Farbwerte wie musikalische Akkorde auf die Leinwand und strukturiert auch die Bildfläche in deutliche Farbbereiche. Pastos arbeitet sie von Hell nach Dunkel, und zwar so, dass sich die Farben mit den zuvor aufgetragenen nur sehr subtil mischen, wodurch beide ihre Luzidität behalten und nicht vergrauen. Farbinseln, -streifen oder -keile breiten sich vibrierend über die Leinwand aus, die sich teils im Komplementärkontrast gegenseitig widerstreiten oder harmonisch annähern.\n\nBesonders deutlich wird dies im Bild „Elia\" (S.5) von 2009. Ein energiegeladener Farbkeil strebt rechts unterhalb der Bildmitte, sich von hell leuchtendem Gelb zu brennendem Orange steigernd, ins obere Bilddrittel, das von ihm fast gänzlich eingenommen wird. Rechts und links wird er von kühlen, schattenhaften Farbflächen in Blau und Grün gefasst, die den brennenden Keil mit fransenden Ausläufern organisch rahmen. Beide Farbflächen streben und fliehen zugleich zu- und voneinander, versuchen sich zu halten oder ineinander einzudringen.\nBeinahe diametral verhält sich, obwohl strukturell ähnlich angelegt, das Diptychon „Geburtstag\" (S.16) und „Fest\" (S.17), beide von 2009. Hier drängen zwei aufgeregt flirrende Farbflächen aus gelben, rotorangen und grünlichen Strichen auf einen sich von rechts oben im Bild „Geburtstag\" beginnenden und nach links unter die Bildmitte von „Fest\" hin abfallenden, tiefblauen Farbkeil. Das Blau wird geradezu bestürmt und tritt trotz der spannungsreichen, dynamischen Form des Keils zurückhaltend in den Bildhintergrund.\nAuch im Bild „Orangenbaum\" (S.11) von 2009 finden wir eine ähnliche Formation. Leuchtende, spitz vordringende Polygone drängen vom rechten Bildrand in eine lebendig strukturierte grünblaue Fläche, die im Grenzbereich zum einströmenden Orange hin blauviolett changiert.\n\nKontraste und Lichtwirkungen scheinen ein essentielles Anliegen der in Nürnberg und Spanien lebenden Künstlerin zu sein. In immer neuen Bildfindungen werden sie bis an ihre Grenzen ausgelotet. Ihre „Bilder entstehen ohne festgelegtes Konzept\", vielmehr durch einen „Dialog mit dem Bild\".2 Jener scheint so heftig geführt zu werden, dass die Bildoberfläche zu flimmern beginnt. Der Betrachter wird dadurch nahezu überreizt vom entgegendrängenden Überangebot an farbiger Illumination. Vielleicht ist auch die Fülle der simultan anklingenden, sich überlagernden Bildinhalte oder -stimmungen der Auslöser für dieses Farbrauschen. Ein Effekt jedenfalls, den man heute eher von anderen Medien, nicht aber vom beinahe als anachronistisch angesehenen Medium des Tafelbildes her kennt. Die Vielsichtigkeit der Arbeiten von Ursula Jüngst, die mit jedem Blick neue Sehangebote zwischen Betrachter und Leinwand evozieren - was auch durch die Ambivalenz von haptischer Präsenz und visueller Wirkung der Farben intensiviert wird -, wirkt kurzweilig wie beharrlich zugleich.\n\nWiewohl die Künstlerin spontan aus sich heraus zu malen scheint, verweisen die Titel und vereinzelten, vage gehaltenen Bildgegenstände auf romantische Thematiken. Dass sie malerische Traditionslinien nicht verneint, ist offensichtlich. Ihre jüngeren Arbeiten aber zeugen von einer bedachteren Auseinandersetzung damit. Seestücke etwa, wie „gestreicheltes Meer\" (S.10), zeigen zwar einen Ausschnitt empfundener Weite. Doch selbst die schiere Größe des Formats reicht nicht, den Blick nur auf der über dem Keilrahmen gespannten Leinwand wandern zu lassen, vielmehr will er immer noch darüber hinaus. Zwar ist es weniger der Schauder des Erhabenen, der ihre Werke in romantische Tradition stellt, eher ist es die unüberbrückbare Sehnsucht nach Grenzüberschreitung und Erweiterung ins Endlose. Gerade die neuen Arbeiten vermögen dieses ambivalente Verlangen zu illustrieren. So zieht die materielle wie haptische Präsenz der Farbe den Betrachter in fast greifbare Nähe zur Leinwand, während die Bildwirkung in ihrer Gesamtheit und Strahlkraft dadurch fast aus dem Blick zu geraten scheint. Beim Betrachten des Gesamtbildes wiederum wird die evozierte Dynamik der Grenzüberschreitung zum Unendlichen hin mit der Konzentration auf den plastischen Pinselstich kontrastiert, den man en detail in Augenschein nehmen möchte. Mit dem klaren Aufzeigen der Unüberwindlichkeit dieser Dichotomie lösen sich viele ihrer neuen Bildfindungen von der ausgelebten Faszination „die zweidimensionale Fläche in einen dreidimensionalen, emotionalen Tiefenraum zu öffnen\"3. Sie scheinen jetzt dieses Paradox auch gestisch-rational zu reflektieren.\n\nSören Schmeling\n\n\n1 Ursula Jüngst im Gespräch mit dem Autor\n2 Ursula Jüngst in: Ursula Jüngst. Sternengeburt - Malerei. Ausstellungskatalog. Nürnberg 2008. S.10\n3 ebd. S.11"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Sternengeburt"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image8.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Sternengeburt, 2008\nISBN 978-3-00-026046-9"
+            }
+          },
+          {
+            "type": "excerpt",
+            "label": {
+              "de": "...aus dem Katalog"
+            },
+            "parts": [
+              {
+                "type": "text",
+                "value": {
+                  "de": "Sternengeburt\n\n\"Bei der Betrachtung der neuen Gemälde von Ursula Jüngst aus den Jahren 2007 und 2008 trifft man auf einen wahren Farbrausch. Die Farbe ist und bleibt die Impulsquelle der Malerin. Noch deutlicher als im bisherigen Oeuvre tritt in den jüngsten Werken eine Intensivierung der Farbigkeit auf.\nNeben dem Farbenreichtum ist der Duktus der Malerin ein maßgebliches, tonangebendes Instrument. Verglichen mit den Werken der vergangenen Jahre hat sich der Duktus verkürzt, zeigt sich prägnanter und steigert durch seine strudelartigen Bewegungsspuren das energiegeladene Kolorit. Der Pinselstrich ist unmittelbar, er dynamisiert die Bildfläche, er ordnet, genauso wie er gleichzeitig ein System in Frage stellt...\"\n\n\n\"La contemplación de los nuevos cuadros de Ursula Jüngst, realizados entre los años 2007 y 2008, supone una auténtica embriaguez de colores. El color siempre ha sido, y continúa siendo, la fuente impulso que mueve a la pintora. En sus últimas obras, el color adquiere aún más intensidad que en las precedentes.\nJunto a la riqueza de colores, el otro elemento decisivo que marca su obra es el trazo personal de la pintora. En comparación con sus cuadros de años anteriores, su trazo se ha reducido adquiriendo así mayor fuerza expresiva y aumentando el colorido cargado de energía gracias a la estela arremolinada que deja tras sí. La pincelada directa dinamiza el lienzo ordenando un sistema que al mismo tiempo cuestiona...\"\n\n\n\"Looking at the new paintings by Ursula Jüngst from the years of 2007 and 2008, one experiences a true flush of colors. Color is and remains a source of impulse of the paintress. More obvious than in her oeuvre to date, her latest works display an intensification of chromaticity.\nTogether with this richness of colors, the paintress' flow is the decisive and dominant tool. Compared to the works in the past years, the flow is shorter, more pronounced and enhancing the energetic coloring through its swirl-like traces. The stroke of the brush is instantaneous, dynamising the image area. It structures but simultaneously challenges any system...\"\n\n\n\nBarbara Leicht M.A., Kuratorin Kunstmuseum Erlangen",
+                  "en": "Sternengeburt\n\n\"Looking at the new paintings by Ursula Jüngst from the years 2007 and 2008, one experiences a true flush of colors. Color is and remains the painter's source of impulse. Even more clearly than in her earlier oeuvre, the latest works reveal an intensification of chromatic energy.\nAlongside this richness of colors, the painter's brushwork is a decisive, tone-setting instrument. Compared with works from previous years, the ductus has shortened, appears more concise and heightens the energetic coloring through its swirling traces of movement. The brushstroke is immediate: it dynamizes the picture surface, it orders, just as it simultaneously questions any system...\"\n\nBarbara Leicht M.A., curator, Kunstmuseum Erlangen"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Ursula Jüngst, Malerei"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image9.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Galerie Meier Freiburg\nFreiburg, 2008"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Malerei und Zeichnungen"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image10.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Malerei und\nZeichnungen, 2006\nISBN 3-00-017845-7"
+            }
+          },
+          {
+            "type": "excerpt",
+            "label": {
+              "de": "...aus dem Katalog"
+            },
+            "parts": [
+              {
+                "type": "text",
+                "value": {
+                  "de": "Malerei und Zeichnungen\n\n„Die sehfähige Qualität heißt Farbe\", schreibt der Philosoph und Theologe Johann Amos Comenius (1592-1670) in seiner Farbenlehre, und er fährt fort: „Farbe ist das in verschiedener Weise auf der Oberfläche der Körper aufgefangene und durch die entgegengesetzte Dunkelheit abgemischte Licht, wie Weiß, Schwarz, Grün etc.\"\nWas aber macht Farbe eigentlich so wirkungsstark, eindrücklich erlebbar und bedeutungsvoll? Diese grundsätzliche Frage verdient gewiss viele Antworten, die vor allem kunstwissenschaftlicher, psychologischer, soziologischer und farbtechnischer Art sein werden. Wesentliche Antworten zu diesem Thema kommen ebenfalls aus der Kunst, von den Künstlern und ihrer Praxis und insbesondere aus der Malerei und im künstlerisch-praktischen Forschen über die Farben.\nFarbe und Farbwirkung, das ist mehr als der flächige Farbauftrag, die Bewegung von Farbwellen oder optische Lichtwirkungen. Farbe ist vor allem ein zentrales Wirkungsmittel im geistigen Prozess des Sehens und der Erkenntnis und insofern bildet sie eine Basis für unser Welt- und Wirklichkeitsverständnis.\nPaul Klee hat als Bauhauslehrer in seiner Farblehre auf die „Tätigkeit\" der Farbe hingewiesen. Farben sind demnach aktive Medien in einem Kommunikationsprozess, sie sind universal und durch nichts zu ersetzen.\n\n\n\nPeter Funken"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "blick-hindurch-blick"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image11.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Offene Kirche St. Klara\nNürnberg, 2004"
+            }
+          },
+          {
+            "type": "excerpt",
+            "label": {
+              "de": "...aus dem Katalog"
+            },
+            "parts": [
+              {
+                "type": "text",
+                "value": {
+                  "de": "blick-hindurch-blick\n\n„blick-hindurch-blick\"... die drei Titelwörter unserer Ausstellung können verschiedene Kombinationen eingehen. Liest man das erste „blick\" als Imperativ, entsteht mit dem folgenden „hindurch\" ein Appell, eine Einladung: „Blick hindurch!\" Beginnt man in der Mitte und hängt das letzte Wort an, kommt „Hindurchblick\" heraus. Wer will, mag „hindurch\" als Zentrum nehmen, das von einem doppelten „blick\" gesäumt ist.\n\nDer verrätselte Titel weist hin auf eine Begegnung von Kunst und Kirche, wie sie in der Reihe „Kunst im Chor\" in der Offenen Kirche St. Klara seit Jahren gepflegt wird. Kunst und Religion sind Geschwister, eigenständig und doch aufeinander verwiesen. Malkunst, wie sie Ursula Jüngst betreibt, bewegt sich wie auf dem Schwebebalken: Da tanzen und leuchten die Farben und gleichzeitig blitzt Tiefe und Weite auf. Es öffnet sich ein Raum, der über die fassbare Form hinausgeht – zumindest für Augen, die schauen und „hindurchsehen\" können.\n\nChristlicher Glaube ist ebenfalls eine lebendige Schwebe zwischen „sichtbar\" und „unsichtbar\". Das Auge war dem Rabbi aus Nazareth „das Licht des Leibes\". Die Welt lag vor ihm wie ein lebendiges Gleichnis für den unfassbaren Gott. Hinter und in allem sah er seinen Vater am Werk. „Hindurchblick\" auf den Grund der Wirklichkeit erleuchtet auch heute die Augen des Glaubenden. Bei all dem ist und bleibt Gott Geheimnis, über allen Bildern erhaben. Glaube ist ein lichtes Dunkel.\nLassen Sie die Bilder und Installationen von Ursula Jüngst in und vor einem Raum des Glaubens zu sich sprechen: den Hiob auf einem blauen Podest – das blaue Portal, durch das man nicht eintreten, das jedoch einen inneren Raum wachrufen kann – die blauen Portraits neben dem Relief der Caritas Pirckheimer im Innenhof – schließlich das zentrale Bild über dem Hochaltar, das wie ein Vorhang vor dem Allerheiligsten hängt – das schmale aufrechte Gemälde im Chor und die waagrechte Entsprechung unter der Kreuzigungsgruppe.\n\nDer Kunst und dem Glauben geht es um den Mehrwert des Sehens. Wenn Sie mehr zu Sich selbst und ein wenig mehr über Sich hinaus verlockt worden sind, dann hat unsere Ausstellung ihren Sinn erfüllt.\n\n\nKarl Kern SJ,\nLeiter der Offenen Kirche St. Klara"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Vulkangeflüster"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image12.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Dresdner Bank\nNürnberg, 2003"
+            }
+          },
+          {
+            "type": "excerpt",
+            "label": {
+              "de": "...aus dem Katalog"
+            },
+            "parts": [
+              {
+                "type": "text",
+                "value": {
+                  "de": "Vulkangeflüster\n\n.... durch tagedicke Dornenmauern, in Nebelländern, unter Sternen, die noch niemand sah, umloht von jähen, zischend, wirbelnd, glühend giftgelbfegenden, heulsausenden, kehldörrenden, hautsengenden Sandstürmen, in weiten, toten, verlassen, verschwunden, vergessen, traurig, trostlos zerfallenden, zersinkenden, zerbröckelnden Ruinenstätten, zwischen zerfallenden, zersinkenden, flammentuckenden Feuerbergen, sich rasend, sich blitzschnell, sich talwärts rollenden, wälzenden, tollenden, sprühglutenden, sprühblutenden, sprühflutenden, Verderben, Veräscherung, Vernichtung drohenden Lavaströmen und unergründlichen, regungslosen, wie stygisch düsteren, springgeysiregespeisten, basaltwallringigen Kraterseen, durch irre, wirre, faltig rissige, spaltig splissige, unheimlich zerklüftete, halsbrecherisch zerschlüftete, tückisch, täuschend, trügend schneebogenbrückige Gletscherzickzacklabyrinthe, wilde Höhlen und wüstes Gestein, über nachtschwarze, klaffende, gähnende, stürzende, bodenlose, pestatemhauchende, dunstdampfbrodelnde Abschründe und Abschlünde hinweg, an öden, bleichen, kahlen, grandigen, felsschroffwandigen, mitternächtigen, malstromrandigen, brandungüberbrüllten, vogelalküberschrillten, klippenspitznadelstarrenden, schauerigen, menschengebeinübersäten Gestaden, auf allen Meeren, auf allen Flutwassern, auf allen Ozeanen suchte ich... FARBE FARBTRAUM TRAUMFARBE TRAUM ... etwas zerreist, ist schon abgebrochen, hat sich neu geformt, Weltenechsen greifen ein, lila Licht von irgendwoher. Rosa und Orange blinzeln mir zu, Cyan lächelt, Indigo bringt mich zum Stolpern, ich falle in Violett. Entlang an Ocker und Gelb versuche ich mich an Wolkentieren zu halten ... ICH SCHAUE! ICH SEHE! ... Die Angreifer transportierten Raketenwerfer auf Eselskarren. Die Karren dienten als Abschussrampe. Acht Geschosse trafen. .... Gehirnspiel?...Wachtraum?...Rückerinnerung?... TRÄUME SIND REALITÄT! Die Leinwand schwingt leicht bei der Berührung des Pinsels. Ein Sog. Nichts ist starr. Alles ist in Bewegung. Scheint zu bersten. Ein Absprung aus höchster Höhe. Ich falle. Der Pinsel hinterlässt seine Spuren. Eine Farbe fordert die nächste. Farbschicht auf Farbschicht verdichtet sich. Makro- und Mikrokosmos tanzen miteinander...\n\n\n(Auszug aus der Performance: „Tagträume – Nachträume\" unter Verwendung von Texten von A Holz, Ch. Morgenstern, J. Eichendorff, G. Belli, E. Heller, U. Jüngst u.a.)"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "mirA"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image15.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Galerie Schloß Borbeck\nEssen, 2003"
+            }
+          },
+          {
+            "type": "excerpt",
+            "label": {
+              "de": "...aus dem Katalog"
+            },
+            "parts": [
+              {
+                "type": "text",
+                "value": {
+                  "de": "Dialoge\n\n\n„Der Maler der Zukunft, das ist ein farbiger, wie es ihn noch nie gab\".\nAls Vincent van Gogh dieses an seinen Bruder Theo schrieb wurde ihm klar, daß es die Farbe sein würde, die künftig in der Malerei eine herausragende Rolle spielen würde. Die Entwicklung der Kunst, insbesondere nach 1900, hat seine Vision bestätigt.\n\nAuch für Ursula Jüngst ist die Farbe von geradezu vitaler Bedeutung. Ihre Entwicklung dahin verlief nicht immer reibungslos, zumal die Konzeptionalisten der Nürnberger Kunstakademie ihr eher verständnislos über die Schulter blickten. Doch durch das Studium in Barcelona, vor allem die Wahrnehmung von Landschaft und Farbe unter dem Einfluß des südlichen Lichts hatte sie ihren Weg gefunden. Ihre längeren Arbeitsaufenthalte in Barcelona sind für ihre Arbeit wichtige visuelle Stimulans.\n\nDie Ausdruckskraft ihrer Bilder lassen zwar Einflüsse der Expressionisten und Surrealisten erkennen – und doch gelingt es ihr, zu ganz neuen, unkonventionellen Bildlösungen zu gelangen. Die Vielschichtigkeit ihres malerischen Werks, geprägt von mehreren Entwicklungssträngen, verbietet daher eine eindeutige Zuordnung.\nDa sind zunächst die Gemälde, die vor Farbe förmlich explodieren. Das Auge des Betrachters ist ständig herausgefordert, Neues zu entdecken.\nDynamik und Unmittelbarkeit werden im unruhigen, oftmals mehrfach übereinandergesetzten, dicken Pinselduktus deutlich, dann eröffnen sich wieder feinste Binnenstrukturen auf nur teilweise überlagerten Farbschichten - monochrome Farbflächen zwischendrin scheinen als Ruhepole das Bildgefüge zu stabilisieren.\n\nDie Wahrnehmung ihrer Gemälde geht Hand in Hand mit der Assoziation eigener Bilder und Erfahrungen. Ihre Bildformen sind nicht figurativ, dennoch erinnern sie teilweise an Biomorphes, an kosmische Gebilde, an Erscheinungen der Natur.\n\nUrsula Jüngst Prozeß künstlerischer Bildfindung erfolgt nicht unmittelbar aus der Wiedergabe von Wahrgenommenem, sondern über das Abrufen innerer, quasi sedimentierter Bilder, die sie mittels einer Art „écriture automatique\" auf der Leinwand entwickelt, einer Methode, derer sich bereits die Surrealisten bedienten.\nIhre Bildlösungen sind jedoch keineswegs epigonenhaft. Neu ist die Frische und Ursprünglichkeit ihrer Farben und Formschöpfungen, die wie eine musikalische Komposition eine Bewegtheit aus unterschiedlichsten Klängen und Rhythmen ergeben.\nDie Arbeiten, die zwischen 1996 und 1999 entstanden sind, erinnern mitunter an die ursprüngliche Farbigkeit volkstümlicher Bildteppiche oder an den überbordenden sinnlichen Reichtum orientalischer Basare.\n\nDer Betrachter kann aus dem offenen vielschichtigen Formengefüge Erfahrungen, Mythen aus dem Unbewußten assoziieren, ein Vorgang, den Ursula Jüngst als „Archäologie des Unbewußten\" bezeichnet.\n\nIhre Arbeiten erschließen sich dem Betrachter jenseits rationaler und analysierender Erklärungen, „durch unsere Fähigkeit zur lebhaften Erinnerung an die unbefangene Erlebnisdichte der Vorstellungskraft, mit der wir als Kinder begabt waren. In unserer Kindheit besaßen wir ein magisches Bewußtsein, und der magische Teil unseres Bewußtseins ist es, den die Kunst letztlich in uns anspricht.\"\n\nInsbesondere in einer Zeit medialer Bildüberflutung, in der es weniger um die intensivere Auseinandersetzung mit dem einzelnen Bild geht, stellen die Arbeiten von Ursula Jüngst eine Herausforderung dar. Durch die Wahrnehmung ihrer Bilder, aus der heraus Dialoge entstehen ist es möglich, verschüttete Erfahrungen wieder lebendig werden zu lassen und Dimensionen des „inneren Kindes\" wachzurufen.\n\nDie Streifzüge der Künstlerin durch innere Erlebniswelten dokumentieren ihre ungewöhnlichen Bildtitel wie auch ihre eigenen, poetisch anmutenden Texte zum künstlerischen Entstehungsprozeß. So schrieb sie zu dem Bild „Patke Patke\" (2002): „... Ein kleiner Ausschnitt einer Wiese. Erst ist da nur Grün, dann entdecke ich quirliges Leben. Tiere, Tierchen, Gesichter, Augen, verschiedene Farben, Licht und Schatten. Die Leinwand schwingt leicht bei der Berührung des Pinsels. Ein Sog. Nichts ist starr ...\".\n\nNeben den Arbeiten, die eine Vielzahl an Form- und Farbstrukturen aufweisen, gibt es Gemälde, die vorwiegend monochrom und mit kräftigem Pinselstrich gefertigt sind. Die Arbeiten „Busco\" (1997) und „Ali\" (1997) markieren bereits diese andere Entwicklungslinie; die Komposition scheint sich aus der Bildmitte zu entwickeln.\nNeuere Arbeiten wie „Pana Napa\" (2002) und „Patke Patke\" (2002) sind malerisch feingliedriger angelegt. Die nach außen drängelnden, züngelnden Liniengebilde erinnern an Prozesse des Wachstums, der steten Veränderung.\n„Alles ist in Bewegung. Scheint zu Bersten ... Wege, Berge, Täler, Landschaften wachsen. Farbschicht auf Farbschicht verdichtet sich das Bild immer mehr zu einer komplexen Welt, in der Makro- und Mikrokosmos sich gleichsam zu Einem verweben.\"\n\nDer Bildzyklus AZULEN, der 1999 in Spanien entstanden ist, bildet eine gesonderte Werkreihe. Statt der quirligen Ausdruckskraft der Gemälde, die an Farbtänze erinnern, dominiert hier eine eher verhaltene Bildwirkung. Gleichmäßig aufgetragene Farblasuren lassen Farbräume entstehen. Das schmale Hochformat der Arbeiten bewirkt Strenge und Konzentration.\n\nDer Name AZULEN ist vom spanischen ‚azul'= blau abgeleitet. Auch das Wort ‚azulejos' liegt nahe, das die Wandfliesen bezeichnet, die von den Mauren seit dem 14. Jahrhundert in Spanien und Portugal verbreitet wurden.\nBlau bestimmt zwar den Farbklang dieser Werkreihe, hier und da blitzt jedoch ein Gelb, ein Rot, ein Weiß hervor, das die Wirkung des Grundtons noch steigert. In fast allen Arbeiten ist senkrecht ein monochromer Farbstreifen angelegt, der sich entweder als schmaler heller Lichtstrahl oder auch als sich verbreiternder Farbstrom Blau durch das Bild zieht.\n\n\nDie Farbe Blau bestimmt ganz wesentlich die besondere Wirkungskraft der AZULEN. Goethe hat sie in ihrer „sinnlich-sittlichen\" Wirkung als „fliehend\" bezeichnet; für Kandinsky war sie eine „Vertiefungsfarbe\", die den Menschen ins Unendliche ruft. Blau mag Bereiche des Kosmischen ansprechen. Der ruhige, gleichmäßige Farbauftrag der AZULEN unterstreicht dabei die Bildwahrnehmung, die auch als Zuwendung zum eigenen Inneren, als Suche nach dem „Ideal der Einheit\" jenseits irdischer Dimensionen interpretiert werden kann.\n\nDas Essener Ausstellungsprojekt in der Galerie im Schloß Borbeck und in der Marktkirche Essen möchte somit auf die verschiedenen Werkaspekte Ursula Jüngsts verweisen. Während die Galerie einen Querschnitt der vor Farben überströmenden Arbeiten sowie eine Auswahl der Zeichnungen zeigt, wird in der Marktkirche eine Installation aus der Reihe der AZULEN im Altarbereich präsentiert.\n\nDie beiden Ausstellungsorte stellen nicht nur künstlerisch, sondern auch historisch eine interessante Verbindungslinie her. Die Gründerin der vormaligen „Gertrudiskapelle\" im 11. Jahrhundert war Theophanu, Äbtissin des bedeutenden Essener Frauenstifts. Seit dem 14. Jahrhundert, als sich die Stadt zunehmend zur Bürgergemeinde mit Stadtrecht und Selbstverwaltung etabliert - wofür die Marktkirche auch symbolisch steht - wird die Residenz der Fürstäbtissinnen vom Kern des Ackerbürgerstädtchens zum Schloß Borbeck verlegt.\n\nDie Installation der meditativ wirkenden Stelen stellt zudem einen interessanten Dialog zwischen Architektur und Kunst her. Sie verweist somit auf die Pläne der bevorstehenden Neugestaltung des Kircheninnenraums, der im Entwurf als blauer Glaskubus vorgesehen ist, welcher sich im Hauptschiff von Osten nach Westen bis in den Außenbereich erstrecken soll.\n\nDas Verbindungsglied beider Präsentationsorte liegt jedoch vor allem in dem Werk selbst begründet, das trotz der Vielfalt einen gemeinsamen Nenner hat: Nicht nur der künstlerische Entstehungsprozeß, sondern auch die suggestive Wirkungskraft der Bilder Ursula Jüngsts werfen existentielle Fragen auf: „Zu malen heißt für mich ... nachzudenken über die Welt, ins Bewußtsein zu holen, Schöpfung immer wieder neu zu erinnern ...\" und „... zu malen ist auch unterwegs zu sein, mich auszusetzen, zu suchen. Nichts ist starr, ich habe keine endgültigen Antworten.\"\n\n\nInge Ludescher, 2003"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Nuni Nuni"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image13.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Fundació Caixa Vinaròs\nExposició 2003"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Paisajes en el alma"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image14.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Sebastià Juan Arbó\nExposició 2001"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Die Azulen"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image16.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Ursula Jüngst\nNürnberg, 2000"
+            }
+          },
+          {
+            "type": "excerpt",
+            "label": {
+              "de": "...aus dem Katalog"
+            },
+            "parts": [
+              {
+                "type": "text",
+                "value": {
+                  "de": "Die Azulen\n\n...In der zweiten großen Werkgruppe, den «Azulen», denen sich der vor-liegende Katalog widmet, versucht die Künstlerin, diese Assoziationen ganz bewußt weitgehend herauszuhalten. Auf den ersten Blick wirken sie mit ihren relativ monochromen Farbflächen, die durch zwar ebenfalls mehrere, aber doch jeweils dünner übereinander aufgetragene Farbschichten entstehen, sehr viel beruhigter.\nDie nähere Betrachtung indessen belehrt eines besseren, denn die zwar monochrom wirkenden großen Farbflächen weisen innerhalb dieses einen Farbtones durch ein reiches Nuancenspiel dessen gesamte Farbvielfalt auf und lassen immer wieder die darunter befindlichen Farbschichten durchklingen, so daß das Auge des Betrachters auf einer wahren Entdeckungsreise durch Farblichträume wandert....\n\n\n\nDr. Cornelia Vagt–Beck,\nKunsthistorikerin",
+                  "en": "Die Azulen\n\n...In the second large group of works, the \"Azulen\", to which this catalogue is devoted, the artist consciously tries to keep such associations largely at bay. At first glance they appear much calmer because of their relatively monochrome color fields, created through several, yet much thinner layers of paint.\nCloser observation, however, teaches otherwise, because the large color fields that appear monochrome reveal within a single hue a rich play of nuances and again and again allow the layers of color underneath to resonate through them, so that the viewer's eye wanders on a true journey of discovery through luminous spaces of color...\n\nDr. Cornelia Vagt-Beck,\nart historian"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Zeichnungen"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image17.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Ursula Jüngst\nNürnberg, 2000"
+            }
+          },
+          {
+            "type": "excerpt",
+            "label": {
+              "de": "...aus dem Katalog"
+            },
+            "parts": [
+              {
+                "type": "text",
+                "value": {
+                  "de": "Zeichnungen\n\n...Meine Zeichnungen entstehen parallel zu meinen großen Ölbildern.Sie sind eigentlich wie ein «Tagebuch». Im Zeichnen versucheich, spontan auf Eindrücke zu reagieren, Gefühle und Gedanken, die mir selbst noch verhüllt sind, sichtbar zu machen und selbst zu verstehen...\n\n\n\nUrsula Jüngst",
+                  "en": "Zeichnungen\n\n...My drawings emerge parallel to my large oil paintings. They are really like a \"diary\". In drawing, I try to respond spontaneously to impressions, to make feelings and thoughts visible that are still veiled even to myself, and to understand them myself...\n\nUrsula Jüngst"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Archäologie des Unbewußten"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Literatur/image24.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Ursula Jüngst\nNürnberg, 2000\nISBN 3-00-006881-3"
+            }
+          },
+          {
+            "type": "excerpt",
+            "label": {
+              "de": "...aus dem Katalog"
+            },
+            "parts": [
+              {
+                "type": "text",
+                "value": {
+                  "de": "Archäologie des Unbewußten\n\n...Der Mut mit dem Risiko des Scheiterns kennzeichnet die Arbeit von Ursula Jüngst. Sie setzt sich der Farbe aus, lebt in ihr. Die Bilder ent-wickelt sie ohne festgelegte Konzeption, rein aus dem Vorgang des Malens und dem ständigen Dialog mit den Farben. In diesem Prozeß entstehen, geboren aus den sich überlagernden Farben und dem Pinselductus, rätselhafte Formen, scheinbar greifbar und sich dennoch der Eindeutigkeit entziehend, Wolkenbildern vergleichbar ...Offensichtlich geht eine Kraft von den Bildern aus, die in der Intensität und der Spannweite der Farben begründet ist, von mediterraner Helligkeit bis zum düsteren Todestunnel. Viele Betrachter scheinen in der Ästhetik der Bilder von Ursula Jüngst eine Ahnung zu gewinnen der von «Archäologie des Unbewußten» in ihrer tiefenpsychologischen, metaphysischen, religiösen Dimension. Die Begegnung mit den Bildern spricht im ästhetischen Erleben existentielle Räume in uns an. Die Arbeiten von Ursula Jüngst unter-scheiden sich insofern wohltuend von gegenwärtigen Strömungen post-strukturaler Beliebigkeit. Sie zeigen auch, daß die Möglichkeit von Farbe und Malerei, gegenwärtig im Kunstbetrieb eher zurückgedrängt zugunsten von ready-mades, Konzeptart, Computeranimationen etc., noch lange nicht ausgeschöpft sind, ja neue Aufbrüche erlauben (vgl. Katalog: Ursula Jüngst «die Azulen»). Sie sind modern, da sie den Menschen in seiner Leere und metaphysischen «Unbehaustheit» ansprechen.\n\n\nDr. Karl v. Schmölling",
+                  "en": "Archäologie des Unbewußten\n\n...Courage in the face of the risk of failure characterizes Ursula Jüngst's work. She exposes herself to color, lives within it. The pictures develop without a fixed concept, purely from the act of painting and from constant dialogue with colors. In this process, enigmatic forms are born from superimposed colors and the ductus of the brush - forms that seem tangible and yet elude clear definition, comparable to cloud images. Evidently, a force emanates from these pictures, rooted in the intensity and range of their colors, from Mediterranean brightness to the darkest tunnel of death. Many viewers seem to gain an intimation, in the aesthetics of Ursula Jüngst's pictures, of the \"archaeology of the unconscious\" in its depth-psychological, metaphysical and religious dimension. Encountering these pictures opens existential spaces within us through aesthetic experience. In this respect, Ursula Jüngst's works differ refreshingly from contemporary currents of post-structural arbitrariness. They show that the possibilities of color and painting - currently often pushed aside in the art world in favor of ready-mades, concept art, computer animation and the like - are far from exhausted and in fact allow for new departures. They are modern because they address human beings in their emptiness and metaphysical homelessness.\n\nDr. Karl v. Schmölling"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "flyer",
+    "title": {
+      "de": "Flyer",
+      "en": "Flyers"
+    },
+    "layout": "cards",
+    "sections": [
+      {
+        "title": {
+          "de": "Flyer 2026"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Flyer/UJ_Flyer_2026.jpg"
+          },
+          {
+            "type": "download",
+            "source": "Flyer/UJ_Flyer_2026.pdf",
+            "label": "PDF zur Ansicht und\nzum Herunterladen"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Flyer 2025"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Flyer/image9.JPG"
+          },
+          {
+            "type": "download",
+            "source": "Flyer/UJ_Flyer_2025.pdf",
+            "label": "PDF zur Ansicht und\nzum Herunterladen"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Flyer 2024"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Flyer/image7.JPG"
+          },
+          {
+            "type": "download",
+            "source": "Flyer/UJ_Flyer_2024.pdf",
+            "label": "PDF zur Ansicht und\nzum Herunterladen"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Flyer 2024"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Flyer/image8.JPG"
+          },
+          {
+            "type": "download",
+            "source": "Flyer/UJ_Flyer_Paderborn_2024.pdf",
+            "label": "PDF zur Ansicht und\nzum Herunterladen"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Flyer 2022"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Flyer/image5.JPG"
+          },
+          {
+            "type": "download",
+            "source": "Flyer/UJ_Flyer_2022.pdf",
+            "label": "PDF zur Ansicht und\nzum Herunterladen"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Ateliershooting 2017"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Flyer/image4.JPG"
+          },
+          {
+            "type": "download",
+            "source": "Flyer/UJ_A_S_2017.pdf",
+            "label": "PDF zur Ansicht und\nzum Herunterladen"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Flyer 2016"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Flyer/image0.JPG"
+          },
+          {
+            "type": "download",
+            "source": "Flyer/UJ_Flyer_2016.pdf",
+            "label": "PDF zur Ansicht und\nzum Herunterladen"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Flyer 2015"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Flyer/image3.JPG"
+          },
+          {
+            "type": "download",
+            "source": "Flyer/UJ_Flyer_2015.pdf",
+            "label": "PDF zur Ansicht und\nzum Herunterladen"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Flyer 2014"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Flyer/image2.JPG"
+          },
+          {
+            "type": "download",
+            "source": "Flyer/UJ_Flyer_2014.pdf",
+            "label": "PDF zur Ansicht und\nzum Herunterladen"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "kunst-am-bau",
+    "title": {
+      "de": "Kunst am Bau",
+      "en": "Art in Architecture"
+    },
+    "layout": "essay",
+    "sections": [
+      {
+        "parts": [
+          {
+            "type": "heading",
+            "value": {
+              "de": "Fenster der Taufkapelle in der Pfarrkirche Allerheiligen, Nürnberg",
+              "en": "Window of the baptistry in All Saints Parish Church in Nuremberg"
+            },
+            "anchor": "glasfenster"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "heading",
+            "value": {
+              "de": "CODAaward - Gewinner 2021",
+              "en": "CODA Award - Winner 2021"
+            },
+            "anchor": "codaaward"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Ursula Jüngst - Kategorie: Liturgical"
+            }
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Das Glasgemälde „Feier des Lebens\" von Ursula Jüngst, in der Taufkapelle der Pfarrkirche Allerheiligen in Nürnberg, ist mit dem 1. Platz unter den von einer internationalen Fachjury ausgesuchten Kunstobjekten für die Kategorie \"liturgical\" ausgezeichnet worden.",
+              "en": "The stained-glass painting \"Feier des Lebens\" by Ursula Jüngst, in the baptistry of All Saints Parish Church in Nuremberg, received first place in the category \"liturgical\" among the artworks selected by an international expert jury."
+            }
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image24.JPG"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "„Das Schöne an dieser Glaskunst ist, dass sie die Architektur IST – nicht nur ein zusätzlicher Schmuck oder Fensterschmuck, sondern ein wesentliches strukturelles Element – ​​herrlich, durchscheinend, stark und selbsttragend.\"\n- Ilene Shaw, Producer, New York By Design: Architecture\n\nAus 40 Länden wurden 100 der erfolgreichsten Kunst-, Architektur und Designprojekte ausgewählt, die Auftragskunst in einen Innen-, Architekur- oder öffentlichen Raum integrieren. Commissioned Art Matters – und die CODAawards feiern dies. Das CODAawards – Programm ehrt Einzelpersonen und Teams, die Räume schaffen, die uns jeden Tag neu inspirieren.",
+              "en": "\"The beauty of this glass art is that it IS the architecture - not merely an additional ornament or window decoration, but an essential structural element - glorious, translucent, strong and self-supporting.\"\n- Ilene Shaw, Producer, New York By Design: Architecture\n\nFrom 40 countries, 100 of the most successful art, architecture and design projects were selected that integrate commissioned art into an interior, architectural or public space. Commissioned Art Matters - and the CODA Awards celebrate exactly that. The CODA Awards program honors individuals and teams who create spaces that inspire us anew every day."
+            }
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Mehr Informationen:",
+              "en": "More information:"
+            }
+          },
+          {
+            "type": "link",
+            "href": "https://www.codaworx.com/projects/all-saints-church-11512",
+            "label": "CODAaward Winner 2021"
+          },
+          {
+            "type": "link",
+            "href": "https://www.derix.com/?s=Ursula+jüngst&lang=de",
+            "label": "Derix Glasstudios"
+          },
+          {
+            "type": "link",
+            "href": "https://www.nordbayern.de/ein-glasbild-der-besonderen-art-1.9959444",
+            "label": "Nürnberger Nachrichten, 20.03.2020 - www.nordbayern.de"
+          },
+          {
+            "type": "link",
+            "href": "https://www.nordbayern.de/kultur/kunst-aus-spaniens-sonne-fur-allerheiligen-kirche-1.8499178/7.3788388",
+            "label": "Nürnberger Nachrichten, 14.01.2019 - www.nordbayern.de"
+          },
+          {
+            "type": "link",
+            "href": "https://www.sonntagsblatt.de/artikel/kirche/wege-zum-himmel-kunsterzieherin-erforschte-buntglasfenster-nuernberger-kirchen",
+            "label": "Uta Troyke. Wege zum Himmel. Buntglasfenster nach 1945"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Einbau des Glasgemäldes in die Taufkapelle, Nürnberg 2020",
+              "en": "Installation of the stained-glass painting in the baptistry, Nuremberg 2020"
+            }
+          },
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image27.JPG"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image25.JPG"
+          },
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image26.JPG"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "heading",
+            "value": {
+              "de": "Übertragung des Gemäldes „Fiesta de la vida\" auf Glas in Zusammenarbeit mit Derix Glasstudio.",
+              "en": "Transfer of the painting \"Fiesta de la vida\" onto glass in collaboration with Derix Glasstudio."
+            },
+            "anchor": "herstellung"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Probeaufbau aller 120 Glasscheiben, Taunusstein 2020",
+              "en": "Test assembly of all 120 glass panes, Taunusstein 2020"
+            }
+          },
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image14.JPG"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image19.JPG"
+          },
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image20.JPG"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Einarbeiten der malerischen Zwischennuancen, Taunusstein 2020",
+              "en": "Working in the painterly intermediate nuances, Taunusstein 2020"
+            }
+          },
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image18.JPG"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image12.JPG"
+          },
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image13.JPG"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Aufbau der abgeätzten blauen und gelben Gläser, Taunusstein 2020",
+              "en": "Assembly of the etched blue and yellow glass, Taunusstein 2020"
+            }
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image8.JPG"
+          },
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image9.JPG"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image10.JPG"
+          },
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image11.JPG"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Abdecken mit Asphaltlack und Abtragen des Überfangs, Taunusstein 2019",
+              "en": "Masking with asphalt varnish and removing the flashed layer, Taunusstein 2019"
+            }
+          },
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image15.JPG"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image16.JPG"
+          },
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image17.JPG"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "heading",
+            "value": {
+              "de": "Gemälde für das Glasfenster der Taufkapelle Allerheiligen in Nürnberg",
+              "en": "Painting for the stained-glass window of the baptistry of All Saints Parish Church in Nuremberg"
+            },
+            "anchor": "gemaelde"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image7.JPG"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "La fiesta de la vida, Spanien 2018, Öl / Lw, 400 cm x 600 cm (24-teilig)"
+            }
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image0.JPG"
+          },
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image1.JPG"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image2.JPG"
+          },
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image3.JPG"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image4.JPG"
+          },
+          {
+            "type": "image",
+            "source": "Kunst_am_Bau/image5.JPG"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "presse",
+    "title": {
+      "de": "Presse",
+      "en": "Press"
+    },
+    "layout": "cards",
+    "sections": [
+      {
+        "title": {
+          "de": "Der Dom 21.März.2024 - zum Lesen bitte hier klicken"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Presse/image4.JPG"
+          },
+          {
+            "type": "download",
+            "source": "Presse/Ursula_Juengst_Malen_gegen_die_Dunkelheit_DerDom.pdf",
+            "label": "Der Dom 21.März.2024 - zum Lesen bitte hier klicken"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Nürnberger Nachrichten 23. Juni 2023"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Presse/image2.JPG"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Heinrichsblatt 31. Mai 2020"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Presse/image15.JPG"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Nürnberger Nachrichten 12. Mai 2020"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Presse/image14.JPG"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Wiesbadener Kurier 3. April 2020"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Presse/image10.JPG"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Frankfurter Rundschau 2. April 2020"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Presse/image11.JPG"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Nürnberger Nachrichten, 20. März 2020 - zum Lesen bitte hier klicken: www.nordbayern.de"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Presse/image9.JPG"
+          },
+          {
+            "type": "link",
+            "href": "https://www.nordbayern.de/ein-glasbild-der-besonderen-art-1.9959444",
+            "label": "Nürnberger Nachrichten, 20. März 2020 - zum Lesen bitte hier klicken: www.nordbayern.de"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Nürnberger Nachrichten 09. Januar 2020"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Presse/image13.JPG"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Ehinger Tagblatt 20. März 2019"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Presse/image8.JPG"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Nürnberger Nachrichten 15. Januar 2019"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Presse/image6.JPG"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Badische Neueste Nachrichten 27. Juli 2016"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Presse/image0.JPG"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Kunstzeitung Februar 2016"
+        },
+        "parts": [
+          {
+            "type": "image",
+            "source": "Presse/image5.JPG"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "filme",
+    "title": {
+      "de": "Filme",
+      "en": "Films"
+    },
+    "layout": "cards",
+    "sections": [
+      {
+        "title": {
+          "de": "Malen gegen die Dunkelheit, Juni 2024"
+        },
+        "parts": [
+          {
+            "type": "youtube",
+            "videoId": "NaSXAI_YZLI"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Um Himmels Willen, November 2023"
+        },
+        "parts": [
+          {
+            "type": "video",
+            "source": "Filme/UJ_1123.mp4",
+            "poster": "Filme/start_9.jpg"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Kunst gegen den Krieg, Februar 2023"
+        },
+        "parts": [
+          {
+            "type": "youtube",
+            "videoId": "30AnWncQ0Q0"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Und hätte der Liebe nicht, Juli 2021"
+        },
+        "parts": [
+          {
+            "type": "video",
+            "source": "Film/UJ_0721.mp4",
+            "poster": "Film/start_8.jpg"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Kunst am Kirchenfenster, November 2020"
+        },
+        "parts": [
+          {
+            "type": "video",
+            "source": "Film/UJ_1120.mp4",
+            "poster": "Film/start_7.jpg"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Taufkapelle in Allerheiligen eingeweiht, Oktober 2020"
+        },
+        "parts": [
+          {
+            "type": "video",
+            "source": "Film/UJ_1020.mp4",
+            "poster": "Film/start_6.jpg"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Künstlerin geht neue Wege, Juni 2020"
+        },
+        "parts": [
+          {
+            "type": "video",
+            "source": "Film/UJ_0620.mp4",
+            "poster": "Film/start_2.jpg"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Ursula Jüngst - Malen auf Glas, Mai 2020"
+        },
+        "parts": [
+          {
+            "type": "video",
+            "source": "Film/UJ_0520.mp4",
+            "poster": "Film/start_5.jpg"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Ein Leben in Farbe, April 2020"
+        },
+        "parts": [
+          {
+            "type": "video",
+            "source": "Film/UJ_0420.mp4",
+            "poster": "Film/start_1.jpg"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Glasfenster von Malerin Ursula Jüngst, September 2019"
+        },
+        "parts": [
+          {
+            "type": "youtube",
+            "videoId": "PK83xa-vOVE"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Alles ist Farbe, April 2018"
+        },
+        "parts": [
+          {
+            "type": "video",
+            "source": "Film/UJ_0418.mp4",
+            "poster": "Film/start_3.jpg"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Ursula Jüngst presenta la monumental, Juli 2018"
+        },
+        "parts": [
+          {
+            "type": "youtube",
+            "videoId": "K33uP8oALRk"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "La Festa de la vida, Juli 2018"
+        },
+        "parts": [
+          {
+            "type": "youtube",
+            "videoId": "lvhnuBz23V8"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Que fem? Quadre Ursula Jüngst, Juli 2018"
+        },
+        "parts": [
+          {
+            "type": "youtube",
+            "videoId": "GkkBjFe_1H8"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Dynamik des Lebens, Januar 2017"
+        },
+        "parts": [
+          {
+            "type": "video",
+            "source": "Film/UJ_1.mp4",
+            "poster": "Film/start.jpg"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Leben das sich farbig spiegelt, November 2015"
+        },
+        "parts": [
+          {
+            "type": "video",
+            "source": "Film/UJ_0215.mp4",
+            "poster": "Film/start_4.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "statement",
+    "title": {
+      "de": "Statement",
+      "en": "Statement"
+    },
+    "layout": "essay",
+    "sections": [
+      {
+        "parts": [
+          {
+            "type": "heading",
+            "value": {
+              "de": "Auf der Suche nach dem Horizont",
+              "en": "In Search of the Horizon"
+            },
+            "anchor": "horizont"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Malend entziehe ich mir den Boden, mache kopfüber Setzungen und komplementäre Zusammenstöße. Dabei verliere ich das, was ich bereits gefunden habe. Wie gehe ich um mit Zerfall und Zerstörung? Was ist, wenn meine bisherigen Erfahrungen und Orientierungen nicht mehr stimmen? Von allen Seiten dängt es auf mich ein. Ich lasse Farbströme fließen und bin gezwungen das Kompositionsgefüge neu zu definieren. Ich ergründe Unbekanntes.\n\nUrsula Jüngst, März 2026",
+              "en": "While painting, I pull the ground out from under myself, making upside-down placements and complementary collisions. In doing so, I lose what I had already found. How do I deal with decay and destruction? What happens when my previous experiences and orientations no longer hold true? It presses in on me from all sides. I let streams of color flow and am compelled to redefine the compositional structure. I explore the unknown.\n\nUrsula Jüngst, March 2026"
+            }
+          },
+          {
+            "type": "image",
+            "source": "Statement/Nah_zwei_Golem.jpg"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Ausschnitt aus „Golem“, 2026"
+            }
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "heading",
+            "value": {
+              "de": "Malen wider dem Wahnsinn",
+              "en": "Painting against madness"
+            },
+            "anchor": "malen-wider-dem-wahnsinn"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Unsere Welt scheint einer Neuordnung zu unterliegen und ich definiere auch in meinen Werken Standpunkte neu. Während des Malprozesses lege ich unten und oben immer wieder neu fest. Dann, wenn ich den Eindruck habe, dass sich eine Fließspur entgegen der Schwerkraft bewegen soll. Malend schrabbe ich am Chaos entlang und versuche neue Orientierungen. Dabei formen meine Pinselsetzungen und Fließspuren die rhythmische Struktur meiner Gemälde. Unten und oben, hinten und vorne geraten in ein gemeinsames Schwingen. Im Zusammenspiel von Malspuren und Farben versuche ich den Horizont zu finden.\n\nUrsula Jüngst, Februar 2025",
+              "en": "Our world seems to be undergoing a reordering, and I, too, redefine points of orientation in my works. During the painting process I repeatedly determine what is above and below all over again - especially when I feel that a flowing trace should move against gravity. While painting I scrape along the edge of chaos and search for new bearings. In doing so, my brush marks and flowing traces shape the rhythmic structure of my paintings. Above and below, front and back begin to vibrate together. In the interplay of paint traces and colors, I try to find the horizon.\n\nUrsula Jüngst, February 2025"
+            }
+          },
+          {
+            "type": "image",
+            "source": "Statement/image10.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Ausschnitt aus \"Den Himmel greifen\", 2025"
+            }
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "heading",
+            "value": {
+              "de": "Malen gegen die Dunkelheit",
+              "en": "Painting against the darkness"
+            },
+            "anchor": "malen-gegen-die-dunkelheit"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Mit Pinsel und Farben, Setzungen und Fließspuren begebe ich mich an Orte, in Gefühle, die ich so nicht kenne. Dabei erlebe ich Schrecken, Vergänglichkeit, Schmerz und Angst, doch auch Freude, Zärtlichkeit und Kraft. Ich bin berührt und kann berühren, teilnehmen, respektieren, entdecken, Widerstand leisten. Es ist meine Form der Welt fragend und auch liebevoll zu begegnen.\nIch will Anmalen gegen das Dunkle, die Zerrissenheit, die Sprachlosigkeit, die vernichtende Kälte. Malen birgt in sich die Kraft der Erneuerung. Meine Pinselsetzungen und Fließlinien sehe ich als Formen, um neue Möglichkeiten von Begegnungen zu ergründen.\n\n\nUrsula Jüngst, März 2024",
+              "en": "With brush and colors, placements and flowing traces, I venture into places and feelings unfamiliar to me. In doing so, I experience terror, transience, pain and fear, but also joy, tenderness and strength. I am touched and able to touch, to take part, to respect, to discover, to resist. It is my way of encountering the world with questions and also with love.\nI want to paint against the dark, the tornness, the speechlessness, the annihilating cold. Painting carries within it the power of renewal. I see my brush marks and flowing lines as forms through which to explore new possibilities of encounter.\n\n\nUrsula Jüngst, March 2024"
+            }
+          },
+          {
+            "type": "image",
+            "source": "Statement/image12.JPG"
+          },
+          {
+            "type": "page-link",
+            "page": "begegnungsspuren",
+            "label": "Narbe, 2024, Öl / Lw, 120 x 90 cm"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "heading",
+            "value": {
+              "de": "Malerei am Nerv der Zeit",
+              "en": "Painting at the nerve of the times"
+            },
+            "anchor": "malerei-am-nerv-der-zeit"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Meine Gemälde - mögen diese vielleicht auf den ersten Blick wie Farbenspiele aussehen - sind mein Kommentar zur derzeitigen krisenhaften Situation unserer Welt. Sie sind malerische Interventionen zu den Geschehnissen meiner Gegenwart.\n\nIch bin keine Geschichtenerzählerin und nehme nicht den Umweg über eine gegenständliche Darstellung. Im Malakt vertraue ich auf die dem Material innewohnenden Kräfte und steigere sie.\n\nMalerei ist für mich ein Experimentierfeld für Seinsfragen. In einem Balanceakt zwischen Kontrolle und Kontrollverlust, zwischen Bewahren, Entdecken, Gestalten und Zerstören dirigiere ich meine Stilmittel. Das sind meine markanten Pinselstriche und meine tänzerischen Fließspuren, die im malerischen Prozess mehrfach überarbeitet werden und so den Ausdruck intensivieren. Dabei könnte man die Pinselstriche als Stellvertreter für Menschen mit all ihren unterschiedlichsten Erfahrungen und Möglichkeiten sehen. Die Fließlinien schaffen neue Formen von Begegnungen, machen feinste Regungen und auch Unabdingbarkeit sichtbar. Dabei sind meine künstlerischen Ausdrucksformen bewusst bis an die äußersten Ränder des Bildformats gestaltet und bergen Achtung und Respekt.\n\nZusammen mit den Pinselsetzungen und Fließspuren werden die dezidiert ausgewählten Farben Vermittler reicher und feinster Empfindungen und entwickelter Haltungen. Im gegenseitigen Durchdringen der Farben und Formen öffnet sich ein leuchtkräftiger, energiereicher Farbklangraum. Frei von räumlicher Verortung oszilliert dieses Kompositionsgefüge und schafft so immer wieder neue Möglichkeiten der Betrachtung. Gleichzeitig spielt das Licht im Bild, wechselt von vorne und hinten, durchdringt den Bildraum und breitet sich aus.\n\nIn meinen Gemälden versuche ich für die momentan belastenden Zeiten einen adäquaten Ausdruck zu finden und gegen die düsteren Erfahrungen anzumalen, gegen Ohnmacht, Verfall und Aggression die hoffnungsvolle Kraft des Lichts und des erbauenden Staunens zu setzen.\n\nUrsula Jüngst, Juli 2023",
+              "en": "My paintings - even if they may at first glance look like plays of color - are my commentary on the current crisis-ridden state of our world. They are painterly interventions into the events of my present.\n\nI am not a storyteller and I do not take the detour of representational depiction. In the act of painting I trust the forces inherent in the material and intensify them.\n\nFor me, painting is a field of experimentation for questions of being. In a balancing act between control and loss of control, between preserving, discovering, shaping and destroying, I conduct my artistic means. These are my distinctive brushstrokes and my dancing traces of flow, which are reworked several times in the painterly process and thus intensify the expression. One might see the brushstrokes as stand-ins for people with all their different experiences and possibilities. The flowing lines create new forms of encounter, making the subtlest stirrings and also inevitability visible. My artistic means of expression are consciously shaped right to the outermost edges of the format and carry respect and consideration.\n\nTogether with the brush marks and traces of flow, the deliberately chosen colors become mediators of rich and subtle sensations and developed attitudes. In the mutual permeation of colors and forms, a luminous, energetic tonal space of color opens up. Free of spatial localization, this compositional structure oscillates and thus creates ever new possibilities of viewing. At the same time light plays in the image, changing from front to back, penetrating the pictorial space and spreading outward.\n\nIn my paintings I try to find an adequate expression for these burdensome times and to paint against dark experiences - setting the hopeful force of light and of uplifting wonder against powerlessness, decay and aggression.\n\nUrsula Jüngst, July 2023"
+            }
+          },
+          {
+            "type": "image",
+            "source": "Statement/image6.JPG"
+          },
+          {
+            "type": "page-link",
+            "page": "begegnungsspuren",
+            "label": "Ausschnitt aus \"Noli me tangere\", 2023"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "heading",
+            "value": {
+              "de": "Malerei ist aktuell",
+              "en": "Painting is of the present"
+            },
+            "anchor": "malerei-ist-aktuell"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Ich möchte in meiner Malerei die Menschen in ihren heutigen Gefühlen erreichen und abholen.\nMalerei ist eine Sprache, die direkt zu den Herzen der Menschen geht. Kunst ist eine Möglichkeit, Türen offenzuhalten, selbst da, wo keine Kommunikation mehr greift. Malerei ist für mich auch Ausdruck von Liebe und der Überzeugung, dass die Kunst in sich eine Kraft trägt, dem Widersinn und der Willkür entgegen zu wirken.",
+              "en": "I want my painting to reach people and meet them where their feelings are today.\nPainting is a language that speaks directly to people's hearts. Art is a way of keeping doors open, even where communication no longer works. For me, painting is also an expression of love and of the conviction that art contains the power to counter absurdity and arbitrariness."
+            }
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Statement/image7.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Schlaf mein Kind auch wenn der Teufel lacht, 2020\nÖl / Lw, 400 cm x 600 cm (24-teilig)"
+            }
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Das Gemälde „Schlaf mein Kind auch wenn der Teufel lacht\" (bereits 2020 gemalt) passt absolut in unsere Zeit. In dieser Malerei versuche ich den Gefühlen einer Mutter (eines Beschützers) Ausdruck zu geben, die ihr Kind (das Liebste und zu Beschützende) trotz aller Widrigkeiten, allem Irrsinn, aller Ängste, aller Unmöglichkeit zu behüten versucht.",
+              "en": "The painting \"Schlaf mein Kind auch wenn der Teufel lacht\" (already painted in 2020) fits our times exactly. In this painting I try to express the feelings of a mother - of a protector - who attempts to safeguard her child, the dearest and most vulnerable thing, in spite of all adversity, all madness, all fears and all impossibility."
+            }
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Statement/image1.JPG"
+          },
+          {
+            "type": "page-link",
+            "page": "begegnungsspuren",
+            "label": "For heaven´s sake, 2021\nÖl / Lw, 160 x 120 (3-teilig)"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "„For heaven´s sake\" / „Um Himmels willen\" - ein Ausruf, der vielleicht entleert schien, doch der angesichts eigener Macht- und Fassungslosigkeit gerade in dieser Zeit neue Bedeutung bekommt. In diesem Gemälde, das Ende letzten Jahres entstanden ist, sind heftige düstere Pinselhiebe gesetzt, die stellenweise zu fließen beginnen, Tränen und den Fluss der Zeit, vielleicht auch den Verfall derselben, assoziieren. Doch das erschreckende Schwarz wird vom frischen, lebensbejahenden Gelb, zarter Rosa und Grün, der Farbe der beginnenden Liebe, gestellt. Die Fließspuren verwandeln sich und werden zu Angelschnüren des Lichts.\n\nUrsula Jüngst, August 2022",
+              "en": "\"For heaven's sake\" - \"Um Himmels willen\" - an exclamation that may once have seemed emptied out, but which in the face of one's own powerlessness and loss of composure gains new meaning precisely now. In this painting, created at the end of last year, vehement dark brushstrokes are set down and in places begin to flow, evoking tears and the passage of time, perhaps also its decay. Yet the frightening black is confronted by fresh life-affirming yellow, delicate pink and green, the color of incipient love. The flowing traces are transformed and become fishing lines of light.\n\nUrsula Jüngst, August 2022"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "impressum",
+    "title": {
+      "de": "Impressum & Datenschutz",
+      "en": "Legal Notice & Data Protection"
+    },
+    "layout": "legal",
+    "sections": [
+      {
+        "parts": [
+          {
+            "type": "image",
+            "source": "Impressum/image3.JPG"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Veranwortlich für Inhalt und Gestaltung:\n\nUrsula Jüngst\nSteinstraße 21\nHaus B / 3. Stock\n90419 Nürnberg\n\nTelefon: +49 (0) 911 46 43 80\nMobil: +49 (0) 151 4185 4905\n\nE-mail: ursula.juengst@t-online.de\nInternet: www.ursula-juengst.com\n\nTrotz sorgfältiger inhaltlicher Kontrolle übernehme ich keine Haftung\nfür die Inhalte externer Links. Für den Inhalt der verlinkten Seiten\nsind ausschließlich deren Betreiber verantwortlich.\n\nAlle Texte, Bilder und Grafiken sowie deren Anordnung auf dieser\nWebsite unterliegen dem Schutz des Urheberrechts und\nanderer Schutzgesetze. Der Inhalt dieser Website darf nicht zu\nkommerziellen Zwecken kopiert, verbreitet oder verändert werden.\n\nInhalt und Aufbau dieser Website sind urheberrechtlich geschützt.\nDie Vervielfältigung von Informationen oder Daten, insbesondere die\nVerwendung von Bildmaterial, Texten oder Textteilen, bedarf der\nvorherigen Zustimmung von Ursula Jüngst.\n\nCopyright © Ursula Jüngst 2018",
+              "en": "Responsible for content and design:\n\nUrsula Jüngst\nSteinstrasse 21\nHaus B / 3rd floor\n90419 Nuremberg\n\nPhone: +49 (0) 911 46 43 80\nMobile: +49 (0) 151 4185 4905\n\nEmail: ursula.juengst@t-online.de\nWebsite: www.ursula-juengst.com\n\nDespite careful control of content, I assume no liability\nfor the content of external links. The operators of the linked pages\nare solely responsible for their content.\n\nAll texts, images and graphics as well as their arrangement on this\nwebsite are protected by copyright and other protective laws.\nThe content of this website may not be copied, distributed or modified\nfor commercial purposes.\n\nThe content and structure of this website are protected by copyright.\nThe reproduction of information or data, in particular the use of images,\ntexts or parts of texts, requires the prior consent of Ursula Jüngst.\n\nCopyright © Ursula Jüngst 2018"
+            }
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "type": "heading",
+            "value": {
+              "de": "Datenschutzerklärung",
+              "en": "Privacy Policy"
+            },
+            "anchor": "datenschutz"
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "Datenschutzerklärung\n\nIm Internet kann der Benutzer den Überblick verlieren, wo und zu welchem Zweck seine Daten gespeichert werden. Deshalb möchte ich Ihnen als Besucher meiner Webseite erläutern, wie ich die Vertraulichkeit Ihrer personenbezogenen Daten sicherstelle.\nDie Beachtung der Bestimmungen der EU-Datenschutz-Grundverordnung (DS-GVO) und des Bundesdatenschutz-Gesetzes ist für mich eine Selbstverständlichkeit. Nachstehend informieren ich Sie darüber.\n\n\nDatenschutz\n\nUrsula Jüngst nimmt den Schutz Ihrer persönlichen Daten sehr ernst. Ich behandele Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.\nDie Nutzung meiner Website ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf meinen Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.\nIch weise darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. Für daraus eventuell entstehende Schäden übernehme ich keine Haftung. Der Seitenbetreiber behält sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.\n\n\nRecht auf Auskunft, Löschung, Sperrung\n\nSie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit unter der im Impressum angegebenen Adresse an mich wenden.\n\n\nServer-Log-Files\n\nDer Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log Files, die Ihr Browser automatisch an uns übermittelt. Dies sind:\nBrowsertyp und Browserversion\nverwendetes Betriebssystem\nReferrer URL\nHostname des zugreifenden Rechners\nUhrzeit der Serveranfrage\nDiese Daten sind nicht bestimmten Personen zuordenbar. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Ich behalte mir vor, diese Daten nachträglich zu prüfen, wenn mir konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden.\n\n\nAnfragen per E-Mail\n\nWenn Sie mir durch Anfragen per E-Mail zukommen lassen, werden Ihre Angaben aus der Anfrage inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei mir gespeichert. Diese Daten gebe ich nicht ohne Ihre Einwilligung weiter.\n\n\nYouTube\n\nMeine Website nutzt Plugins der von Google betriebenen Seite YouTube. Betreiber der Seiten ist die YouTube, LLC, 901 Cherry Ave., San Bruno, CA 94066, USA. Wenn Sie eine meiner mit einem YouTube-Plugin ausgestatteten Seiten besuchen, wird eine Verbindung zu den Servern von YouTube hergestellt. Dabei wird dem Youtube-Server mitgeteilt, welche meiner Seiten Sie besucht haben. Wenn Sie in Ihrem YouTube-Account eingeloggt sind ermöglichen Sie YouTube, Ihr Surfverhalten direkt Ihrem persönlichen Profil zuzuordnen. Dies können Sie verhindern, indem Sie sich aus Ihrem YouTube-Account ausloggen.\nWeitere Informationen zum Umgang von Nutzerdaten finden Sie in der Datenschutzerklärung von YouTube unter: https://policies.google.com/privacy?hl=de\n\n\nGoogle Web Fonts\n\nDiese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Google bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen. Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von Google aufnehmen. Hierdurch erlangt Google Kenntnis darüber, dass über Ihre IP-Adresse meine Website aufgerufen wurde. Die Nutzung von Google Web Fonts erfolgt im Interesse einer einheitlichen und ansprechenden Darstellung meiner Online-Angebote. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar. Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt.\nWeitere Informationen zu Google Web Fonts finden Sie unter https://developers.google.com/fonts/faq und in der Datenschutzerklärung von Google: https://www.google.com/policies/privacy/.\n\n\nLinks zu Dritten\n\nSoweit meine Webseite Links zu Webseiten Dritter enthält, gilt diese Datenschutzerklärung nicht für diese Webseiten Dritter.\n\n\nVerwendung von Cookies\n\nCookies sind kleine Dateien, die auf dem Computer des Internet-Benutzers abgelegt werden und die als Kennung benutzt werden können. Ich verwende zur Zeit keine Cookies.\n\n\nAktualisierung dieser Datenschutz-Erklärung\n\nSoweit ich neue Produkte oder Dienstleistungen einführe, Internet-Verfahren ändere oder wenn sich die Internet- und EDV-Sicherheitstechnik weiterentwickelt, wird diese Datenschutz-Erklärung entsprechend aktualisiert.",
+              "en": "Privacy Policy\n\nOn the internet, users can quickly lose track of where and for what purpose their data is stored. I would therefore like to explain to you, as a visitor to my website, how I ensure the confidentiality of your personal data.\nComplying with the provisions of the EU General Data Protection Regulation (GDPR) and the German Federal Data Protection Act is self-evident for me. Below I provide information about this.\n\nData Protection\n\nUrsula Jüngst takes the protection of your personal data very seriously. I treat your personal data confidentially and in accordance with statutory data protection regulations and this privacy policy.\nUsing my website is generally possible without providing personal data. As far as personal data is collected on my pages (for example name, address or email addresses), this is always done on a voluntary basis whenever possible. This data will not be passed on to third parties without your express consent.\nPlease note that data transmission on the internet (for example communication by email) may have security gaps. Complete protection of data against access by third parties is not possible. I assume no liability for any damage that may arise from this. The website operator expressly reserves the right to take legal action in the event of unsolicited advertising information being sent, for example via spam emails.\n\nRight to Information, Deletion and Blocking\n\nYou have the right at any time to receive information free of charge about your stored personal data, its origin and recipients, and the purpose of the data processing, as well as a right to correction, blocking or deletion of this data. For this and for any further questions on the subject of personal data, you can contact me at any time at the address given in the legal notice.\n\nServer Log Files\n\nThe provider of the pages automatically collects and stores information in so-called server log files, which your browser automatically transmits to us. These are:\nBrowser type and browser version\nOperating system used\nReferrer URL\nHostname of the accessing computer\nTime of the server request\nThis data cannot be assigned to specific persons. This data is not merged with other data sources. I reserve the right to check this data retrospectively if concrete indications of unlawful use become known.\n\nRequests by Email\n\nIf you send me inquiries by email, your details from the inquiry, including the contact data you provide there, will be stored by me for the purpose of processing the inquiry and in case of follow-up questions. I will not pass this data on without your consent.\n\nYouTube\n\nMy website uses plugins from the site YouTube operated by Google. The operator of the pages is YouTube, LLC, 901 Cherry Ave., San Bruno, CA 94066, USA. When you visit one of my pages equipped with a YouTube plugin, a connection to the YouTube servers is established. The YouTube server is informed which of my pages you have visited. If you are logged into your YouTube account, you enable YouTube to assign your browsing behavior directly to your personal profile. You can prevent this by logging out of your YouTube account.\nFurther information on the handling of user data can be found in YouTube's privacy policy at: https://policies.google.com/privacy?hl=en\n\nGoogle Web Fonts\n\nThis site uses so-called web fonts provided by Google for the uniform display of fonts. When you call up a page, your browser loads the required web fonts into your browser cache in order to display texts and fonts correctly. For this purpose, the browser you use must connect to Google's servers. This gives Google knowledge that my website has been accessed via your IP address. The use of Google Web Fonts is in the interest of a uniform and attractive presentation of my online content. This constitutes a legitimate interest within the meaning of Art. 6 para. 1 lit. f GDPR. If your browser does not support web fonts, a standard font from your computer will be used.\nFurther information on Google Web Fonts can be found at https://developers.google.com/fonts/faq and in Google's privacy policy: https://www.google.com/policies/privacy/.\n\nLinks to Third Parties\n\nIf my website contains links to third-party websites, this privacy policy does not apply to those third-party websites.\n\nUse of Cookies\n\nCookies are small files stored on the internet user's computer and can be used as identifiers. I do not currently use cookies.\n\nUpdating this Privacy Policy\n\nIf I introduce new products or services, change internet procedures, or if internet and IT security technology develops further, this privacy policy will be updated accordingly."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "artka-2017",
+    "title": {
+      "de": "Art Karlsruhe 2017",
+      "en": "Art Karlsruhe 2017"
+    },
+    "layout": "archive",
+    "sections": [
+      {
+        "parts": [
+          {
+            "type": "youtube",
+            "videoId": "JSgEjrTG8BE"
+          }
+        ],
+        "title": {
+          "de": "Filmbericht über die Malerin Ursula Jüngst",
+          "en": "Film report on the painter Ursula Jüngst"
+        },
+        "anchor": "filmbericht"
+      },
+      {
+        "title": {
+          "de": "Bilder auf der Messe",
+          "en": "Works at the art fair"
+        },
+        "anchor": "bilder",
+        "parts": [
+          {
+            "type": "image",
+            "source": "ArtKa_2017/image2@2x.JPG",
+            "caption": {
+              "de": "Zauberwind, 2016,\nÖl/Lw, 160 x 190 cm,19.500,- Euro"
+            }
+          },
+          {
+            "type": "image",
+            "source": "ArtKa_2017/image10@2x.JPG",
+            "caption": {
+              "de": "Bienenwalzer, 2015,\nÖl/Lw, 120 x 90 cm, 8.800,- Euro"
+            }
+          },
+          {
+            "type": "image",
+            "source": "ArtKa_2017/image11@2x.JPG",
+            "caption": {
+              "de": "Mandarinentanz, 2016,\nÖl/Lw, 70 x 90 cm, 5.500,- Euro"
+            }
+          },
+          {
+            "type": "image",
+            "source": "ArtKa_2017/image5@2x.JPG",
+            "caption": {
+              "de": "Hochzeit des Lichts, 2016,\nÖl/Lw, 90 x 120 cm, 8.800,- Euro"
+            }
+          },
+          {
+            "type": "image",
+            "source": "ArtKa_2017/image12@2x.JPG",
+            "caption": {
+              "de": "Wellenjauchzen, 2016\nÖl/Lw, 55,5 x 120 cm, 6.500,- Euro"
+            }
+          },
+          {
+            "type": "image",
+            "source": "ArtKa_2017/image6@2x.JPG",
+            "caption": {
+              "de": "Mangowalzer, 2016,\nÖl/Lw, 100 x 100 cm, 8.800,- Euro"
+            }
+          },
+          {
+            "type": "image",
+            "source": "ArtKa_2017/image7@2x.JPG",
+            "caption": {
+              "de": "Puls, 2016,\nÖl/Lw, 100 x 100 cm, 8.800,- Euro"
+            }
+          },
+          {
+            "type": "image",
+            "source": "ArtKa_2017/image8@2x.JPG",
+            "caption": {
+              "de": "Nachtmorgen, 2016,\nÖl/Lw, 100 x 100 cm, 8.800,- Euro"
+            }
+          },
+          {
+            "type": "image",
+            "source": "ArtKa_2017/image21@2x.JPG",
+            "caption": {
+              "de": "aus Semiramis VI, 2017\nÖl/Lw, 50 x 40 cm, 2.300,- Euro"
+            }
+          },
+          {
+            "type": "image",
+            "source": "ArtKa_2017/image14@2x.JPG",
+            "caption": {
+              "de": "aus Semiramis III, 2017\nÖl/Lw, 50 x 40 cm, 2.300,- Euro"
+            }
+          },
+          {
+            "type": "image",
+            "source": "ArtKa_2017/image15@2x.JPG",
+            "caption": {
+              "de": "aus Semiramis I, 2017\nÖl/Lw, 50 x 40 cm, 2.300,- Euro"
+            }
+          },
+          {
+            "type": "image",
+            "source": "ArtKa_2017/image16@2x.JPG",
+            "caption": {
+              "de": "aus Semiramis IX, 2017\nÖl/Lw, 50 x 40 cm, 2.300,- Euro"
+            }
+          },
+          {
+            "type": "image",
+            "source": "ArtKa_2017/image18@2x.JPG",
+            "caption": {
+              "de": "Sonnenkuss, 2017\nÖl/Lw, 30 x 40 cm, 1.950,- Euro"
+            }
+          },
+          {
+            "type": "image",
+            "source": "ArtKa_2017/image17@2x.JPG",
+            "caption": {
+              "de": "Fangenspiel III, 2017\nÖl/Lw, 24 x 30 cm, 950,- Euro"
+            }
+          },
+          {
+            "type": "image",
+            "source": "ArtKa_2017/image22@2x.JPG",
+            "caption": {
+              "de": "blaue Stunde, 2017\nÖl/Lw, 30 x 40 cm, 1.950,- Euro"
+            }
+          },
+          {
+            "type": "image",
+            "source": "ArtKa_2017/image23@2x.JPG",
+            "caption": {
+              "de": "Fangenspiel I, 2017\nÖl/Lw, 24 x 30 cm, 950,- Euro"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Über die Malerei von Ursula Jüngst",
+          "en": "On the painting of Ursula Jüngst"
+        },
+        "anchor": "literatur",
+        "parts": [
+          {
+            "type": "text",
+            "value": {
+              "de": "Innerhalb der zeitgenössischen Kunst nimmt Ursula Jüngst, die sich seit über dreißig Jahren mit malerischen Positionen beschäftigt, durch ihre markante Bildsprache eine besondere Stellung ein. Ihre Gemälde sind kraftvoll in ihrer Entschiedenheit. Sie zeigen einen kreativen Umgang mit einem breiten Spektrum intensiver Farben, die inneren Impulsen folgen. Durch ihr Wissen über Farbzusammenhänge und deren Wirkung werden diese bereichert.\n\nDerzeitiges Markenzeichen der Künstlerin, die in Nürnberg und Barcelona lebt, sind ihre in Länge und Breite sich ähnelnden Pinselstriche. Diese bekommen durch ihre Wiederholung und ihren Rhythmus eine formale Bedeutung. Der Pinselduktus übernimmt den Stellenwert eines Bausteins. Er ist ihr Modul, das in Form und Funktion zusammengefügt werden kann. Die Kunstkritik hebt diesen innovativen Beitrag hervor und spricht folgerichtig vom „Pinselduktus als Weltformel\".\n\nMit der breiten Pinselsetzung ist Ursula Jüngst ein bedeutender Schritt gelungen. Farbe und Form sind autonom verfügbar. Im Gegensatz zu einer naturnahen Wiedergabe stehen sie unabhängig von Zeit und Ort als lebendige Farbformkörper. Artikulierte Empfindungswerte kanalisieren sich in Pinselbewegungen.",
+              "en": "Within contemporary art, Ursula Jüngst, who has been exploring painterly positions for more than thirty years, occupies a special place because of her distinctive visual language. Her paintings are powerful in their decisiveness. They show a creative handling of a broad spectrum of intense colors that follow inner impulses. Her knowledge of color relationships and their effect enriches them further.\n\nThe current trademark of the artist, who lives in Nuremberg and Barcelona, is her brushstrokes, similar in length and width. Through repetition and rhythm they acquire formal meaning. The brushwork takes on the status of a building block. It is her module, which can be combined in form and function. Art criticism highlights this innovative contribution and quite rightly speaks of the \"brushstroke as a world formula\".\n\nWith this broad brushstroke, Ursula Jüngst has taken an important step. Color and form are available as autonomous means. In contrast to a representation close to nature, they stand independently of time and place as living bodies of color and form. Articulated emotional values channel themselves into brush movements."
+            }
+          },
+          {
+            "type": "text",
+            "value": {
+              "de": "In einer Art Farbtanzbewegung lässt sich die experimentierfreudige Malerin auf den Prozess der Begegnung mit Farben ein. Sie untersucht die Wirkung von unterschiedlichen Farbnuancierungen und ist dabei selbst immer wieder überrascht von ihren Entdeckungen.\n\nZahlreiche Striche ordnen sich in wechselnder Richtung und Dichte des Farbauftrags zu einem fließenden Miteinander. Oftmals enthalten einzelne Pinselsetzungen verschiedene Spuren von sich vermischenden Farben. Die Farbabläufe einzelner Pinselstriche können sich verändern. Sie können sich der benachbarten Farbe annähern, mit ihr verwandt sein oder sich komplementär absetzen. In der gewonnenen Vielfalt und in der Komplexität ihrer Wechselbeziehungen erzeugen sie eine sich steigernde, flirrende Wirkung.\n\nDie Gemälde sprengen Vertrautes und reizen zu freien Assoziationen. Sie thematisieren\nGrundbefindlichkeiten des Menschseins und sind Ausdruck des modernen Lebensgefühls. Wir nehmen Teil an einer Feier der Malerei.\n\n\nBert Schlichtenmaier, Stuttgart",
+              "en": "In a kind of dance of color, the experimental painter surrenders to the process of encountering colors. She investigates the effect of different tonal nuances and is repeatedly surprised by her own discoveries.\n\nNumerous strokes organize themselves, in changing directions and varying density of paint application, into a flowing together. Individual brush marks often contain traces of colors blending into one another. The color progression of single brushstrokes can change. They may approach the neighboring color, be related to it, or set themselves off in complementary contrast. In the variety thus gained and in the complexity of their relationships, they generate an increasingly shimmering effect.\n\nThe paintings break open what is familiar and invite free associations. They address fundamental states of human existence and are an expression of modern life. We become participants in a celebration of painting.\n\nBert Schlichtenmaier, Stuttgart"
+            }
+          },
+          {
+            "type": "image",
+            "source": "ArtKa_2017/image24@2x.JPG",
+            "caption": {
+              "de": "Mit Texten von Dieter Hoffmann, Ursula Jüngst, Annette Schavan,\nBert Schlichtenmaier. 112 Seiten, 57 Abbildungen, 24 x 28 cm,\nDeutsch, Ganzleinen mit Schutzumschlag, Fadenheftung.\n\nmodo Verlag GmbH Freiburg i.Br.\nISBN 978-3-86833-182-0\n\nOktober 2015",
+              "en": "With texts by Dieter Hoffmann, Ursula Jüngst, Annette Schavan,\nBert Schlichtenmaier. 112 pages, 57 illustrations, 24 x 28 cm,\nGerman, clothbound with dust jacket, thread-sewn binding.\n\nmodo Verlag GmbH Freiburg i.Br.\nISBN 978-3-86833-182-0\n\nOctober 2015"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

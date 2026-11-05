@@ -3,14 +3,10 @@
 import { useRef, type KeyboardEvent } from 'react';
 
 import navigation from './navigation.json';
-import { horizontePath, galleryPath, legacySite, type Locale } from './routes';
+import { horizontePath, pagePath, type Locale } from './routes';
 import { Menu, MenuPanel, Navigation, QuickLinks } from './SiteNavigation.styles';
 
-type NavigationDestination =
-  | { page: string; legacyFile?: never }
-  | { legacyFile: string; page?: never };
-
-type NavigationLink = Record<Locale, string> & NavigationDestination;
+type NavigationLink = Record<Locale, string> & { page: string };
 
 const labels = {
   de: { menu: 'Menü', painting: 'Malerei', biography: 'Biografie', contact: 'Kontakt', more: 'Weitere Seiten' },
@@ -30,7 +26,7 @@ export function SiteNavigation({ locale, page }: { locale: Locale; page: string 
 
   function renderLink(link: NavigationLink) {
     const isCurrent = link.page === page;
-    const href = link.page ? galleryPath(locale, link.page) : `${legacySite}/${link.legacyFile}`;
+    const href = pagePath(locale, link.page);
 
     return (
       <li key={href}>
@@ -47,8 +43,12 @@ export function SiteNavigation({ locale, page }: { locale: Locale; page: string 
         <a href={horizontePath(locale)} aria-current={page === 'horizonte' ? 'page' : undefined}>
           {text.painting}
         </a>
-        <a href={`${legacySite}/Biografie.html`}>{text.biography}</a>
-        <a href={`${legacySite}/Kontakt.html`}>{text.contact}</a>
+        <a href={pagePath(locale, 'biografie')} aria-current={page === 'biografie' ? 'page' : undefined}>
+          {text.biography}
+        </a>
+        <a href={pagePath(locale, 'kontakt')} aria-current={page === 'kontakt' ? 'page' : undefined}>
+          {text.contact}
+        </a>
       </QuickLinks>
 
       <Menu ref={menu} onBlur={(event) => {

@@ -47,6 +47,24 @@ export const Eyebrow = styled('div')(({ theme }) => ({
   '& span': { marginInline: theme.spacing(0.65) },
 }));
 
+export const HeroActions = styled('div')(({ theme }) => ({
+  display: 'flex',
+  flexWrap: 'wrap',
+  alignItems: 'center',
+  gap: theme.spacing(1.5, 2.5),
+}));
+
+export const NewsLink = styled('a')(({ theme }) => ({
+  display: 'inline-flex',
+  alignItems: 'center',
+  gap: theme.spacing(1),
+  minHeight: 44,
+  color: theme.palette.text.primary,
+  fontWeight: 600,
+  textUnderlineOffset: '0.25em',
+  '&:hover': { color: theme.palette.primary.main },
+}));
+
 export const PrimaryLink = styled('a')(({ theme }) => ({
   display: 'inline-flex',
   alignItems: 'center',

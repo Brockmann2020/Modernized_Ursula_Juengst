@@ -1,0 +1,12 @@
+{
+  "name": "Ursula Jüngst",
+  "street": "Steinstraße 21",
+  "floor": { "de": "Haus B / 3. Stock", "en": "Building B / 3rd floor" },
+  "city": "90419 Nürnberg",
+  "phones": [
+    { "label": "+49 (0) 911 46 43 80", "number": "+49911464380" },
+    { "label": "+49 (0) 151 4185 4905", "number": "+4915141854905" }
+  ],
+  "email": "ursula.juengst@t-online.de",
+  "instagram": "https://www.instagram.com/ursula_juengst"
+}

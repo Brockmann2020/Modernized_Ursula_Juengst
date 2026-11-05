@@ -3,7 +3,7 @@ import type { ReactNode } from 'react';
 import { SiteNavigation } from './SiteNavigation';
 import { Footer, Header, HeaderBar, LanguageLink, Wordmark } from './SiteLayout.styles';
 import navigation from './navigation.json';
-import { homePath, legacySite, pagePath, type Locale } from './routes';
+import { homePath, pagePath, type Locale } from './routes';
 
 interface SiteLayoutProps {
   children: ReactNode;
@@ -39,7 +39,10 @@ export function SiteLayout({ children, locale, page, headerTone = 'light' }: Sit
       <main>{children}</main>
 
       <Footer>
-        <a href={`${legacySite}/Impressum.html`}>{navigation.text[locale].footer}</a>
+        <a href={pagePath(locale, 'impressum')}>{navigation.text[locale].footer}</a>
+        <a href={pagePath(locale, 'artka-2017')}>
+          {locale === 'de' ? 'Archiv' : 'Archive'} · Art Karlsruhe 2017
+        </a>
       </Footer>
     </>
   );

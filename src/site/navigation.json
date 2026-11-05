@@ -96,19 +96,19 @@
       "en": "Biography",
       "items": [
         {
-          "legacyFile": "Biografie.html",
+          "page": "biografie",
           "de": "Biografie",
           "en": "Biography"
         },
         {
-          "legacyFile": "Ausstellungen.html",
           "de": "Ausstellungen",
-          "en": "Exhibitions"
+          "en": "Exhibitions",
+          "page": "ausstellungen"
         },
         {
-          "legacyFile": "Arbeitssituationen.html",
           "de": "Arbeitssituationen",
-          "en": "Work Situations"
+          "en": "Work Situations",
+          "page": "arbeitssituationen"
         }
       ]
     },
@@ -117,48 +117,48 @@
       "en": "Publications",
       "items": [
         {
-          "legacyFile": "Literatur.html",
           "de": "Bücher/Kataloge",
-          "en": "Books/Catalogues"
+          "en": "Books/Catalogues",
+          "page": "literatur"
         },
         {
-          "legacyFile": "Flyer.html",
           "de": "Flyer",
-          "en": "Flyers"
+          "en": "Flyers",
+          "page": "flyer"
         }
       ]
     }
   ],
   "links": [
     {
-      "legacyFile": "Kunst_am_Bau.html",
       "de": "Kunst am Bau",
-      "en": "Art in Architecture"
+      "en": "Art in Architecture",
+      "page": "kunst-am-bau"
     },
     {
-      "legacyFile": "Presse.html",
       "de": "Presse",
-      "en": "Press"
+      "en": "Press",
+      "page": "presse"
     },
     {
-      "legacyFile": "Filme.html",
       "de": "Filme",
-      "en": "Films"
+      "en": "Films",
+      "page": "filme"
     },
     {
-      "legacyFile": "Kontakt.html",
+      "page": "kontakt",
       "de": "Kontakt",
       "en": "Contact"
     },
     {
-      "legacyFile": "Aktuell.html",
+      "page": "aktuell",
       "de": "Aktuell",
       "en": "News"
     },
     {
-      "legacyFile": "Statement.html",
       "de": "Statement",
-      "en": "Statement"
+      "en": "Statement",
+      "page": "statement"
     }
   ],
   "text": {

@@ -1,13 +1,51 @@
-import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
+import { copyFile, mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 
-import sharp from 'sharp';
+import { prepareEditorialMedia } from './prepare-editorial-media.mjs';
+import { prepareImage } from './prepare-image.mjs';
 
 import { parseBlockGallery } from '../src/gallery/blockContent.mjs';
 import { parseGallery } from '../src/gallery/content.mjs';
+import newsArticles from '../src/news/news.json' with { type: 'json' };
 import gallerySeries from '../src/gallery/series.json' with { type: 'json' };
 
 const manifestDir = new URL('../.generated/', import.meta.url);
+
+async function prepareProfileImages() {
+  const originals = new URL('../media/profile/', import.meta.url);
+  const output = new URL('../public/profile/', import.meta.url);
+  await mkdir(output, { recursive: true });
+
+  for (const name of ['biografie', 'kontakt']) {
+    await prepareImage(
+      fileURLToPath(new URL(name + '.JPG', originals)),
+      fileURLToPath(new URL(name + '.webp', output)),
+    );
+  }
+}
+
+async function prepareNewsMedia() {
+  const originals = new URL('../media/news/', import.meta.url);
+  const output = new URL('../public/news/', import.meta.url);
+  await mkdir(output, { recursive: true });
+
+  const photos = new Set(newsArticles.flatMap((article) => article.images.map((image) => image.source)));
+  for (const name of photos) {
+    if (!/^[\w.-]+\.jpe?g$/i.test(name)) throw new Error('Invalid news image: ' + name);
+    const input = fileURLToPath(new URL(encodeURIComponent(name), originals));
+    const target = fileURLToPath(new URL(encodeURIComponent(name.replace(/\.jpe?g$/i, '.webp')), output));
+    await prepareImage(input, target);
+  }
+
+  const downloads = new Set(newsArticles.flatMap((article) =>
+    article.links.filter((link) => link.download).map((link) => link.href),
+  ));
+  for (const href of downloads) {
+    const match = /^\/news\/([\w.-]+\.pdf)$/i.exec(href);
+    if (!match) throw new Error('Invalid news download: ' + href);
+    await copyFile(new URL(match[1], originals), new URL(match[1], output));
+  }
+}
 
 async function prepareGallery(slug) {
   const dataFile = new URL(`../src/gallery/${slug}.json`, import.meta.url);
@@ -33,11 +71,7 @@ async function prepareGallery(slug) {
     const input = fileURLToPath(new URL(encodeURIComponent(source), sourceDir));
     const output = fileURLToPath(new URL(`${id}.webp`, outputDir));
 
-    const { width, height } = await sharp(input)
-      .autoOrient()
-      .resize({ width: 1920, height: 1920, fit: 'inside', withoutEnlargement: true })
-      .webp({ quality: 88 })
-      .toFile(output);
+    const { width, height } = await prepareImage(input, output);
 
     dimensions.set(id, { width, height });
   }
@@ -49,4 +83,7 @@ async function prepareGallery(slug) {
 }
 
 await mkdir(manifestDir, { recursive: true });
+await prepareProfileImages();
+await prepareNewsMedia();
+await prepareEditorialMedia();
 for (const slug of gallerySeries) await prepareGallery(slug);

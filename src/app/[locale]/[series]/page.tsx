@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 
+import { editorialSlugs, findEditorialPage } from '../../../editorial/content';
+import { EditorialPage } from '../../../editorial/EditorialPage';
 import { BlockGallery } from '../../../gallery/BlockGallery';
 import { Gallery } from '../../../gallery/Gallery';
 import { loadBlockGallery, loadGallery, readGallery } from '../../../gallery/loadGallery';
@@ -16,18 +18,27 @@ interface PageProps {
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return gallerySeries.map((series) => ({ series }));
+  return [...gallerySeries, ...editorialSlugs].map((series) => ({ series }));
 }
 
-async function getGalleryRoute(params: PageProps['params']) {
+async function getContentRoute(params: PageProps['params']) {
   const { series } = await params;
-  if (!gallerySeries.includes(series)) notFound();
+  if (!gallerySeries.includes(series) && !editorialSlugs.includes(series)) notFound();
 
   return { slug: series, locale: await getLocale(params) };
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { slug, locale } = await getGalleryRoute(params);
+  const { slug, locale } = await getContentRoute(params);
+  const editorial = findEditorialPage(slug);
+  if (editorial) {
+    return {
+      title: `${editorial.title[locale]} | Ursula Jüngst`,
+      robots: { index: false, follow: false },
+      alternates: { languages: { de: galleryPath('de', slug), en: galleryPath('en', slug) } },
+    };
+  }
+
   const data = await readGallery(slug);
   const title = data.kind === 'blocks' && locale === 'en' ? data.series.titleEn ?? data.series.title : data.series.title;
 
@@ -41,8 +52,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export default async function GalleryPage({ params }: PageProps) {
-  const { slug, locale } = await getGalleryRoute(params);
+export default async function ContentPage({ params }: PageProps) {
+  const { slug, locale } = await getContentRoute(params);
+  const editorial = findEditorialPage(slug);
+  if (editorial) return <EditorialPage page={editorial} locale={locale} />;
+
   const data = await readGallery(slug);
   if (data.kind === 'blocks') {
     const gallery = await loadBlockGallery(slug, locale, data);

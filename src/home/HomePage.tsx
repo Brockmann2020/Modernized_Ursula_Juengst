@@ -2,10 +2,10 @@ import type { Metadata } from 'next';
 
 import { loadGallery } from '../gallery/loadGallery';
 import { SiteLayout } from '../site/SiteLayout';
-import { homePath, horizontePath, legacySite, type Locale } from '../site/routes';
+import { homePath, horizontePath, pagePath, type Locale } from '../site/routes';
 import {
   ArtworkGrid, ArtworkLink, Collection, CollectionHeader, ContactBand, ContactInner,
-  Eyebrow, Hero, HeroCopy, HeroImage, HeroWork, PrimaryLink,
+  Eyebrow, Hero, HeroActions, HeroCopy, HeroImage, HeroWork, NewsLink, PrimaryLink,
 } from './HomePage.styles';
 
 const copy = {
@@ -14,6 +14,7 @@ const copy = {
     headline: ['Malerei, die', 'in Bewegung', 'bleibt.'],
     intro: 'Farbe, Rhythmus und Bewegung. Ein Blick in die Malerei von Ursula Jüngst.',
     explore: 'Horizonte entdecken',
+    news: 'Aktuell',
     featured: 'Ausgewählte Arbeiten',
     allWorks: 'Zur Werkreihe',
     contactTitle: 'Kontakt zu Ursula Jüngst',
@@ -24,6 +25,7 @@ const copy = {
     headline: ['Painting', 'in constant', 'motion.'],
     intro: 'Colour, rhythm and movement. A glimpse into the paintings of Ursula Jüngst.',
     explore: 'Explore Horizonte',
+    news: 'News',
     featured: 'Selected works',
     allWorks: 'View the series',
     contactTitle: 'Contact Ursula Jüngst',
@@ -66,9 +68,15 @@ export async function HomePage({ locale }: { locale: Locale }) {
 
           <p>{text.intro}</p>
 
-          <PrimaryLink href={gallery}>
-            {text.explore} <span aria-hidden="true">↗</span>
-          </PrimaryLink>
+          <HeroActions>
+            <PrimaryLink href={gallery}>
+              {text.explore} <span aria-hidden="true">↗</span>
+            </PrimaryLink>
+
+            <NewsLink href={pagePath(locale, 'aktuell')}>
+              {text.news} <span aria-hidden="true">↗</span>
+            </NewsLink>
+          </HeroActions>
         </HeroCopy>
 
         <HeroWork>
@@ -106,7 +114,7 @@ export async function HomePage({ locale }: { locale: Locale }) {
       <ContactBand aria-labelledby="contact-title">
         <ContactInner>
           <h2 id="contact-title">{text.contactTitle}</h2>
-          <a href={`${legacySite}/Kontakt.html`}>{text.contact} <span aria-hidden="true">↗</span></a>
+          <a href={pagePath(locale, 'kontakt')}>{text.contact} <span aria-hidden="true">↗</span></a>
         </ContactInner>
       </ContactBand>
     </SiteLayout>

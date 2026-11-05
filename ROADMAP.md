@@ -10,7 +10,7 @@ Stand: 5. November 2026. Grundlage ist der Obsidian-Implementierungsplan, Abschn
 | --- | --- | --- |
 | Bestands- und Medieninventar | Implementiert | 31 Inhaltsseiten, separater Exportbaum, Medienstatus und kollidierende Übersetzungs-IDs im Bestandsrepository erfasst. |
 | Statischer Export und gemeinsames Theme | Implementiert | Next.js, TypeScript und MUI. HTML und Styles werden über einen statischen Server ausgeliefert. |
-| Navigation, Fußzeile und Sprachwechsel | Implementiert | Tastaturbedienung und Wechsel auf dieselbe Galerie geprüft. Externe Übergangslinks bleiben ungeprüft. |
+| Navigation, Fußzeile und Sprachwechsel | Implementiert | Tastaturbedienung und Wechsel auf dieselbe Galerie geprüft. Alle Menüpunkte und Footer-Ziele liegen im neuen Export. |
 | Horizonte-Galerie | Implementiert | Vier Werke, sieben Abbildungen, zwei Sprachen. Ein zusätzlicher Dateneintrag ließ sich ohne Komponentenänderung anzeigen. |
 | Medienaufbereitung | In Arbeit | WebP und Pixelmaße für Horizonte vorhanden. Medienquelle für frische Checkouts, responsive Bildgrößen und siteweite Prüfungen fehlen. |
 | Öffentliche Sprachpfade und Altlinks | Entscheidung offen | Öffentliche Zielpfade, Alias `Horizont.html`, Weiterleitungen und Anker klären. |
@@ -23,14 +23,16 @@ Stand: 5. November 2026. Grundlage ist der Obsidian-Implementierungsplan, Abschn
 | Primavera | Implementiert | Vier Werke und acht Abbildungen mit dem Node-Importer übernommen. Beide Sprachen nutzen die gemeinsame Galerievorlage. |
 | Hochzeit des Lichts | Implementiert | Zweier- und Dreierreihen, Atelierfoto und Dezimalmaß übernommen. |
 | Weitere Malerei-Seiten | Implementiert | Alle 17 Galerien lokal erreichbar. Bildreihen, Kontextfotos, Werkteile und Originalbeschriftungen bleiben erhalten. |
-| Arbeitssituationen | Geplant | Bildreihen und Beschriftungen übernehmen. |
-| Aktuell | Geplant | Nachrichten, Ausstellungen, Karussells und Downloads übernehmen. Englische Texte fachlich zuordnen und doppelte Snippet-IDs auflösen. |
-| Literatur und Flyer | Geplant | Publikationen, aufklappbare Auszüge und PDF-Downloads übernehmen. |
-| Presse und Filme | Geplant | Gemeinsamer Presse-Bilddialog. Lokale Videos und YouTube-Einbettungen erhalten. |
-| Kunst am Bau und Statement | Geplant | Projektbeschreibungen, Texte, Abbildungen und Links übernehmen. |
-| Biografie, Ausstellungen, Kontakt und Impressum | Geplant | Zeitachsen, Ausstellungsliste, Kontaktinformationen und rechtliche Inhalte übernehmen. |
+| Arbeitssituationen | Implementiert | Bildreihen und Beschriftungen in einer Fotostrecke übernommen. |
+| Aktuell | Implementiert | 14 Meldungen, 35 Bilder, zwei manuelle Karussells und fünf lokale PDFs. Vorhandene englische Texte nach Meldung zugeordnet. |
+| Literatur und Flyer | Implementiert | Publikationen, 15 aufklappbare Auszüge und lokale PDFs. |
+| Presse und Filme | Implementiert | Pressebilder im Vollbilddialog. Zehn lokale Videos und sechs YouTube-Filme. |
+| Kunst am Bau und Statement | Implementiert | Texte, Bildreihen und Links mit Sprungnavigation übernommen. |
+| Biografie und Kontakt | Implementiert | Zweisprachige Zeitleiste und Kontaktseite mit lokalen Links von der Startseite. |
+| Ausstellungen und Impressum | Implementiert | Ausstellungsliste nach Jahren und rechtliche Inhalte aus dem Altbestand. |
 | Startseite | In Arbeit | Zweisprachiger Einstieg mit Golem-Ausschnitt und direkter Werkauswahl umgesetzt und geprüft. Ob ein Karussell ergänzt wird, ist offen. |
-| ArtKa 2017 und separater Exportbaum | Entscheidung offen | Historische Inhalte, abweichende Seiten und eingehende Links prüfen. Archiv und Weiterleitungen festlegen. |
+| Art Karlsruhe 2017 | Implementiert | Film, Werke, Literatur und historische Preise im Archiv. |
+| Separater Exportbaum und Altlinks | Entscheidung offen | Abweichende historische Inhalte und öffentliche Weiterleitungen prüfen. |
 
 ## Pflege und Umstieg
 

@@ -63,6 +63,10 @@ export const LanguageLink = styled('a')(({ theme }) => ({
 }));
 
 export const Footer = styled('footer')(({ theme }) => ({
+  display: 'flex',
+  justifyContent: 'center',
+  flexWrap: 'wrap',
+  gap: theme.spacing(1.5, 3),
   padding: theme.spacing(4, 3),
   borderTop: `1px solid ${theme.palette.divider}`,
   textAlign: 'center',

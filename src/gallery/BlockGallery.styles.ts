@@ -20,8 +20,8 @@ export const Chapter = styled('section')(({ theme }) => ({
   '& > div': {
     maxWidth: singleImageWidth,
     marginInline: 'auto',
-    paddingTop: theme.spacing(2),
-    borderTop: `1px solid ${theme.palette.divider}`,
+    paddingBlock: theme.spacing(2),
+    borderBlock: `1px solid ${theme.palette.divider}`,
     display: 'grid',
     gap: theme.spacing(1),
   },

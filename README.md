@@ -1,6 +1,6 @@
 # Ursula Jüngst – Refactoring
 
-Horizonte ist der erste Galeriepilot im eigenständigen Refactoring-Repository. Er zeigt vier Werke mit sieben Abbildungen in zwei Sprachen. Die Startseite und alle 17 Malerei-Seiten werden beim Build als statische HTML-Seiten ausgegeben. Die Startseite zeigt einen Ausschnitt aus Golem und verlinkt ausgewählte Werke direkt in der Galerie. Menüpunkte außerhalb der Rubrik Malerei führen weiterhin zur Bestandswebsite.
+Horizonte ist der erste Galeriepilot im eigenständigen Refactoring-Repository. Er zeigt vier Werke mit sieben Abbildungen in zwei Sprachen. Die Startseite und alle 17 Malerei-Seiten werden beim Build als statische HTML-Seiten ausgegeben. Die Startseite zeigt einen Ausschnitt aus Golem und verlinkt ausgewählte Werke direkt in der Galerie. Die Navigation und der Footer führen zu den migrierten Seiten.
 
 ## Lokal starten
 
@@ -22,6 +22,22 @@ python -m http.server 0 --bind 127.0.0.1 --directory out
 ```
 
 Öffne die von Python ausgegebene URL. Port `0` lässt Windows einen freien Port wählen. Beide Startwege benötigen die Originalbilder in den Serienordnern unter `media/`. Die Dateinamen stehen in den Seriendaten unter `src/gallery/`. Die Originale liegen separat von Git. Nach einem frischen Checkout müssen sie dort bereitgestellt werden.
+
+## Biografie und Kontakt
+
+Beide Seiten sind über die Startseite erreichbar und werden auf Deutsch und Englisch statisch ausgegeben. Stationen und Kontaktangaben stehen in `src/profile/biography.json` und `src/profile/contact.json`. Die Medienaufbereitung erwartet die Atelierfotos unter `media/profile/biografie.JPG` und `media/profile/kontakt.JPG`. Sie stammen aus `Biografie/image2.JPG` und `Kontakt/image0.JPG` im Altbestand.
+
+## Aktuell
+
+Die Startseite verlinkt die zweisprachige Aktuell-Seite. Die Meldungen sind in `src/news/news.json` nach Meldung, Bildern, Texten und Links gegliedert. Würzburg und Miltenberg stehen im Fokus. Ältere Meldungen folgen im Rückblick. Die beiden Bildstrecken sind manuell bedienbar. Vorhandene englische Texte sind den jeweiligen Meldungen zugeordnet.
+
+Aus dem alten Website-Ordner lassen sich die Aktuell-Daten und lokalen Originaldateien mit `node scripts/import-news.mjs ../Ursula_Juengst --write` übernehmen. Der Build erwartet Bilder und PDFs in `media/news/`.
+
+## Weitere Inhaltsseiten
+
+Ausstellungen, Arbeitssituationen, Bücher/Kataloge, Flyer, Kunst am Bau, Presse, Filme, Statement, Impressum und Art Karlsruhe 2017 verwenden geordnete Inhaltsblöcke in `src/editorial/pages.json`. Die Präsentation richtet sich nach dem Inhalt: Ausstellungsjahre als Zeitachse, Publikationen mit Auszügen, Bilder im Vollbilddialog und Videos mit Bedienelementen. YouTube-Einbettungen werden erst nach Klick geladen. Art Karlsruhe 2017 ist als Archiv mit historischen Preisen gekennzeichnet. Der Wortlaut des Impressums und der Datenschutzerklärung stammt aus dem Altbestand.
+
+`node scripts/import-editorial.mjs ../Ursula_Juengst --write` übernimmt aus dem Altbestand die Daten und 137 Originaldateien nach `media/editorial/`. Die Medienaufbereitung erzeugt die Dateien unter `public/editorial/`. Pressebilder behalten ihre Originalauflösung. Die Medien liegen separat von Git.
 
 ## Wo ändere ich was?
 
