@@ -10,10 +10,12 @@ const image = z.object({
   caption: localizedLines,
 });
 
+const artwork = image.extend({ details: z.array(image).optional() });
+
 const schema = z.object({
   series: z.object({ title, titleEn: title.optional(), coverImageId: id.optional() }),
   blocks: z.array(z.discriminatedUnion('type', [
-    z.object({ type: z.literal('images'), images: z.array(image).min(1).max(3) }),
+    z.object({ type: z.literal('images'), images: z.array(artwork).min(1).max(3) }),
     z.object({
       type: z.literal('text'),
       text: localizedLines,
@@ -27,7 +29,9 @@ const schema = z.object({
 /** @param {unknown} input */
 export function parseBlockGallery(input) {
   const { series, blocks } = schema.parse(input);
-  const entries = blocks.flatMap((block) => block.type === 'images' ? block.images : []);
+  const entries = blocks.flatMap((block) => block.type === 'images'
+    ? block.images.flatMap(({ details, ...image }) => [image, ...(details ?? [])])
+    : []);
 
   if (entries.length === 0) throw new Error('A gallery must have at least one image.');
   if (new Set(entries.map((entry) => entry.id)).size !== entries.length) {

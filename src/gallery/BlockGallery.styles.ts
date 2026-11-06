@@ -3,10 +3,12 @@
 import { styled } from '@mui/material/styles';
 
 import { displayFont, galleryColors, siteWidth } from '../site/SiteTheme';
+import { WorkInner } from './Gallery.styles';
 
 const singleImageWidth = 1100;
 
-export const GalleryBand = styled('div')(({ theme }) => ({
+export const GalleryBand = styled('section')(({ theme }) => ({
+  scrollMarginTop: theme.spacing(3),
   backgroundColor: galleryColors.band,
   borderBottom: `1px solid ${theme.palette.divider}`,
   '&:nth-child(odd of [data-gallery-row])': { backgroundColor: theme.palette.background.paper },
@@ -51,54 +53,63 @@ export const Chapter = styled('section')(({ theme }) => ({
   },
 }));
 
-export const TextBox = styled('div')(({ theme }) => ({
-  maxWidth: siteWidth,
-  margin: theme.spacing(3, 'auto'),
-  paddingInline: theme.spacing(3),
+export const TextBox = styled(WorkInner)(({ theme }) => ({
+  paddingBlock: theme.spacing(3),
   '& > div': {
-    maxWidth: singleImageWidth,
+    maxWidth: '100%',
+    marginInline: 0,
     backgroundColor: theme.palette.background.paper,
     border: `1px solid ${theme.palette.divider}`,
     borderInlineStart: `4px solid ${theme.palette.primary.main}`,
   },
   '& > div > h2': { marginBottom: theme.spacing(2) },
-  [theme.breakpoints.up('md')]: { paddingInline: theme.spacing(6) },
+  [theme.breakpoints.down('md')]: { gridTemplateColumns: 'minmax(0, 1fr)' },
+  [theme.breakpoints.up('md')]: {
+    paddingBlock: theme.spacing(4),
+    '& > div': { gridColumn: 2 },
+  },
 }));
 
-export const GalleryRow = styled('div')(({ theme }) => ({
-  display: 'grid',
-  gridTemplateColumns: 'minmax(0, 1fr)',
+export const GalleryRow = styled(WorkInner)(({ theme }) => ({
   alignItems: 'start',
-  gap: theme.spacing(4),
-  maxWidth: siteWidth,
-  marginInline: 'auto',
-  padding: theme.spacing(4, 3),
+  '& > div p': { whiteSpace: 'pre-line' },
   [theme.breakpoints.up('md')]: {
-    padding: theme.spacing(5, 6),
     '&[data-columns="2"]': { gridTemplateColumns: 'repeat(2, minmax(0, 1fr))' },
     '&[data-columns="3"]': { gridTemplateColumns: 'repeat(3, minmax(0, 1fr))' },
   },
 }));
 
 export const GalleryTile = styled('figure')(({ theme }) => ({
-  width: 'fit-content',
-  maxWidth: '100%',
-  margin: '0 auto',
+  minWidth: 0,
+  margin: 0,
   scrollMarginTop: theme.spacing(3),
-  '& img': {
+  '& > div > button img': {
     display: 'block',
     width: '100%',
     maxWidth: '100%',
     height: 'auto',
   },
-  '& figcaption': {
-    marginTop: theme.spacing(1.25),
-    color: theme.palette.text.secondary,
-    fontSize: '0.9rem',
-    lineHeight: 1.5,
-    whiteSpace: 'pre-line',
+  '& [data-gallery-details]': {
+    gridTemplateColumns: 'minmax(0, 1fr)',
+    marginTop: theme.spacing(3),
+    '& figcaption': { whiteSpace: 'pre-line' },
   },
-  '[data-columns="1"] &': { maxWidth: `min(100%, ${singleImageWidth}px)` },
+  '& > figcaption': {
+    marginBottom: theme.spacing(2),
+    '& h2': { fontSize: 'clamp(2rem, 3.3vw, 3.5rem)' },
+    '& p': { whiteSpace: 'pre-line' },
+  },
+  [theme.breakpoints.up('md')]: {
+    '[data-columns="2"] &, [data-columns="3"] &': {
+      display: 'grid',
+      gridTemplateRows: 'subgrid',
+      gridTemplateColumns: 'minmax(0, 1fr)',
+      gridRow: 'span 2',
+      alignItems: 'start',
+      rowGap: theme.spacing(2),
+      '& > figcaption': { marginBottom: 0 },
+    },
+  },
 }));
 
 export const GalleryText = styled('div')(({ theme }) => ({

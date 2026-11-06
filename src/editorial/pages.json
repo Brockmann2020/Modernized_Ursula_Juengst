@@ -1792,7 +1792,7 @@
     "sections": [
       {
         "title": {
-          "de": "Der Dom 21.März.2024 - zum Lesen bitte hier klicken"
+          "de": "Der Dom 21.März.2024"
         },
         "parts": [
           {
@@ -1863,7 +1863,7 @@
       },
       {
         "title": {
-          "de": "Nürnberger Nachrichten, 20. März 2020 - zum Lesen bitte hier klicken: www.nordbayern.de"
+          "de": "Nürnberger Nachrichten, 20. März 2020"
         },
         "parts": [
           {
@@ -2161,11 +2161,8 @@
           },
           {
             "type": "image",
-            "source": "Statement/Nah_zwei_Golem.jpg"
-          },
-          {
-            "type": "text",
-            "value": {
+            "source": "Statement/Nah_zwei_Golem.jpg",
+            "caption": {
               "de": "Ausschnitt aus „Golem“, 2026"
             }
           }
@@ -2194,11 +2191,8 @@
           },
           {
             "type": "image",
-            "source": "Statement/image10.JPG"
-          },
-          {
-            "type": "text",
-            "value": {
+            "source": "Statement/image10.JPG",
+            "caption": {
               "de": "Ausschnitt aus \"Den Himmel greifen\", 2025"
             }
           }
@@ -2291,11 +2285,8 @@
         "parts": [
           {
             "type": "image",
-            "source": "Statement/image7.JPG"
-          },
-          {
-            "type": "text",
-            "value": {
+            "source": "Statement/image7.JPG",
+            "caption": {
               "de": "Schlaf mein Kind auch wenn der Teufel lacht, 2020\nÖl / Lw, 400 cm x 600 cm (24-teilig)"
             }
           }

@@ -1,10 +1,10 @@
 import type { Locale } from '../site/routes';
-import type { LoadedBlockGallery } from './loadGallery';
+import type { LoadedBlockGallery, ViewerImage } from './loadGallery';
 
 import { GalleryCover } from './GalleryCover';
 import { GalleryViewer } from './GalleryViewer';
 import { ImageTrigger } from './GalleryViewer.styles';
-import { Index, IndexInner, Intro, IntroInner } from './Gallery.styles';
+import { DetailGrid, GalleryImageFrame, Index, IndexInner, Intro, IntroInner, WorkInfo } from './Gallery.styles';
 import { Chapter, GalleryBand, GalleryRow, GalleryText, GalleryTile, TextBox } from './BlockGallery.styles';
 
 const labels = {
@@ -12,10 +12,15 @@ const labels = {
   en: { index: 'Explore the gallery', start: 'First images', chapter: 'Chapter', zoom: 'Open full screen' },
 };
 
-function imageLabel(caption: string) {
-  const [first, second] = caption.split('\n');
-  const label = first.endsWith(':') && second ? `${first} ${second}` : first;
-  return label.replace(/,\s*\d{4}\b.*$/, '').trim();
+function imageHeading(caption: string) {
+  const [first, ...remaining] = caption.split('\n');
+  const heading = first.endsWith(':') && remaining.length ? first + ' ' + remaining.shift() : first;
+  const year = heading.search(/,\s*\d{4}\b/);
+
+  return {
+    title: year < 0 ? heading : heading.slice(0, year),
+    details: (year < 0 ? remaining : [heading.slice(year + 1).trim(), ...remaining]).join('\n'),
+  };
 }
 
 export function BlockGallery({ gallery, locale }: {
@@ -31,7 +36,7 @@ export function BlockGallery({ gallery, locale }: {
 
     const [first] = block.images;
     const extra = block.images.length - 1;
-    return [{ href: `#${first.id}`, label: imageLabel(first.caption) + (extra ? ` +${extra}` : ''), lang: first.captionLang }];
+    return [{ href: `#${first.id}`, label: imageHeading(first.caption).title + (extra ? ` +${extra}` : ''), lang: first.captionLang }];
   });
   const links = chapters.length > 0
     ? [
@@ -67,7 +72,7 @@ export function BlockGallery({ gallery, locale }: {
 
       {notes.map((note) => (
         <TextBox key={note.index}>
-          <GalleryText lang={note.lang}>
+          <GalleryText lang={note.lang} style={{ width: gallery.images[0].width }}>
             {note.title && <h2 lang={note.titleLang}>{note.title}</h2>}
             {note.lines.map((line, index) => <p key={index}>{line}</p>)}
           </GalleryText>
@@ -77,31 +82,19 @@ export function BlockGallery({ gallery, locale }: {
       <div>
         {gallery.blocks.map((block) => {
           if (block.type === 'images') {
+            const [first] = block.images;
+            const single = block.images.length === 1;
+
             return (
-              <GalleryBand key={block.images[0].id} data-gallery-row>
+              <GalleryBand
+                key={first.id}
+                id={single ? first.id : undefined}
+                aria-labelledby={single ? `work-${first.id}` : undefined}
+                data-gallery-row
+              >
                 <GalleryRow data-columns={block.images.length}>
                   {block.images.map((image) => (
-                    <GalleryTile key={image.id} id={image.id}>
-                      <ImageTrigger
-                        type="button"
-                        data-image-id={image.id}
-                        style={{ width: image.width }}
-                        aria-haspopup="dialog"
-                        aria-label={`${text.zoom}: ${image.alt}`}
-                      >
-                        <img
-                          src={image.src}
-                          alt={image.alt}
-                          lang={image.captionLang}
-                          width={image.width}
-                          height={image.height}
-                          loading="lazy"
-                          decoding="async"
-                        />
-                      </ImageTrigger>
-
-                      <figcaption lang={image.captionLang}>{image.caption}</figcaption>
-                    </GalleryTile>
+                    <ArtworkTile key={image.id} image={image} zoomLabel={text.zoom} single={single} />
                   ))}
                 </GalleryRow>
               </GalleryBand>
@@ -130,5 +123,74 @@ export function BlockGallery({ gallery, locale }: {
         })}
       </div>
     </GalleryViewer>
+  );
+}
+
+function ArtworkTile({ image, zoomLabel, single }: {
+  image: ViewerImage & { details: ViewerImage[] };
+  zoomLabel: string;
+  single: boolean;
+}) {
+  const { title, details } = imageHeading(image.caption);
+  const headingId = `work-${image.id}`;
+  const heading = (
+    <WorkInfo lang={image.captionLang}>
+      <h2 id={headingId}>{title}</h2>
+      {details && <p>{details}</p>}
+    </WorkInfo>
+  );
+
+  return (
+    <>
+      {single && heading}
+      <GalleryTile id={single ? undefined : image.id} aria-labelledby={headingId}>
+        {!single && <figcaption>{heading}</figcaption>}
+
+        <div>
+          <ArtworkTrigger image={image} zoomLabel={zoomLabel} width={image.width} />
+
+          {image.details.length > 0 && (
+            <DetailGrid data-gallery-details>
+              {image.details.map((detail) => (
+                <GalleryImageFrame key={detail.id} id={detail.id}>
+                  <ArtworkTrigger
+                    image={detail}
+                    zoomLabel={zoomLabel}
+                    width={`min(${detail.width}px, calc(85svh * ${detail.width / detail.height}))`}
+                  />
+                  <figcaption lang={detail.captionLang}>{detail.caption}</figcaption>
+                </GalleryImageFrame>
+              ))}
+            </DetailGrid>
+          )}
+        </div>
+      </GalleryTile>
+    </>
+  );
+}
+
+function ArtworkTrigger({ image, zoomLabel, width }: {
+  image: ViewerImage;
+  zoomLabel: string;
+  width: number | string;
+}) {
+  return (
+    <ImageTrigger
+      type="button"
+      data-image-id={image.id}
+      style={{ width }}
+      aria-haspopup="dialog"
+      aria-label={`${zoomLabel}: ${image.alt}`}
+    >
+      <img
+        src={image.src}
+        alt={image.alt}
+        lang={image.captionLang}
+        width={image.width}
+        height={image.height}
+        loading="lazy"
+        decoding="async"
+      />
+    </ImageTrigger>
   );
 }

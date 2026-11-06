@@ -14,23 +14,28 @@
             "de": [
               "Sternengeburt, 2007",
               "Öl / Lw, 165 x 435 cm, (3-teilig)"
+            ],
+            "en": [
+              "Sternengeburt, 2007",
+              "Oil on canvas, 165 × 435 cm (3 panels)"
             ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image5",
-          "source": "image5.JPG",
-          "caption": {
-            "de": [
-              "Sternengeburt",
-              "Offene Kirche St. Klara, Nürnberg 2009"
-            ]
-          }
+          },
+          "details": [
+            {
+              "id": "image5",
+              "source": "image5.JPG",
+              "caption": {
+                "de": [
+                  "Sternengeburt",
+                  "Offene Kirche St. Klara, Nürnberg 2009"
+                ],
+                "en": [
+                  "Sternengeburt",
+                  "Offene Kirche St. Klara, Nuremberg, 2009"
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -44,6 +49,10 @@
             "de": [
               "Agamemnon, 2008",
               "Öl / Lw, 165 x 435 cm, (3-teilig)"
+            ],
+            "en": [
+              "Agamemnon, 2008",
+              "Oil on canvas, 165 × 435 cm (3 panels)"
             ]
           }
         }
@@ -59,6 +68,10 @@
             "de": [
               "Dornbusch (I), 2007",
               "Öl / Lw, 70 x 160 cm"
+            ],
+            "en": [
+              "Dornbusch (I), 2007",
+              "Oil on canvas, 70 × 160 cm"
             ]
           }
         }
@@ -74,6 +87,10 @@
             "de": [
               "gestreicheltes Meer (III), 2007",
               "Öl / Lw, 70 x 160 cm"
+            ],
+            "en": [
+              "gestreicheltes Meer (III), 2007",
+              "Oil on canvas, 70 × 160 cm"
             ]
           }
         }
@@ -89,6 +106,10 @@
             "de": [
               "Lichtung, 2008",
               "Öl / Lw, 100 x 140 cm"
+            ],
+            "en": [
+              "Lichtung, 2008",
+              "Oil on canvas, 100 × 140 cm"
             ]
           }
         }
@@ -104,6 +125,10 @@
             "de": [
               "kleiner Abend, 2008",
               "Öl / Lw, 24 x 36 cm"
+            ],
+            "en": [
+              "kleiner Abend, 2008",
+              "Oil on canvas, 24 × 36 cm"
             ]
           }
         }

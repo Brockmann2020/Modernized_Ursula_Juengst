@@ -14,8 +14,26 @@
             "de": [
               "Noli me tangere I–IV, 2023",
               "Öl / Lw, je 150 x 150 cm"
+            ],
+            "en": [
+              "Noli me tangere I–IV, 2023",
+              "Oil on canvas, each 150 × 150 cm"
             ]
-          }
+          },
+          "details": [
+            {
+              "id": "image1",
+              "source": "image1.JPG",
+              "caption": {
+                "de": [
+                  "Ausschnitt aus \"Noli me tangere III\", 2023"
+                ],
+                "en": [
+                  "Detail from \"Noli me tangere III\", 2023"
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -29,20 +47,10 @@
             "de": [
               "Noli me tangere I, 2023",
               "Öl / Lw, 150 x 150 cm"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image1",
-          "source": "image1.JPG",
-          "caption": {
-            "de": [
-              "Ausschnitt aus \"Noli me tangere III\", 2023"
+            ],
+            "en": [
+              "Noli me tangere I, 2023",
+              "Oil on canvas, 150 × 150 cm"
             ]
           }
         }
@@ -58,6 +66,10 @@
             "de": [
               "Lacrimosa I, 2023",
               "Öl / Lw, 150 x 150 cm"
+            ],
+            "en": [
+              "Lacrimosa I, 2023",
+              "Oil on canvas, 150 × 150 cm"
             ]
           }
         }
@@ -73,6 +85,10 @@
             "de": [
               "Zykls: Noli me tangere, 2023",
               "Öl / Lw, je 150 x 150 cm"
+            ],
+            "en": [
+              "Series: Noli me tangere, 2023",
+              "Oil on canvas, each 150 × 150 cm"
             ]
           }
         }
@@ -88,6 +104,10 @@
             "de": [
               "Dies irae, dies illa II, 2023",
               "Öl / Lw, 150 x 150 cm"
+            ],
+            "en": [
+              "Dies irae, dies illa II, 2023",
+              "Oil on canvas, 150 × 150 cm"
             ]
           }
         }
@@ -103,6 +123,10 @@
             "de": [
               "Dies irae, dies illa I, 2023",
               "Öl / Lw, 150 x 150 cm"
+            ],
+            "en": [
+              "Dies irae, dies illa I, 2023",
+              "Oil on canvas, 150 × 150 cm"
             ]
           }
         }

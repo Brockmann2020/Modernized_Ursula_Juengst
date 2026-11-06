@@ -14,36 +14,38 @@
             "de": [
               "Das Schweigen brechen, 2022",
               "Öl / Lw, je 360 x 160 cm"
+            ],
+            "en": [
+              "Das Schweigen brechen, 2022",
+              "Oil on canvas, each 360 × 160 cm"
             ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image1",
-          "source": "image1.JPG",
-          "caption": {
-            "de": [
-              "Ausschnitt aus \"Das Schweigen brechen\", 2022"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image2",
-          "source": "image2.JPG",
-          "caption": {
-            "de": [
-              "Ausschnitt aus \"Das Schweigen brechen\", 2022"
-            ]
-          }
+          },
+          "details": [
+            {
+              "id": "image1",
+              "source": "image1.JPG",
+              "caption": {
+                "de": [
+                  "Ausschnitt aus \"Das Schweigen brechen\", 2022"
+                ],
+                "en": [
+                  "Detail from \"Das Schweigen brechen\", 2022"
+                ]
+              }
+            },
+            {
+              "id": "image2",
+              "source": "image2.JPG",
+              "caption": {
+                "de": [
+                  "Ausschnitt aus \"Das Schweigen brechen\", 2022"
+                ],
+                "en": [
+                  "Detail from \"Das Schweigen brechen\", 2022"
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -57,36 +59,38 @@
             "de": [
               "Ariadnefäden des Lichts, 2022",
               "Öl / Lw, je 270 x 150 cm"
+            ],
+            "en": [
+              "Ariadnefäden des Lichts, 2022",
+              "Oil on canvas, each 270 × 150 cm"
             ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image5",
-          "source": "image5.JPG",
-          "caption": {
-            "de": [
-              "Ausschnitt aus \"Ariadnefäden des Lichts\", 2022"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image6",
-          "source": "image6.JPG",
-          "caption": {
-            "de": [
-              "Ausschnitt aus \"Ariadnefäden des Lichts\", 2022"
-            ]
-          }
+          },
+          "details": [
+            {
+              "id": "image5",
+              "source": "image5.JPG",
+              "caption": {
+                "de": [
+                  "Ausschnitt aus \"Ariadnefäden des Lichts\", 2022"
+                ],
+                "en": [
+                  "Detail from \"Ariadnefäden des Lichts\", 2022"
+                ]
+              }
+            },
+            {
+              "id": "image6",
+              "source": "image6.JPG",
+              "caption": {
+                "de": [
+                  "Ausschnitt aus \"Ariadnefäden des Lichts\", 2022"
+                ],
+                "en": [
+                  "Detail from \"Ariadnefäden des Lichts\", 2022"
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -100,6 +104,10 @@
             "de": [
               "Immer wieder Gelb, 2022",
               "Öl / Lw, 145 x 120 cm"
+            ],
+            "en": [
+              "Immer wieder Gelb, 2022",
+              "Oil on canvas, 145 × 120 cm"
             ]
           }
         }

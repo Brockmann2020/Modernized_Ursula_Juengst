@@ -13,22 +13,26 @@
           "caption": {
             "de": [
               "Erwachen, 2024. Öl / Lw, 160 cm x 240 cm"
+            ],
+            "en": [
+              "Erwachen, 2024",
+              "Oil on canvas, 160 × 240 cm"
             ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image16",
-          "source": "image16.JPG",
-          "caption": {
-            "de": [
-              "Ausschnitt aus \"Erwachen\", 2024"
-            ]
-          }
+          },
+          "details": [
+            {
+              "id": "image16",
+              "source": "image16.JPG",
+              "caption": {
+                "de": [
+                  "Ausschnitt aus \"Erwachen\", 2024"
+                ],
+                "en": [
+                  "Detail from \"Erwachen\", 2024"
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -42,6 +46,10 @@
             "de": [
               "Zyklus: Malen gegen die Dunkelheit I–VI, 2024",
               "Öl / Lw, je 120 x 90 cm"
+            ],
+            "en": [
+              "Series: Malen gegen die Dunkelheit I–VI, 2024",
+              "Oil on canvas, each 120 × 90 cm"
             ]
           }
         }
@@ -57,6 +65,10 @@
             "de": [
               "Stille Hoffnung – Xenien I–III, 2024",
               "Öl / Lw, je 120 x 90 cm"
+            ],
+            "en": [
+              "Stille Hoffnung – Xenien I–III, 2024",
+              "Oil on canvas, each 120 × 90 cm"
             ]
           }
         }
@@ -72,37 +84,40 @@
             "de": [
               "Malgré tout, 2024",
               "Öl / Lw, 120 x 90 cm"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image9",
-          "source": "image9.JPG",
-          "caption": {
-            "de": [
+            ],
+            "en": [
               "Malgré tout, 2024",
-              "Öl / Lw, 120 x 90 cm"
+              "Oil on canvas, 120 × 90 cm"
             ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image11",
-          "source": "image11.JPG",
-          "caption": {
-            "de": [
-              "Ausschnitt aus \"Malgré tout\",2024"
-            ]
-          }
+          },
+          "details": [
+            {
+              "id": "image9",
+              "source": "image9.JPG",
+              "caption": {
+                "de": [
+                  "Malgré tout, 2024",
+                  "Öl / Lw, 120 x 90 cm"
+                ],
+                "en": [
+                  "Malgré tout, 2024",
+                  "Oil on canvas, 120 × 90 cm"
+                ]
+              }
+            },
+            {
+              "id": "image11",
+              "source": "image11.JPG",
+              "caption": {
+                "de": [
+                  "Ausschnitt aus \"Malgré tout\",2024"
+                ],
+                "en": [
+                  "Detail from \"Malgré tout\", 2024"
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -116,8 +131,26 @@
             "de": [
               "Lonesome, 2024",
               "Öl / Lw, 120 x 90 cm"
+            ],
+            "en": [
+              "Lonesome, 2024",
+              "Oil on canvas, 120 × 90 cm"
             ]
-          }
+          },
+          "details": [
+            {
+              "id": "image10",
+              "source": "image10.JPG",
+              "caption": {
+                "de": [
+                  "Ausschnitt aus \"Lonesome\",2024"
+                ],
+                "en": [
+                  "Detail from \"Lonesome\", 2024"
+                ]
+              }
+            }
+          ]
         },
         {
           "id": "image4",
@@ -126,20 +159,10 @@
             "de": [
               "Narbe, 2024",
               "Öl / Lw, 120 x 90 cm"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image10",
-          "source": "image10.JPG",
-          "caption": {
-            "de": [
-              "Ausschnitt aus \"Lonesome\",2024"
+            ],
+            "en": [
+              "Narbe, 2024",
+              "Oil on canvas, 120 × 90 cm"
             ]
           }
         }
@@ -155,6 +178,10 @@
             "de": [
               "links: Vertrauung, 2024, Öl / Lw,120 x 90 cm",
               "rechts: Reliquienbüsten des Kaiserpaares Heinrich II. und Kunigunde, Diezesanmuseum Paderborn, März 2024"
+            ],
+            "en": [
+              "Left: Vertrauung, 2024, Oil on canvas, 120 × 90 cm",
+              "Right: Reliquary busts of Emperor Henry II and Empress Cunigunde, Diözesanmuseum Paderborn, March 2024"
             ]
           }
         }
@@ -170,6 +197,10 @@
             "de": [
               "Rosen bergen IV, 2024",
               "Öl / Lw, 70 x 60 cm"
+            ],
+            "en": [
+              "Rosen bergen IV, 2024",
+              "Oil on canvas, 70 × 60 cm"
             ]
           }
         },
@@ -180,6 +211,10 @@
             "de": [
               "Rosen bergen II, 2024",
               "Öl / Lw, 70 x 60 cm"
+            ],
+            "en": [
+              "Rosen bergen II, 2024",
+              "Oil on canvas, 70 × 60 cm"
             ]
           }
         },
@@ -190,6 +225,10 @@
             "de": [
               "Rosen bergen I, 2024",
               "Öl / Lw, 70 x 60 cm"
+            ],
+            "en": [
+              "Rosen bergen I, 2024",
+              "Oil on canvas, 70 × 60 cm"
             ]
           }
         }

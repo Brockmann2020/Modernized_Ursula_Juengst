@@ -14,6 +14,10 @@
             "de": [
               "La fiesta de la vida, 2018",
               "Öl / Lw, 400 cm x 600 cm (24-teilig)"
+            ],
+            "en": [
+              "La fiesta de la vida, 2018",
+              "Oil on canvas, 400 × 600 cm (24 panels)"
             ]
           }
         }
@@ -29,6 +33,10 @@
             "de": [
               "Tauffest, 2017",
               "Öl / Lw, 160 x 280 cm"
+            ],
+            "en": [
+              "Tauffest, 2017",
+              "Oil on canvas, 160 × 280 cm"
             ]
           }
         }
@@ -44,6 +52,10 @@
             "de": [
               "Lichtregen I und II, 2017",
               "Öl / Lw, 100 x 45 cm"
+            ],
+            "en": [
+              "Lichtregen I and II, 2017",
+              "Oil on canvas, 100 × 45 cm"
             ]
           }
         }
@@ -54,6 +66,9 @@
       "text": {
         "de": [
           "Wider der Tränen der Mütter"
+        ],
+        "en": [
+          "Against the Tears of Mothers"
         ]
       }
     },
@@ -67,48 +82,56 @@
             "de": [
               "Wider die Tränen der Mütter, 2019",
               "Öl / Lw, 400 cm x 600 cm (24-teilig)"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image6",
-          "source": "image6.JPG",
-          "caption": {
-            "de": [
-              "Segment aus \"Wider die Tränen der Mütter\", 2019",
-              "Öl / Lw, 100 x 100 cm"
-            ]
-          }
-        },
-        {
-          "id": "image7",
-          "source": "image7.JPG",
-          "caption": {
-            "de": [
-              "Segment aus \"Wider die Tränen der Mütter\", 2019",
-              "Öl / Lw, 100 x 100 cm"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image8",
-          "source": "image8.JPG",
-          "caption": {
-            "de": [
+            ],
+            "en": [
               "Wider die Tränen der Mütter, 2019",
-              "Öl / Lw, 400 cm x 600 cm (24-teilig)"
+              "Oil on canvas, 400 × 600 cm (24 panels)"
             ]
-          }
+          },
+          "details": [
+            {
+              "id": "image6",
+              "source": "image6.JPG",
+              "caption": {
+                "de": [
+                  "Segment aus \"Wider die Tränen der Mütter\", 2019",
+                  "Öl / Lw, 100 x 100 cm"
+                ],
+                "en": [
+                  "Panel from \"Wider die Tränen der Mütter\", 2019",
+                  "Oil on canvas, 100 × 100 cm"
+                ]
+              }
+            },
+            {
+              "id": "image7",
+              "source": "image7.JPG",
+              "caption": {
+                "de": [
+                  "Segment aus \"Wider die Tränen der Mütter\", 2019",
+                  "Öl / Lw, 100 x 100 cm"
+                ],
+                "en": [
+                  "Panel from \"Wider die Tränen der Mütter\", 2019",
+                  "Oil on canvas, 100 × 100 cm"
+                ]
+              }
+            },
+            {
+              "id": "image8",
+              "source": "image8.JPG",
+              "caption": {
+                "de": [
+                  "Wider die Tränen der Mütter, 2019",
+                  "Öl / Lw, 400 cm x 600 cm (24-teilig)"
+                ],
+                "en": [
+                  "Wider die Tränen der Mütter, 2019",
+                  "Oil on canvas, 400 × 600 cm (24 panels)"
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -117,6 +140,9 @@
       "text": {
         "de": [
           "Schlaf mein Kind auch wenn der Teufel lacht"
+        ],
+        "en": [
+          "Sleep, My Child, Even When the Devil Laughs"
         ]
       }
     },
@@ -130,22 +156,26 @@
             "de": [
               "Schlaf mein Kind auch wenn der Teufel lacht, 2020",
               "Öl / Lw, 400 cm x 600 cm (24-teilig)"
+            ],
+            "en": [
+              "Schlaf mein Kind auch wenn der Teufel lacht, 2020",
+              "Oil on canvas, 400 × 600 cm (24 panels)"
             ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image10",
-          "source": "image10.JPG",
-          "caption": {
-            "de": [
-              "Segment aus \"Schlaf mein Kind auch wenn der Teufel lacht\", 2020"
-            ]
-          }
+          },
+          "details": [
+            {
+              "id": "image10",
+              "source": "image10.JPG",
+              "caption": {
+                "de": [
+                  "Segment aus \"Schlaf mein Kind auch wenn der Teufel lacht\", 2020"
+                ],
+                "en": [
+                  "Panel from \"Schlaf mein Kind auch wenn der Teufel lacht\", 2020"
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -154,6 +184,9 @@
       "text": {
         "de": [
           "Die Dunkelheit ist nicht das Letzte"
+        ],
+        "en": [
+          "Darkness Is Not the End"
         ]
       }
     },
@@ -167,36 +200,38 @@
             "de": [
               "Die Dunkelheit ist nicht das Letzte, 2020",
               "Öl / Lw, 400 cm x 600 cm (24-teilig)"
+            ],
+            "en": [
+              "Die Dunkelheit ist nicht das Letzte, 2020",
+              "Oil on canvas, 400 × 600 cm (24 panels)"
             ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image12",
-          "source": "image12.JPG",
-          "caption": {
-            "de": [
-              "Ausschnitt aus \"Die Dunkelheit ist nicht das Letzte\", 2020"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image13",
-          "source": "image13.JPG",
-          "caption": {
-            "de": [
-              "Ausschnitt aus \"Die Dunkelheit ist nicht das Letzte\", 2020"
-            ]
-          }
+          },
+          "details": [
+            {
+              "id": "image12",
+              "source": "image12.JPG",
+              "caption": {
+                "de": [
+                  "Ausschnitt aus \"Die Dunkelheit ist nicht das Letzte\", 2020"
+                ],
+                "en": [
+                  "Detail from \"Die Dunkelheit ist nicht das Letzte\", 2020"
+                ]
+              }
+            },
+            {
+              "id": "image13",
+              "source": "image13.JPG",
+              "caption": {
+                "de": [
+                  "Ausschnitt aus \"Die Dunkelheit ist nicht das Letzte\", 2020"
+                ],
+                "en": [
+                  "Detail from \"Die Dunkelheit ist nicht das Letzte\", 2020"
+                ]
+              }
+            }
+          ]
         }
       ]
     }

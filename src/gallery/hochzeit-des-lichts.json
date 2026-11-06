@@ -8,24 +8,34 @@
       "type": "images",
       "images": [
         {
-          "id": "image123",
-          "source": "image123.JPG",
-          "caption": {
-            "de": [
-              "Ateliersituation:",
-              "Garten der Lüste"
-            ]
-          }
-        },
-        {
           "id": "image124",
           "source": "image124.JPG",
           "caption": {
             "de": [
               "Garten der Lüste, 2016",
               "Öl / Lw, 160 x 190 cm"
+            ],
+            "en": [
+              "Garten der Lüste, 2016",
+              "Oil on canvas, 160 × 190 cm"
             ]
-          }
+          },
+          "details": [
+            {
+              "id": "image123",
+              "source": "image123.JPG",
+              "caption": {
+                "de": [
+                  "Ateliersituation:",
+                  "Garten der Lüste"
+                ],
+                "en": [
+                  "Studio view:",
+                  "Garten der Lüste"
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -39,6 +49,10 @@
             "de": [
               "Mangowalzer, 2016",
               "Öl / Lw, 100 x 100 cm"
+            ],
+            "en": [
+              "Mangowalzer, 2016",
+              "Oil on canvas, 100 × 100 cm"
             ]
           }
         },
@@ -49,6 +63,10 @@
             "de": [
               "Puls, 2016",
               "Öl / Lw, 100 x 100 cm"
+            ],
+            "en": [
+              "Puls, 2016",
+              "Oil on canvas, 100 × 100 cm"
             ]
           }
         },
@@ -59,6 +77,10 @@
             "de": [
               "Nachtmorgen, 2016",
               "Öl / Lw, 100 x 100 cm"
+            ],
+            "en": [
+              "Nachtmorgen, 2016",
+              "Oil on canvas, 100 × 100 cm"
             ]
           }
         }
@@ -74,6 +96,10 @@
             "de": [
               "Frohlocken, 2016",
               "Öl / Lw, 55,5 x 120 cm"
+            ],
+            "en": [
+              "Frohlocken, 2016",
+              "Oil on canvas, 55.5 × 120 cm"
             ]
           }
         }
@@ -89,6 +115,10 @@
             "de": [
               "Bienenwalzer, 2015",
               "Öl / Lw, 120 x 90 cm"
+            ],
+            "en": [
+              "Bienenwalzer, 2015",
+              "Oil on canvas, 120 × 90 cm"
             ]
           }
         },
@@ -99,6 +129,10 @@
             "de": [
               "Himbeerfee, 2015",
               "Öl / Lw, 120 x 90 cm"
+            ],
+            "en": [
+              "Himbeerfee, 2015",
+              "Oil on canvas, 120 × 90 cm"
             ]
           }
         },
@@ -109,6 +143,10 @@
             "de": [
               "Stelldichein, 2015",
               "Öl / Lw, 120 x 90 cm"
+            ],
+            "en": [
+              "Stelldichein, 2015",
+              "Oil on canvas, 120 × 90 cm"
             ]
           }
         }
@@ -124,6 +162,10 @@
             "de": [
               "Waldfeenfest, 2016",
               "Öl / Lw, 100 x 100 cm"
+            ],
+            "en": [
+              "Waldfeenfest, 2016",
+              "Oil on canvas, 100 × 100 cm"
             ]
           }
         }
@@ -139,6 +181,10 @@
             "de": [
               "Sonnenkuss, 2017",
               "Öl / Lw, 30 x 40 cm"
+            ],
+            "en": [
+              "Sonnenkuss, 2017",
+              "Oil on canvas, 30 × 40 cm"
             ]
           }
         }
@@ -154,6 +200,10 @@
             "de": [
               "Hochzeit des Lichts III, 2016",
               "Öl / Lw, 90 x 120 cm"
+            ],
+            "en": [
+              "Hochzeit des Lichts III, 2016",
+              "Oil on canvas, 90 × 120 cm"
             ]
           }
         }
@@ -169,6 +219,10 @@
             "de": [
               "Herzkirschentango, 2016",
               "Öl / Lw, 70 x 90 cm"
+            ],
+            "en": [
+              "Herzkirschentango, 2016",
+              "Oil on canvas, 70 × 90 cm"
             ]
           }
         },
@@ -179,6 +233,10 @@
             "de": [
               "Lichterfangen, 2016",
               "Öl / Lw, 70 x 90 cm"
+            ],
+            "en": [
+              "Lichterfangen, 2016",
+              "Oil on canvas, 70 × 90 cm"
             ]
           }
         }
@@ -194,6 +252,10 @@
             "de": [
               "Spiel, 2016",
               "Öl / Lw, 160 x 190 cm"
+            ],
+            "en": [
+              "Spiel, 2016",
+              "Oil on canvas, 160 × 190 cm"
             ]
           }
         }

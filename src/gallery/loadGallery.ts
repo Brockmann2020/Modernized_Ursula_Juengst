@@ -100,6 +100,12 @@ export async function loadBlockGallery(slug: string, locale: Locale, data: Block
     };
   });
   const imagesById = new Map(images.map((image) => [image.id, image]));
+  function getImage(id: string) {
+    const image = imagesById.get(id);
+    if (!image) throw new Error(`Missing gallery image: ${slug}/${id}`);
+    return image;
+  }
+
   const blocks = data.blocks.map((block, index) => {
     if (block.type === 'heading') {
       return { type: block.type, index, ...localizeLines(block.text, locale) };
@@ -118,11 +124,10 @@ export async function loadBlockGallery(slug: string, locale: Locale, data: Block
 
     return {
       type: block.type,
-      images: block.images.map(({ id }) => {
-        const image = imagesById.get(id);
-        if (!image) throw new Error(`Missing gallery image: ${slug}/${id}`);
-        return image;
-      }),
+      images: block.images.map(({ id, details }) => ({
+        ...getImage(id),
+        details: details?.map(({ id }) => getImage(id)) ?? [],
+      })),
     };
   });
 

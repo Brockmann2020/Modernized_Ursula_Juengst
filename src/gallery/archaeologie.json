@@ -14,22 +14,26 @@
             "de": [
               "Vulkangeflüster, 2003",
               "Öl / Lw, 200 x 1540 cm, (7-teilig)"
+            ],
+            "en": [
+              "Vulkangeflüster, 2003",
+              "Oil on canvas, 200 × 1540 cm (7 panels)"
             ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image10",
-          "source": "image10.JPG",
-          "caption": {
-            "de": [
-              "Ausschnitt aus Vulkangeflüster, 2003"
-            ]
-          }
+          },
+          "details": [
+            {
+              "id": "image10",
+              "source": "image10.JPG",
+              "caption": {
+                "de": [
+                  "Ausschnitt aus Vulkangeflüster, 2003"
+                ],
+                "en": [
+                  "Detail from Vulkangeflüster, 2003"
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -42,6 +46,9 @@
           "caption": {
             "de": [
               "Ausstelungsituation: Kunstverein Neckar - Odenwald, 2008"
+            ],
+            "en": [
+              "Exhibition view: Kunstverein Neckar - Odenwald, 2008"
             ]
           }
         }
@@ -57,6 +64,10 @@
             "de": [
               "Mira, 2003",
               "Öl / Lw, 40 x 40 cm"
+            ],
+            "en": [
+              "Mira, 2003",
+              "Oil on canvas, 40 × 40 cm"
             ]
           }
         },
@@ -67,6 +78,10 @@
             "de": [
               "Wa Wall, 2004",
               "Öl / Lw, 40 x 40 cm"
+            ],
+            "en": [
+              "Wa Wall, 2004",
+              "Oil on canvas, 40 × 40 cm"
             ]
           }
         },
@@ -77,6 +92,10 @@
             "de": [
               "Wei, 2003",
               "Öl / Lw, 40 x 40 cm"
+            ],
+            "en": [
+              "Wei, 2003",
+              "Oil on canvas, 40 × 40 cm"
             ]
           }
         }
@@ -92,6 +111,10 @@
             "de": [
               "NaDaNe, 1999",
               "Öl / Lw, 220 x 200 cm"
+            ],
+            "en": [
+              "NaDaNe, 1999",
+              "Oil on canvas, 220 × 200 cm"
             ]
           }
         }
@@ -107,6 +130,10 @@
             "de": [
               "Kalypsos, 1998",
               "Öl / Lw, 220 x 200 cm"
+            ],
+            "en": [
+              "Kalypsos, 1998",
+              "Oil on canvas, 220 × 200 cm"
             ]
           }
         }
@@ -122,6 +149,10 @@
             "de": [
               "H A V E R I E, 1996",
               "Öl / Lw, 220 x 200 cm"
+            ],
+            "en": [
+              "H A V E R I E, 1996",
+              "Oil on canvas, 220 × 200 cm"
             ]
           }
         }

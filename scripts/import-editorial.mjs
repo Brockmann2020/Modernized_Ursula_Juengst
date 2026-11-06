@@ -182,7 +182,7 @@ async function extract(root, translations, [source, slug, de, en, layout]) {
     if (source === 'ArtKa_2017' && attribute(row, 'class').includes('website_shared_header_')) continue;
     let parts = deduplicateLinks(partsFrom(row, translations, excerptLabels));
     if (parts.length === 0) continue;
-    if (layout === 'photo-essay' || layout === 'archive') parts = attachCaptions(parts);
+    if (layout === 'photo-essay' || layout === 'archive' || source === 'Statement') parts = attachCaptions(parts);
 
     let title;
     if (layout === 'cards') {
@@ -192,6 +192,10 @@ async function extract(root, translations, [source, slug, de, en, layout]) {
         const link = parts.find((part) => part.label);
         if (link) title = { de: link.label };
       }
+    }
+
+    if (source === 'Presse' && title) {
+      title.de = title.de.replace(/\s*-\s*zum Lesen bitte hier klicken.*$/i, '');
     }
 
     sections.push({ ...(title && { title }), parts });

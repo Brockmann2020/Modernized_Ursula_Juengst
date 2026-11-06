@@ -14,8 +14,26 @@
             "de": [
               "Schreck – Covid 19, 2020",
               "Öl / Lw, 230 x 700 cm"
+            ],
+            "en": [
+              "Schreck – Covid 19, 2020",
+              "Oil on canvas, 230 × 700 cm"
             ]
-          }
+          },
+          "details": [
+            {
+              "id": "image3",
+              "source": "image3.JPG",
+              "caption": {
+                "de": [
+                  "Ausschnitt aus Schreck – Covid 19, 2020"
+                ],
+                "en": [
+                  "Detail from Schreck – Covid 19, 2020"
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -41,26 +59,16 @@
       "type": "images",
       "images": [
         {
-          "id": "image3",
-          "source": "image3.JPG",
-          "caption": {
-            "de": [
-              "Ausschnitt aus Schreck – Covid 19, 2020"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
           "id": "image9",
           "source": "image9.JPG",
           "caption": {
             "de": [
               "Corona I, 2020",
               "Öl / Lw, 165 x 145 cm"
+            ],
+            "en": [
+              "Corona I, 2020",
+              "Oil on canvas, 165 × 145 cm"
             ]
           }
         }
@@ -76,6 +84,10 @@
             "de": [
               "Corona II, 2020",
               "Öl / Lw, 165 x 145 cm"
+            ],
+            "en": [
+              "Corona II, 2020",
+              "Oil on canvas, 165 × 145 cm"
             ]
           }
         }
@@ -91,6 +103,10 @@
             "de": [
               "Corona III, 2020",
               "Öl / Lw, 165 x 145 cm"
+            ],
+            "en": [
+              "Corona III, 2020",
+              "Oil on canvas, 165 × 145 cm"
             ]
           }
         }
@@ -106,6 +122,10 @@
             "de": [
               "Corona I bis IV, 2020",
               "Öl / Lw, 165 x 145 cm"
+            ],
+            "en": [
+              "Corona I–IV, 2020",
+              "Oil on canvas, 165 × 145 cm"
             ]
           }
         }

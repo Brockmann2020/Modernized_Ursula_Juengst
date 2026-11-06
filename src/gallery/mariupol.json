@@ -13,22 +13,25 @@
           "caption": {
             "de": [
               "Triptychon Mariupol, Spanien 2022"
+            ],
+            "en": [
+              "Mariupol triptych, Spain, 2022"
             ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image20",
-          "source": "image20.JPG",
-          "caption": {
-            "de": [
-              "Ausschnitt aus \"Mariupol I\", 2022"
-            ]
-          }
+          },
+          "details": [
+            {
+              "id": "image20",
+              "source": "image20.JPG",
+              "caption": {
+                "de": [
+                  "Ausschnitt aus \"Mariupol I\", 2022"
+                ],
+                "en": [
+                  "Detail from \"Mariupol I\", 2022"
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -41,22 +44,26 @@
           "caption": {
             "de": [
               "Mariupol II, I, III, 2022, Öl / Lw, 160 x 120 cm (von links)"
+            ],
+            "en": [
+              "Mariupol II, I, III, 2022",
+              "Oil on canvas, 160 × 120 cm (from left)"
             ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image9",
-          "source": "image9.JPG",
-          "caption": {
-            "de": [
-              "Ausschnitt aus \"Mariupol II\", 2022"
-            ]
-          }
+          },
+          "details": [
+            {
+              "id": "image9",
+              "source": "image9.JPG",
+              "caption": {
+                "de": [
+                  "Ausschnitt aus \"Mariupol II\", 2022"
+                ],
+                "en": [
+                  "Detail from \"Mariupol II\", 2022"
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -70,6 +77,10 @@
             "de": [
               "Babuchka, 2022",
               "Öl / Lw, 160 x 120 cm"
+            ],
+            "en": [
+              "Babuchka, 2022",
+              "Oil on canvas, 160 × 120 cm"
             ]
           }
         },
@@ -80,22 +91,26 @@
             "de": [
               "Malgré tout, 2022",
               "Öl / Lw, 160 x 120 cm"
+            ],
+            "en": [
+              "Malgré tout, 2022",
+              "Oil on canvas, 160 × 120 cm"
             ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image26",
-          "source": "image26.JPG",
-          "caption": {
-            "de": [
-              "Ausschnitt aus \"Malgré tout\", 2022"
-            ]
-          }
+          },
+          "details": [
+            {
+              "id": "image26",
+              "source": "image26.JPG",
+              "caption": {
+                "de": [
+                  "Ausschnitt aus \"Malgré tout\", 2022"
+                ],
+                "en": [
+                  "Detail from \"Malgré tout\", 2022"
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -108,6 +123,9 @@
           "caption": {
             "de": [
               "Zyklus Mariupol, Atelier Nürnberg, Mai 2022"
+            ],
+            "en": [
+              "Mariupol series, studio in Nuremberg, May 2022"
             ]
           }
         }
@@ -123,6 +141,10 @@
             "de": [
               "Sirene, 2022",
               "Öl / Lw, 160 x 120 cm"
+            ],
+            "en": [
+              "Sirene, 2022",
+              "Oil on canvas, 160 × 120 cm"
             ]
           }
         },
@@ -133,22 +155,26 @@
             "de": [
               "Den Teufel in Marmelade versenken, 2022",
               "Öl / Lw, 160 x 120 cm"
+            ],
+            "en": [
+              "Den Teufel in Marmelade versenken, 2022",
+              "Oil on canvas, 160 × 120 cm"
             ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "images",
-      "images": [
-        {
-          "id": "image31",
-          "source": "image31.JPG",
-          "caption": {
-            "de": [
-              "Ausschnitt aus \"Den Teufel in Marmelade versenken\", 2022"
-            ]
-          }
+          },
+          "details": [
+            {
+              "id": "image31",
+              "source": "image31.JPG",
+              "caption": {
+                "de": [
+                  "Ausschnitt aus \"Den Teufel in Marmelade versenken\", 2022"
+                ],
+                "en": [
+                  "Detail from \"Den Teufel in Marmelade versenken\", 2022"
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -162,6 +188,10 @@
             "de": [
               "Immer wieder Gelb I, 2022",
               "Öl / Lw, 90 x 70 cm"
+            ],
+            "en": [
+              "Immer wieder Gelb I, 2022",
+              "Oil on canvas, 90 × 70 cm"
             ]
           }
         },
@@ -172,6 +202,10 @@
             "de": [
               "Immer wieder Gelb IV, 2022",
               "Öl / Lw, 90 x 70 cm"
+            ],
+            "en": [
+              "Immer wieder Gelb IV, 2022",
+              "Oil on canvas, 90 × 70 cm"
             ]
           }
         }
@@ -187,6 +221,10 @@
             "de": [
               "Immer wieder Gelb II, 2022",
               "Öl / Lw, 90 x 70 cm"
+            ],
+            "en": [
+              "Immer wieder Gelb II, 2022",
+              "Oil on canvas, 90 × 70 cm"
             ]
           }
         },
@@ -197,6 +235,10 @@
             "de": [
               "Immer wieder Gelb III, 2022",
               "Öl / Lw, 90 x 70 cm"
+            ],
+            "en": [
+              "Immer wieder Gelb III, 2022",
+              "Oil on canvas, 90 × 70 cm"
             ]
           }
         }

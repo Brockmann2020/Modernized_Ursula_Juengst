@@ -8,8 +8,8 @@ import { SiteLayout } from '../site/SiteLayout';
 
 import { assetPath, localize, type EditorialPageData, type Part } from './content';
 import {
-  EditorialBody, EditorialExcerpt, EditorialFigure, EditorialFigures, EditorialIntro,
-  EditorialLink, EditorialSection, EditorialText, VideoFrame,
+  EditorialBody, EditorialDarkIntro, EditorialExcerpt, EditorialFigure, EditorialFigures, EditorialIntro,
+  EditorialLink, EditorialSection, EditorialText, StatementBand, StatementChapter, StatementRow, VideoFrame,
 } from './Editorial.styles';
 import { YouTube } from './YouTube';
 
@@ -59,41 +59,50 @@ export async function EditorialPage({ page, locale }: { page: EditorialPageData;
     }
   }
 
+  const darkIntro = page.layout === 'photo-essay' || page.slug === 'statement';
+  const intro = (
+    <EditorialIntro>
+      <span>{page.layout === 'archive' ? text.archive : 'Ursula Jüngst'}</span>
+      <h1>{title}</h1>
+      {page.layout === 'archive' && <p>{text.prices}</p>}
+
+      {anchors.length > 0 && (
+        <nav aria-label={text.section}>
+          {anchors.map((anchor) => (
+            <EditorialLink key={anchor.anchor} href={`#${anchor.anchor}`} lang={anchor.lang}>
+              {anchor.text}
+            </EditorialLink>
+          ))}
+          {page.layout === 'archive' && <EditorialLink href={pagePath(locale, 'kontakt')}>{text.contact}</EditorialLink>}
+        </nav>
+      )}
+    </EditorialIntro>
+  );
+
   return (
-    <SiteLayout locale={locale} page={page.slug}>
-      <EditorialIntro>
-        <span>{page.layout === 'archive' ? text.archive : 'Ursula Jüngst'}</span>
-        <h1>{title}</h1>
-        {page.layout === 'archive' && <p>{text.prices}</p>}
+    <SiteLayout locale={locale} page={page.slug} headerTone={darkIntro ? 'contrast' : 'light'}>
+      {darkIntro ? <EditorialDarkIntro data-editorial-tone="contrast">{intro}</EditorialDarkIntro> : intro}
 
-        {anchors.length > 0 && (
-          <nav aria-label={text.section}>
-            {anchors.map((anchor) => (
-              <EditorialLink key={anchor.anchor} href={`#${anchor.anchor}`} lang={anchor.lang}>
-                {anchor.text}
-              </EditorialLink>
-            ))}
-            {page.layout === 'archive' && <EditorialLink href={pagePath(locale, 'kontakt')}>{text.contact}</EditorialLink>}
-          </nav>
-        )}
-      </EditorialIntro>
-
-      <div data-layout={page.layout}>
+      <div data-layout={page.layout} data-page={page.slug}>
         <GalleryViewer images={Array.from(images.values())} locale={locale}>
-          <EditorialBody>
-            {page.sections.map((section, index) => {
-              const heading = section.title && localize(section.title, locale);
-              const context = { locale, images, title: heading?.text ?? title };
+          {page.slug === 'statement' ? (
+            <StatementSections sections={page.sections} context={{ locale, images, title }} />
+          ) : (
+            <EditorialBody>
+              {page.sections.map((section, index) => {
+                const heading = section.title && localize(section.title, locale);
+                const context = { locale, images, title: heading?.text ?? title };
 
-              return (
-                <EditorialSection key={section.anchor ?? index} id={section.anchor}>
-                  {heading && <h2 lang={heading.lang}>{heading.text}</h2>}
+                return (
+                  <EditorialSection key={section.anchor ?? index} id={section.anchor}>
+                    {heading && <h2 lang={heading.lang}>{heading.text}</h2>}
 
-                  <PartList parts={section.parts} context={context} />
-                </EditorialSection>
-              );
-            })}
-          </EditorialBody>
+                    <PartList parts={section.parts} context={context} />
+                  </EditorialSection>
+                );
+              })}
+            </EditorialBody>
+          )}
         </GalleryViewer>
       </div>
     </SiteLayout>
@@ -104,6 +113,79 @@ interface PartContext {
   locale: Locale;
   images: Map<string, ViewerImage>;
   title: string;
+}
+
+function StatementSections({ sections, context }: {
+  sections: EditorialPageData['sections'];
+  context: PartContext;
+}) {
+  type Chapter = {
+    heading?: Extract<Part, { type: 'heading' }>;
+    rows: Part[][];
+  };
+
+  const chapters: Chapter[] = [];
+  let chapter: Chapter | undefined;
+
+  for (const section of sections) {
+    const [first, ...rest] = section.parts;
+    if (first?.type === 'heading') {
+      chapter = { heading: first, rows: [] };
+      chapters.push(chapter);
+    } else if (!chapter) {
+      chapter = { rows: [] };
+      chapters.push(chapter);
+    }
+
+    const row = first?.type === 'heading' ? rest : section.parts;
+    if (row.length) chapter.rows.push(row);
+  }
+
+  return chapters.map(({ heading, rows }, index) => {
+    const [firstRow, secondRow, ...remainingRows] = rows;
+    const orderedRows = firstRow?.every((part) => part.type === 'text') && secondRow?.[0]?.type === 'image'
+      ? [[...secondRow, ...firstRow], ...remainingRows]
+      : rows;
+
+    return (
+      <StatementBand key={heading?.anchor ?? index}>
+        <StatementChapter>
+          {heading && <PartView part={heading} context={context} />}
+
+          {orderedRows.map((row, rowIndex) => (
+            <StatementImageRow key={rowIndex} row={row} context={context} />
+          ))}
+        </StatementChapter>
+      </StatementBand>
+    );
+  });
+}
+
+function StatementImageRow({ row, context }: { row: Part[]; context: PartContext }) {
+  const imageIndex = row.findIndex((part) => part.type === 'image');
+  const photo = row[imageIndex];
+  if (photo?.type !== 'image' || imageIndex === 0) {
+    return <StatementRow><PartList parts={row} context={context} /></StatementRow>;
+  }
+
+  const copy = row.slice(0, imageIndex);
+  const afterImage = row.slice(imageIndex + 1);
+  const image = context.images.get(photo.source);
+  const portrait = image && image.height > image.width && copy.some((part) => part.type === 'text');
+
+  if (!portrait) {
+    return <StatementRow><PartList parts={[photo, ...afterImage, ...copy]} context={context} /></StatementRow>;
+  }
+
+  return (
+    <StatementRow data-portrait="true">
+      <div data-statement-copy><PartList parts={copy} context={context} /></div>
+      <div data-statement-photo><PartView part={photo} context={context} /></div>
+      {afterImage.length > 0 && (
+        <div data-statement-caption><PartList parts={afterImage} context={context} /></div>
+      )}
+    </StatementRow>
+  );
 }
 
 function PartList({ parts, context }: { parts: Part[]; context: PartContext }) {

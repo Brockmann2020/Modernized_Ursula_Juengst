@@ -77,7 +77,7 @@ node scripts/import-gallery-blocks.mjs ../Ursula_Juengst --write
 
 Der erste Aufruf prüft die 15 weiteren Malerei-Seiten und gibt die Anzahl der Bilder, Bildgruppen und Texte aus. Der zweite Aufruf erzeugt die Seriendaten und kopiert die Originale nach `media/<slug>/`. Vorhandene Seriendaten bleiben erhalten. Abweichende Bilddateien im Ziel werden gemeldet.
 
-In den erzeugten Dateien unter `src/gallery/` steht `blocks` für die Reihenfolge der Seite. Ein Block enthält ein bis drei Bilder mit ihren eigenen Beschriftungen, einen Text oder eine Zwischenüberschrift. Die Bildgruppen folgen dem HTML-Bestand und werden auf schmalen Bildschirmen gestapelt. Zweisprachige Textfelder können eine englische Fassung enthalten. Ohne diese zeigt die englische Seite den gekennzeichneten deutschen Originaltext. Horizonte und Primavera nutzen weiter ihre Werk- und Detaildaten. Beide Darstellungen verwenden denselben Vollbilddialog.
+In den erzeugten Dateien unter `src/gallery/` steht `blocks` für die Reihenfolge der Seite. Ein Block enthält ein bis drei Werke mit ihren eigenen Beschriftungen, einen Text oder eine Zwischenüberschrift. Im optionalen Feld `details` eines Werks stehen weitere Aufnahmen mit jeweils eigener `id`, `source` und `caption`. Die Galerie zeigt diese Aufnahmen unter dem Hauptbild im selben Abschnitt. Gruppen eigenständiger Werke werden auf schmalen Bildschirmen gestapelt. Zweisprachige Textfelder können eine englische Fassung enthalten. Ohne diese zeigt die englische Seite den gekennzeichneten deutschen Originaltext. Horizonte und Primavera nutzen weiter ihre Werk- und Detaildaten. Beide Darstellungen verwenden denselben Vollbilddialog.
 
 ## Titelmotive und Textplatzierung
 

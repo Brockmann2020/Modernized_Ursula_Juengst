@@ -4,6 +4,10 @@ import { styled } from '@mui/material/styles';
 
 import { displayFont, galleryColors, siteWidth } from '../site/SiteTheme';
 
+const editorialWidth = 1100;
+const portraitImageMin = 230;
+const portraitTextMin = 440;
+
 export const EditorialIntro = styled('header')(({ theme }) => ({
   maxWidth: siteWidth,
   marginInline: 'auto',
@@ -28,6 +32,63 @@ export const EditorialIntro = styled('header')(({ theme }) => ({
   '& p': { maxWidth: '55ch', color: theme.palette.text.secondary },
   '& nav': { display: 'flex', flexWrap: 'wrap', gap: theme.spacing(1), marginTop: theme.spacing(2.5) },
   [theme.breakpoints.up('md')]: { padding: theme.spacing(7, 6, 5) },
+  '[data-editorial-tone="contrast"] &': {
+    color: galleryColors.ink,
+    '& span': { color: galleryColors.accent },
+    '& nav a': { color: galleryColors.ink, borderColor: galleryColors.rule },
+    '& nav a:hover': { color: galleryColors.accent, borderColor: galleryColors.accent },
+  },
+}));
+
+export const EditorialDarkIntro = styled('div')({
+  backgroundColor: galleryColors.canvas,
+});
+
+export const StatementBand = styled('section')(({ theme }) => ({
+  backgroundColor: galleryColors.band,
+  '--statement-text-background': theme.palette.background.paper,
+  '&:nth-of-type(odd)': {
+    backgroundColor: theme.palette.background.paper,
+    '--statement-text-background': '#faf6ee',
+  },
+  padding: theme.spacing(4, 3),
+  [theme.breakpoints.up('md')]: { padding: theme.spacing(6) },
+}));
+
+export const StatementChapter = styled('div')(({ theme }) => ({
+  maxWidth: editorialWidth,
+  marginInline: 'auto',
+  display: 'grid',
+  gap: theme.spacing(2),
+  '& h2': {
+    margin: 0,
+    fontFamily: displayFont,
+    fontWeight: 400,
+    fontSize: 'clamp(2.15rem, 4.5vw, 4rem)',
+    lineHeight: 1.04,
+    textWrap: 'balance',
+    scrollMarginTop: theme.spacing(2),
+  },
+}));
+
+export const StatementRow = styled('div')(({ theme }) => ({
+  display: 'grid',
+  gap: theme.spacing(2),
+  '& > div': { minWidth: 0 },
+  '&[data-portrait="true"]': {
+    gridTemplateAreas: '"copy" "photo" "caption"',
+    '& [data-statement-copy]': {
+      gridArea: 'copy',
+      display: 'grid',
+    },
+    '& [data-statement-photo]': { gridArea: 'photo' },
+    '& [data-statement-caption]': { gridArea: 'caption' },
+    [theme.breakpoints.up(760)]: {
+      gridTemplateAreas: '"photo copy" "caption ."',
+      gridTemplateColumns: `minmax(${portraitImageMin}px, min(41%, 473px, calc(100% - ${portraitTextMin}px - ${theme.spacing(2)}))) minmax(${portraitTextMin}px, 1fr)`,
+      '& [data-statement-photo]': { alignSelf: 'start' },
+    },
+  },
 }));
 
 export const EditorialBody = styled('div')(({ theme }) => ({
@@ -40,6 +101,7 @@ export const EditorialBody = styled('div')(({ theme }) => ({
     [theme.breakpoints.up('sm')]: { gridTemplateColumns: 'repeat(2, minmax(0, 1fr))' },
   },
   [theme.breakpoints.up('md')]: { paddingInline: theme.spacing(6) },
+  '[data-layout="photo-essay"] &': { maxWidth: 'none', paddingInline: 0 },
 }));
 
 export const EditorialSection = styled('section')(({ theme }) => ({
@@ -71,7 +133,30 @@ export const EditorialSection = styled('section')(({ theme }) => ({
     border: `1px solid ${theme.palette.divider}`,
     padding: theme.spacing(2.5),
   },
+  '[data-layout="essay"] &, [data-layout="archive"] &': {
+    maxWidth: editorialWidth,
+    marginInline: 'auto',
+    justifyItems: 'center',
+    '& h2': { textAlign: 'center', textWrap: 'balance' },
+    '& > div[data-columns]': { width: '100%' },
+  },
+  '[data-layout="photo-essay"] &': {
+    backgroundColor: galleryColors.band,
+    paddingInline: theme.spacing(3),
+    '&:nth-of-type(odd)': { backgroundColor: theme.palette.background.paper },
+    '& > div': { width: '100%', maxWidth: editorialWidth, marginInline: 'auto' },
+    [theme.breakpoints.up('md')]: { padding: theme.spacing(5, 6) },
+  },
+  '[data-layout="legal"] &': {
+    maxWidth: editorialWidth,
+    marginInline: 'auto',
+    '&:first-of-type > div[data-columns]': { order: 1 },
+    [theme.breakpoints.up('md')]: {
+      '&:first-of-type': { gridTemplateColumns: 'minmax(0, 1.35fr) minmax(0, 0.65fr)' },
+    },
+  },
   '[data-layout="timeline"] &': {
+    '& > div[data-columns]': { width: '100%', maxWidth: editorialWidth, marginInline: 'auto' },
     [theme.breakpoints.up('md')]: {
       '&:has(> h2)': { gridTemplateColumns: '9rem minmax(0, 1fr)' },
     },
@@ -81,6 +166,23 @@ export const EditorialSection = styled('section')(({ theme }) => ({
 export const EditorialText = styled('div')(({ theme }) => ({
   maxWidth: '76ch',
   '& p + p': { marginTop: theme.spacing(1.5) },
+  '[data-page="statement"] &': {
+    width: '100%',
+    maxWidth: 'none',
+    '& p': {
+      maxWidth: '84ch',
+      margin: 0,
+      lineHeight: 1.65,
+      whiteSpace: 'pre-line',
+      overflowWrap: 'anywhere',
+    },
+    '& p + p': { marginTop: theme.spacing(1.5) },
+    padding: theme.spacing(2.5, 3),
+    backgroundColor: 'var(--statement-text-background)',
+    border: `1px solid ${theme.palette.divider}`,
+    borderInlineStart: `3px solid ${theme.palette.primary.main}`,
+    [theme.breakpoints.up('md')]: { padding: theme.spacing(3.5, 5) },
+  },
 }));
 
 export const EditorialFigures = styled('div')(({ theme }) => ({
@@ -98,6 +200,7 @@ export const EditorialFigures = styled('div')(({ theme }) => ({
 export const EditorialFigure = styled('figure')(({ theme }) => ({
   margin: 0,
   minWidth: 0,
+  '& > button': { marginInline: 'auto' },
   '& img': {
     display: 'block',
     width: '100%',
@@ -115,6 +218,9 @@ export const EditorialFigure = styled('figure')(({ theme }) => ({
     objectFit: 'contain',
   },
   '[data-layout="archive"] &': { marginBottom: theme.spacing(2) },
+  '[data-layout="essay"] & figcaption, [data-layout="photo-essay"] & figcaption, [data-layout="archive"] & figcaption': {
+    textAlign: 'center',
+  },
 }));
 
 export const EditorialLink = styled('a')(({ theme }) => ({
@@ -139,6 +245,7 @@ export const EditorialExcerpt = styled('details')(({ theme }) => ({
 
 export const VideoFrame = styled('div')(({ theme }) => ({
   width: '100%',
+  '[data-layout="archive"] &': { width: 'min(100%, 54rem)' },
   aspectRatio: '16 / 9',
   backgroundColor: galleryColors.canvas,
   '& video, & iframe': { display: 'block', width: '100%', height: '100%', border: 0 },
