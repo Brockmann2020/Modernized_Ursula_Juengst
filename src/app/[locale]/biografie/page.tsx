@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
-import { Biography } from '../../../profile/Biography';
-import { pagePath } from '../../../site/routes';
+import { Biography } from '../../../components/Biography/Biography';
+import { pagePath } from '../../../lib/routes';
 import { getLocale } from '../locale';
 
 interface PageProps {

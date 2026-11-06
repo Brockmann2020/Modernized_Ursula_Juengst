@@ -1,14 +1,14 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 
-import { editorialSlugs, findEditorialPage } from '../../../editorial/content';
-import { EditorialPage } from '../../../editorial/EditorialPage';
-import { BlockGallery } from '../../../gallery/BlockGallery';
-import { Gallery } from '../../../gallery/Gallery';
-import { loadBlockGallery, loadGallery, readGallery } from '../../../gallery/loadGallery';
-import gallerySeries from '../../../gallery/series.json';
-import { SiteLayout } from '../../../site/SiteLayout';
-import { galleryPath } from '../../../site/routes';
+import { editorialSlugs, findEditorialPage } from '../../../lib/editorial/content';
+import { EditorialPage } from '../../../components/EditorialPage/EditorialPage';
+import { BlockGallery } from '../../../components/BlockGallery/BlockGallery';
+import { Gallery } from '../../../components/Gallery/Gallery';
+import { loadBlockGallery, loadGallery, readGallery } from '../../../lib/gallery/loadGallery';
+import gallerySeries from '../../../data/gallery/series.json';
+import { SiteLayout } from '../../../components/SiteLayout/SiteLayout';
+import { galleryPath } from '../../../lib/routes';
 import { getLocale } from '../locale';
 
 interface PageProps {

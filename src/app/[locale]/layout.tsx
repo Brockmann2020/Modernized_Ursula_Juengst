@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 
-import { locales } from '../../site/routes';
-import { SiteProviders } from '../../site/SiteProviders';
+import { locales } from '../../lib/routes';
+import { SiteProviders } from '../../components/SiteProviders/SiteProviders';
 import { getLocale } from './locale';
 
 export const dynamicParams = false;

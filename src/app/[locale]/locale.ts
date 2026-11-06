@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 
-import type { Locale } from '../../site/routes';
+import type { Locale } from '../../lib/routes';
 
 export async function getLocale(params: Promise<{ locale: string }>): Promise<Locale> {
   const { locale } = await params;

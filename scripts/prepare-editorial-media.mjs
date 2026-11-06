@@ -3,7 +3,7 @@ import { fileURLToPath } from 'node:url';
 
 import sharp from 'sharp';
 
-import pages from '../src/editorial/pages.json' with { type: 'json' };
+import pages from '../src/data/editorial/pages.json' with { type: 'json' };
 import { prepareImage } from './prepare-image.mjs';
 
 function mediaFor(part) {

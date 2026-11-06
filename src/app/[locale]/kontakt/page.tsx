@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
-import { Contact } from '../../../profile/Contact';
-import { pagePath } from '../../../site/routes';
+import { Contact } from '../../../components/Contact/Contact';
+import { pagePath } from '../../../lib/routes';
 import { getLocale } from '../locale';
 
 interface PageProps {

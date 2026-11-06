@@ -4,7 +4,7 @@ import { basename, join, parse, resolve } from 'node:path';
 
 import { parse as parseHtml, parseFragment } from 'parse5';
 
-import { parseBlockGallery } from '../src/gallery/blockContent.mjs';
+import { parseBlockGallery } from '../src/lib/gallery/blockContent.mjs';
 
 const pages = {
   Auferstehen: ['auferstehen', 'Auf(er)stehen'],
@@ -137,7 +137,7 @@ async function importPage(root, directory, [slug, title, titleEn], translations,
   const html = await readFile(join(root, `${directory}.html`), 'utf8');
   const blocks = extractBlocks(html, directory, title, translations);
   const data = { series: { title, ...(titleEn && { titleEn }) }, blocks };
-  const dataFile = new URL(`../src/gallery/${slug}.json`, import.meta.url);
+  const dataFile = new URL(`../src/data/gallery/${slug}.json`, import.meta.url);
   const existing = write ? await readFile(dataFile, 'utf8').catch((error) => {
     if (error.code !== 'ENOENT') throw error;
     return undefined;

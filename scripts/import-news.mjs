@@ -144,7 +144,7 @@ if (articles.reduce((count, article) => count + article.images.length, 0) !== or
 }
 
 if (mode === '--write') {
-  const dataFile = new URL('../src/news/news.json', import.meta.url);
+  const dataFile = new URL('../src/data/news/news.json', import.meta.url);
   const json = JSON.stringify(articles, null, 2) + '\n';
   const existing = await readFile(dataFile, 'utf8').catch((error) => {
     if (error.code !== 'ENOENT') throw error;

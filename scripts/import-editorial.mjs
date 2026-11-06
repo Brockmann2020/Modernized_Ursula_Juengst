@@ -265,7 +265,7 @@ const content = await Promise.all(pages.map((page) => extract(root, translations
 const originals = new Set(content.flatMap((page) => page.sections.flatMap((section) => section.parts.flatMap(mediaFor))));
 
 if (mode === '--write') {
-  const dataFile = new URL('../src/editorial/pages.json', import.meta.url);
+  const dataFile = new URL('../src/data/editorial/pages.json', import.meta.url);
   const json = JSON.stringify(content, null, 2) + '\n';
   const existing = await readFile(dataFile, 'utf8').catch((error) => {
     if (error.code !== 'ENOENT') throw error;

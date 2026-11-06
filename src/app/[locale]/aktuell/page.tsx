@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
-import { NewsPage } from '../../../news/NewsPage';
-import { pagePath } from '../../../site/routes';
+import { NewsPage } from '../../../components/NewsPage/NewsPage';
+import { pagePath } from '../../../lib/routes';
 import { getLocale } from '../locale';
 
 interface PageProps {

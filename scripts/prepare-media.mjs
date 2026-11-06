@@ -4,10 +4,10 @@ import { fileURLToPath } from 'node:url';
 import { prepareEditorialMedia } from './prepare-editorial-media.mjs';
 import { prepareImage } from './prepare-image.mjs';
 
-import { parseBlockGallery } from '../src/gallery/blockContent.mjs';
-import { parseGallery } from '../src/gallery/content.mjs';
-import newsArticles from '../src/news/news.json' with { type: 'json' };
-import gallerySeries from '../src/gallery/series.json' with { type: 'json' };
+import { parseBlockGallery } from '../src/lib/gallery/blockContent.mjs';
+import { parseGallery } from '../src/lib/gallery/content.mjs';
+import newsArticles from '../src/data/news/news.json' with { type: 'json' };
+import gallerySeries from '../src/data/gallery/series.json' with { type: 'json' };
 
 const manifestDir = new URL('../.generated/', import.meta.url);
 
@@ -48,7 +48,7 @@ async function prepareNewsMedia() {
 }
 
 async function prepareGallery(slug) {
-  const dataFile = new URL(`../src/gallery/${slug}.json`, import.meta.url);
+  const dataFile = new URL(`../src/data/gallery/${slug}.json`, import.meta.url);
   const sourceDir = new URL(`../media/${slug}/`, import.meta.url);
   const outputDir = new URL(`../public/${slug}/`, import.meta.url);
   const data = JSON.parse(await readFile(dataFile, 'utf8'));

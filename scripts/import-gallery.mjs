@@ -4,7 +4,7 @@ import { basename, join, parse, resolve } from 'node:path';
 
 import { parse as parseHtml } from 'parse5';
 
-import { parseGallery } from '../src/gallery/content.mjs';
+import { parseGallery } from '../src/lib/gallery/content.mjs';
 
 const profiles = {
   Primavera: {
@@ -150,10 +150,10 @@ async function importGallery(legacyDirectory, page, write) {
   }
 
   const destination = new URL(`../media/${gallery}/`, import.meta.url);
-  const dataFile = new URL(`../src/gallery/${gallery}.json`, import.meta.url);
+  const dataFile = new URL(`../src/data/gallery/${gallery}.json`, import.meta.url);
   const existingJson = await existingFile(dataFile);
   if (existingJson && JSON.stringify(JSON.parse(existingJson.toString())) !== JSON.stringify(content)) {
-    throw new Error(`Existing gallery data differs: src/gallery/${gallery}.json`);
+    throw new Error(`Existing gallery data differs: src/data/gallery/${gallery}.json`);
   }
 
   const pendingFiles = [];
