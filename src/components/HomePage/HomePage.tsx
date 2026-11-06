@@ -10,7 +10,7 @@ import {
 
 const copy = {
   de: {
-    description: 'Malerei von Ursula Jüngst. Ein Einstieg in die Werkreihe Horizonte.',
+    description: 'Meg in die Werkreihe Horizonte.',
     headline: ['Malerei, die', 'in Bewegung', 'bleibt.'],
     intro: 'Farbe, Rhythmus und Bewegung. Ein Blick in die Malerei von Ursula Jüngst.',
     explore: 'Horizonte entdecken',
