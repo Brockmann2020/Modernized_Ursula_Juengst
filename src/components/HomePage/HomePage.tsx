@@ -11,7 +11,7 @@ import {
 const copy = {
   de: {
     description: 'Meg in die Werkreihe Horizonte.',
-    headline: ['Malerei, die', 'in Bewegung', 'bleibt.'],
+    headline: ['Kunst, die', 'in Bewegung', 'bleibt.'],
     intro: 'Farbe, Rhythmus und Bewegung. Ein Blick in die Malerei von Ursula Jüngst.',
     explore: 'Horizonte entdecken',
     news: 'Aktuell',
